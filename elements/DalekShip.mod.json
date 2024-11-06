@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "dalek_ship",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 50,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:PetrifiedJungle"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "none",
+    "generationStep": "TOP_LAYER_MODIFICATION"
+  }
+}

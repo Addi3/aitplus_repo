@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "aitplus:block/trenzalor_stone",
+    "bottom": "aitplus:block/trenzalor_stone",
+    "top": "aitplus:block/trenzalor_stone",
+    "side": "aitplus:block/trenzalor_stone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:paper"
+  },
+  "addition": {
+    "item": "minecraft:blue_dye"
+  },
+  "result": {
+    "item": "aitplus:blueprint"
+  }
+}

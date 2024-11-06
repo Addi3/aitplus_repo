@@ -1,0 +1,13 @@
+{
+  "id": "extras:fob_pink",
+  "models": {
+    "inactive": "extras:item/sonic/fob_pink/inactive",
+    "interaction": "extras:item/sonic/fob_pink/interaction",
+    "overload": "extras:item/sonic/fob_pink/overload",
+    "scanning": "extras:item/sonic/fob_pink/scanning",
+    "tardis": "extras:item/sonic/fob_pink/tardis"
+  },
+  "loyalty": {
+    "type": "PILOT"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "aitplus:custom/bowl_b",
+  "textures": {
+    "all": "aitplus:block/bowl_b",
+    "particle": "aitplus:block/bowl_b",
+    "0": "aitplus:block/bowl_b_outer",
+    "1": "aitplus:block/bowl_b",
+    "missing": "aitplus:block/"
+  },
+  "render_type": "cutout"
+}

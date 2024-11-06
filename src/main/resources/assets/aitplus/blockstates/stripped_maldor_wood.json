@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "aitplus:block/stripped_maldor_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "aitplus:block/stripped_maldor_wood"
+    },
+    "axis=z": {
+      "model": "aitplus:block/stripped_maldor_wood",
+      "x": 90
+    }
+  }
+}

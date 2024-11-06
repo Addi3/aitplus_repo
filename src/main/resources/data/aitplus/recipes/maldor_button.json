@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "aitplus:maldor_planks"
+    }
+  ],
+  "result": {
+    "item": "aitplus:maldor_button"
+  }
+}

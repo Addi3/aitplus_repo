@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aitplus:block/street_lamp"
+    },
+    "facing=east": {
+      "model": "aitplus:block/street_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aitplus:block/street_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aitplus:block/street_lamp",
+      "y": 270
+    }
+  }
+}

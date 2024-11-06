@@ -1,0 +1,8 @@
+{
+	"NOTE": "Dimensions are registered here. Make sure each dimension has its own folder!",
+	"NOTE": "Learn more about dimension registration here: https://github.com/fishcute/Celestial/wiki/JSON-Files#dimensionsjson",
+	"dimensions": [
+		"gallifrey",
+		"trenzalore"
+	]
+}

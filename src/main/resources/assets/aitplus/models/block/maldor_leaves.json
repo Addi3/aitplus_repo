@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aitplus:block/maldor_leaves",
+    "particle": "aitplus:block/maldor_leaves"
+  }
+}

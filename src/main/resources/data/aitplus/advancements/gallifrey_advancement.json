@@ -1,0 +1,22 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "aitplus:creative_tab_item"
+    },
+    "title": "The Shining World of the Seven Systems",
+    "description": "Go To Gallifrey!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gallifrey_advancement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "aitplus:gallifrey"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Arkytior"
+      },
+      {
+        "value": "CUSTOM:FlowerOfRemeberance"
+      },
+      {
+        "value": "CUSTOM:IridescentVelvetRedMadeviniaAridosa"
+      },
+      {
+        "value": "CUSTOM:MoonlightBloom"
+      },
+      {
+        "value": "CUSTOM:RedPetaledOrchid"
+      },
+      {
+        "value": "CUSTOM:SchlenkBlossoms"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}

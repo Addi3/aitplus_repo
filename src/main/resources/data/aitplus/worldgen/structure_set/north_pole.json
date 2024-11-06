@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "aitplus:north_pole",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 80,
+    "salt": 395699274
+  }
+}

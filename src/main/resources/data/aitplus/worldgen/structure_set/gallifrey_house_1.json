@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "aitplus:gallifrey_house_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 35,
+    "separation": 2,
+    "salt": 362456490
+  }
+}

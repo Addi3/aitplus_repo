@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a",
+    "a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "result": {
+    "item": "aitplus:celery_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"NOTE": "Create custom variables in this file. They can be used anywhere!",
+	"NOTE": "Learn more about variables here: https://github.com/fishcute/Celestial/wiki/Custom-Variables",
+	
+	"variables": [
+		{
+			"name": "example_variable",
+			"value": "1"
+		}
+	]
+}

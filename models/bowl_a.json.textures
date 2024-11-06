@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bowl_a",
+        "1": "bowl_a_outer",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

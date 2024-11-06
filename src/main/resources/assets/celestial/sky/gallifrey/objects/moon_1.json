@@ -1,0 +1,21 @@
+{
+	"texture": "aitplus:environment/gallifrey_moon_1.png",
+	"display": {
+		"scale": "38",
+		"pos_x": "80",
+		"pos_y": "0",
+		"pos_z": "80",
+		"distance": "-150"
+	},
+	"rotation": {
+		"degrees_x": "180",
+		"degrees_y": "40",
+		"degrees_z": "180 - skyAngle",
+		"base_degrees_x": "0",
+		"base_degrees_y": "45",
+		"base_degrees_z": "0"
+	},
+	"properties": {
+		"has_moon_phases": false
+	}
+}

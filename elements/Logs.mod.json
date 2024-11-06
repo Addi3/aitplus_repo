@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Thalma"
+      },
+      {
+        "value": "CUSTOM:ThalmaLog"
+      },
+      {
+        "value": "CUSTOM:MaldorLog"
+      },
+      {
+        "value": "CUSTOM:MaldorWood"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

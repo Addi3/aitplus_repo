@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/stripped_cadonwood_log",
+    "up": "aitplus:block/stripped_cadonwood_log",
+    "north": "aitplus:block/stripped_cadonwood_log",
+    "east": "aitplus:block/stripped_cadonwood_log",
+    "south": "aitplus:block/stripped_cadonwood_log",
+    "west": "aitplus:block/stripped_cadonwood_log",
+    "particle": "aitplus:block/stripped_cadonwood_log"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "extras:cane",
+  "models": {
+    "inactive": "extras:item/sonic/cane/inactive",
+    "interaction": "extras:item/sonic/cane/interaction",
+    "overload": "extras:item/sonic/cane/overload",
+    "scanning": "extras:item/sonic/cane/scanning",
+    "tardis": "extras:item/sonic/cane/tardis"
+  },
+  "loyalty": {
+    "type": "PILOT"
+  }
+}

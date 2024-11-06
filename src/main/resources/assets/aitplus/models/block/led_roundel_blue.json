@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/colored_roundel_blue",
+    "up": "aitplus:block/colored_roundel_blue",
+    "north": "aitplus:block/colored_roundel_blue",
+    "east": "aitplus:block/colored_roundel_blue",
+    "south": "aitplus:block/colored_roundel_blue",
+    "west": "aitplus:block/colored_roundel_blue",
+    "particle": "aitplus:block/colored_roundel_blue"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aitplus:block/thalma_slab"
+    },
+    "type=top": {
+      "model": "aitplus:block/thalma_slab_top"
+    },
+    "type=double": {
+      "model": "aitplus:block/thalma_slab_full"
+    }
+  }
+}

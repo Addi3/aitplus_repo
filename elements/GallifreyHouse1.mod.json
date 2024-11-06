@@ -1,0 +1,26 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "gallifrey_house1",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 35,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:GallifreyPlains"
+      },
+      {
+        "value": "CUSTOM:GallifreyMountains"
+      }
+    ],
+    "surfaceDetectionType": "MOTION_BLOCKING",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

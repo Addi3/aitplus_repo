@@ -1,0 +1,13 @@
+{
+  "id": "extras:fob_red",
+  "models": {
+    "inactive": "extras:item/sonic/fob_red/inactive",
+    "interaction": "extras:item/sonic/fob_red/interaction",
+    "overload": "extras:item/sonic/fob_red/overload",
+    "scanning": "extras:item/sonic/fob_red/scanning",
+    "tardis": "extras:item/sonic/fob_red/tardis"
+  },
+  "loyalty": {
+    "type": "PILOT"
+  }
+}

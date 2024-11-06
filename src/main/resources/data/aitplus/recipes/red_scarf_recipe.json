@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "scarfs",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "aitplus:scarf_chestplate"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "result": {
+    "item": "aitplus:red_scarf_chestplate",
+    "count": 1
+  }
+}

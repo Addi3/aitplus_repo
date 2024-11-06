@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "jellybabies",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "aitplus:yellow_jelly_babies"
+    },
+    "b": {
+      "item": "aitplus:red_jelly_babies"
+    },
+    "c": {
+      "item": "aitplus:purple_jelly_babies"
+    },
+    "d": {
+      "item": "aitplus:pink_jelly_babies"
+    },
+    "e": {
+      "item": "aitplus:orange_jelly_babies"
+    },
+    "f": {
+      "item": "aitplus:magenta_jelly_babies"
+    },
+    "g": {
+      "item": "aitplus:limejelly_babies"
+    },
+    "h": {
+      "item": "aitplus:light_blue_jelly_babies"
+    },
+    "i": {
+      "item": "aitplus:green_jelly_babies"
+    }
+  },
+  "result": {
+    "item": "aitplus:the_mighty_jelly_babies",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "id": "extras:gray",
+    "category": "ait:exterior/classic",
+    "parent": "ait:exterior/classic/prime",
+    "texture": "extras:textures/exteriors/gray.png",
+    "emission": "extras:textures/exteriors/gray_emission.png"  ,
+    "overrides": {"snowy": "ait:textures/blockentities/exteriors/classic/classic_prime_snowy.png",
+    "chorus": "ait:textures/blockentities/exteriors/classic/classic_prime_chorus.png",
+    "cherry": "ait:textures/blockentities/exteriors/classic/classic_prime_cherry.png",
+    "sculk": "ait:textures/blockentities/exteriors/classic/classic_prime_sculk.png",
+    "sandy": "ait:textures/blockentities/exteriors/classic/classic_sand.png",
+    "muddy": "ait:textures/blockentities/exteriors/classic/classic_mud.png"
+} 
+}

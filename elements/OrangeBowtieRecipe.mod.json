@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "bowties",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WOOL#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#1"
+      },
+      {
+        "value": "Blocks.WOOL#1"
+      },
+      {
+        "value": "Blocks.WOOL#1"
+      },
+      {
+        "value": "Blocks.WOOL#1"
+      },
+      {
+        "value": "Blocks.WOOL#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OrangeBowtie.body"
+    },
+    "name": "orange_bowtie_recipe",
+    "namespace": "mod"
+  }
+}

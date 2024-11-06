@@ -1,0 +1,9 @@
+{
+  "parent": "aitplus:custom/gramophone",
+  "textures": {
+    "all": "aitplus:block/gramophone",
+    "particle": "aitplus:block/gramophone",
+    "0": "aitplus:block/gramophone"
+  },
+  "render_type": "cutout"
+}

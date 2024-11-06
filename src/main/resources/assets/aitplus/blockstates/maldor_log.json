@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "aitplus:block/maldor_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "aitplus:block/maldor_log"
+    },
+    "axis=z": {
+      "model": "aitplus:block/maldor_log",
+      "x": 90
+    }
+  }
+}

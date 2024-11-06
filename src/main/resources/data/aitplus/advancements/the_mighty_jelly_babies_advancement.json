@@ -1,0 +1,32 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "aitplus:the_mighty_jelly_babies"
+    },
+    "title": "The Mightiest Of All Jelly Babies",
+    "description": "Make The The Mighty Jelly Babies!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_mighty_jelly_babies_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aitplus:the_mighty_jelly_babies"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

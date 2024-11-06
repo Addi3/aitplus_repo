@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "statue",
+        "2": "statue_other"
+      },
+      "name": "default"
+    }
+  }
+}

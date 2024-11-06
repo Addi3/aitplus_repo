@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/maldor_planks",
+    "up": "aitplus:block/maldor_planks",
+    "north": "aitplus:block/maldor_planks",
+    "east": "aitplus:block/maldor_planks",
+    "south": "aitplus:block/maldor_planks",
+    "west": "aitplus:block/maldor_planks",
+    "particle": "aitplus:block/maldor_planks"
+  },
+  "render_type": "solid"
+}

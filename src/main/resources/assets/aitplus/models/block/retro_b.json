@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/retro_b",
+    "up": "aitplus:block/retro_b",
+    "north": "aitplus:block/retro_b",
+    "east": "aitplus:block/retro_b",
+    "south": "aitplus:block/retro_b",
+    "west": "aitplus:block/retro_b",
+    "particle": "aitplus:block/retro_b"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "aitplus:block/maldor_planks",
+    "top": "aitplus:block/maldor_planks",
+    "side": "aitplus:block/maldor_planks"
+  },
+  "render_type": "solid"
+}

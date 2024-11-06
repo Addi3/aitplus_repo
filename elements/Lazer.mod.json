@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.AIR"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:dalek_laser"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 4.0,
+    "knockback": 2,
+    "entityModel": "Modellazer",
+    "customModelTexture": "lazer_blue.png"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "imperial_ship",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 50,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:IrradiatedSwamp"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

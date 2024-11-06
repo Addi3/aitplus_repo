@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aitplus:block/trenzalorian_stone_slab"
+    },
+    "type=top": {
+      "model": "aitplus:block/trenzalorian_stone_slab_top"
+    },
+    "type=double": {
+      "model": "aitplus:block/trenzalorian_stone_slab_full"
+    }
+  }
+}

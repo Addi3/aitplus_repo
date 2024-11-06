@@ -1,0 +1,6 @@
+tardis -deep blue
+scanning -light blue
+overload - red
+interaction - green
+inactive - gray
+

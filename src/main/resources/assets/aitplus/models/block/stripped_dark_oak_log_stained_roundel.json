@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/stripped_dark_oak_log_stained_roundel",
+    "up": "aitplus:block/stripped_dark_oak_log_stained_roundel",
+    "north": "aitplus:block/stripped_dark_oak_log_stained_roundel",
+    "east": "aitplus:block/stripped_dark_oak_log_stained_roundel",
+    "south": "aitplus:block/stripped_dark_oak_log_stained_roundel",
+    "west": "aitplus:block/stripped_dark_oak_log_stained_roundel",
+    "particle": "aitplus:block/stripped_dark_oak_log_stained_roundel"
+  },
+  "render_type": "solid"
+}

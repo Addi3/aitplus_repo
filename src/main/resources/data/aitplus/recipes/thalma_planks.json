@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "aitplus:thalma_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "aitplus:thalma_planks"
+  }
+}

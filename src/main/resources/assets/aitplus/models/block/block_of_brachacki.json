@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/brachacki_block",
+    "up": "aitplus:block/brachacki_block",
+    "north": "aitplus:block/brachacki_block",
+    "east": "aitplus:block/brachacki_block",
+    "south": "aitplus:block/brachacki_block",
+    "west": "aitplus:block/brachacki_block",
+    "particle": "aitplus:block/brachacki_block"
+  },
+  "render_type": "solid"
+}

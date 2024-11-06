@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "aitplus:block/maldor_planks"
+  },
+  "render_type": "solid"
+}

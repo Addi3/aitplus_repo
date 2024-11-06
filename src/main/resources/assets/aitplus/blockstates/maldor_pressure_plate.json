@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "aitplus:block/maldor_pressure_plate"
+    },
+    "powered=true": {
+      "model": "aitplus:block/maldor_pressure_plate_down"
+    }
+  }
+}

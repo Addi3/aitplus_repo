@@ -1,0 +1,15 @@
+{
+    "id": "extras:k6booth",
+    "category":"ait:exterior/booth",
+    "parent": "ait:exterior/booth/default",
+    "texture": "extras:textures/exteriors/booth_k6.png",
+    "emission": "extras:textures/exteriors/booth_k6_emission.png",
+    "overrides": {"snowy": "ait:textures/blockentities/exteriors/booth/booth_snowy.png",
+    "chorus": "ait:textures/blockentities/exteriors/booth/booth_chorus.png",
+    "cherry": "ait:textures/blockentities/exteriors/booth/booth_cherry.png",
+    "sculk": "ait:textures/blockentities/exteriors/booth/booth_sculk.png",
+    "sandy": "ait:textures/blockentities/exteriors/booth/booth_sand.png",
+    "muddy": "ait:textures/blockentities/exteriors/booth/booth_mud.png",
+    "red_sandy": "ait:textures/blockentities/exteriors/booth/booth_red_sand.png"
+}
+  }

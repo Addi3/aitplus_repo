@@ -1,0 +1,13 @@
+{
+  "id": "extras:lance",
+  "models": {
+    "inactive": "extras:item/sonic/lance/inactive",
+    "interaction": "extras:item/sonic/lance/interaction",
+    "overload": "extras:item/sonic/lance/overload",
+    "scanning": "extras:item/sonic/lance/scanning",
+    "tardis": "extras:item/sonic/lance/tardis"
+  },
+  "loyalty": {
+    "type": "PILOT"
+  }
+}

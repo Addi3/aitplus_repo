@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "aitplus:dalekaniumen_pickaxe"
+    },
+    {
+      "item": "aitplus:dalekaniumen_shovel"
+    },
+    {
+      "item": "aitplus:dalekaniumen_axe"
+    },
+    {
+      "item": "aitplus:dalekaniumen_hoe"
+    },
+    {
+      "item": "aitplus:dalekaniumen_sword"
+    },
+    {
+      "item": "aitplus:dalekaniumen_helmet"
+    },
+    {
+      "item": "aitplus:dalekaniumen_chestplate"
+    },
+    {
+      "item": "aitplus:dalekaniumen_leggings"
+    },
+    {
+      "item": "aitplus:dalekaniumen_boots"
+    },
+    {
+      "item": "aitplus:dalekaniumen_horse_armor"
+    }
+  ],
+  "result": "aitplus:dalekanium_nugget"
+}

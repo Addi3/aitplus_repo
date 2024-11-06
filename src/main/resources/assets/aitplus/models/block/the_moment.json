@@ -1,0 +1,9 @@
+{
+  "parent": "aitplus:custom/the_moment_default",
+  "textures": {
+    "all": "aitplus:block/the_moment",
+    "particle": "aitplus:block/the_moment",
+    "0": "aitplus:block/the_moment"
+  },
+  "render_type": "solid"
+}

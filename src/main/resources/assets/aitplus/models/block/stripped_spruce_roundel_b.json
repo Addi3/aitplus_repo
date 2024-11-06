@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/stripped_spruce_roundel_b",
+    "up": "aitplus:block/stripped_spruce_roundel_b",
+    "north": "aitplus:block/stripped_spruce_roundel_b",
+    "east": "aitplus:block/stripped_spruce_roundel_b",
+    "south": "aitplus:block/stripped_spruce_roundel_b",
+    "west": "aitplus:block/stripped_spruce_roundel_b",
+    "particle": "aitplus:block/stripped_spruce_roundel_b"
+  },
+  "render_type": "solid"
+}

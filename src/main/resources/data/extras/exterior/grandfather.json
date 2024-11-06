@@ -1,0 +1,16 @@
+{
+    "id": "extras:grandfather",
+    "category":"ait:exterior/plinth",
+    "parent": "ait:exterior/plinth/default",
+    "texture": "extras:textures/exteriors/grandfather.png",
+    "emission": "extras:textures/exteriors/grandfather_emission.png",
+    "overrides": 
+    {"snowy": "",
+    "chorus": "",
+    "cherry": "",
+    "sculk": "",
+    "sandy": "",
+    "muddy": "",
+    "red_sandy": ""
+}
+  }

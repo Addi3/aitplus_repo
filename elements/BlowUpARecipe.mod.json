@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:BrachackiBlueprint"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:BlowUpA"
+    },
+    "name": "blow_up_a_recipe",
+    "namespace": "mod"
+  }
+}

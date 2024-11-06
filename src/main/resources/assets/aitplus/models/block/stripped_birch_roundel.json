@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/stripped_birch_roundel",
+    "up": "aitplus:block/stripped_birch_roundel",
+    "north": "aitplus:block/stripped_birch_roundel",
+    "east": "aitplus:block/stripped_birch_roundel",
+    "south": "aitplus:block/stripped_birch_roundel",
+    "west": "aitplus:block/stripped_birch_roundel",
+    "particle": "aitplus:block/stripped_birch_roundel"
+  },
+  "render_type": "solid"
+}

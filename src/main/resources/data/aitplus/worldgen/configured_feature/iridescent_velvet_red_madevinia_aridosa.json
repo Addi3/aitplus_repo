@@ -1,0 +1,28 @@
+{
+  "type": "aitplus:iridescent_velvet_red_madevinia_aridosa",
+  "config": {
+    "tries": 14,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "aitplus:iridescent_velvet_red_madevinia_aridosa"
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "extras:darkeyes",
+  "models": {
+    "inactive": "extras:item/sonic/darkeyes/inactive",
+    "interaction": "extras:item/sonic/darkeyes/interaction",
+    "overload": "extras:item/sonic/darkeyes/overload",
+    "scanning": "extras:item/sonic/darkeyes/scanning",
+    "tardis": "extras:item/sonic/darkeyes/tardis"
+  },
+  "loyalty": {
+    "type": "PILOT"
+  }
+}

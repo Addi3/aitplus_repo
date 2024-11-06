@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "aitplus:hat_stand"
+    },
+    "b": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "aitplus:hat_stand_white",
+    "count": 1
+  }
+}

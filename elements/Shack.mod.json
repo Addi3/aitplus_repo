@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "shack",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 80,
+    "separation": 70,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:GallifreyWastelands"
+      }
+    ],
+    "surfaceDetectionType": "MOTION_BLOCKING",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

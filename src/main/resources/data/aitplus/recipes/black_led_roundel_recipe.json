@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "aitplus:led_blueprint"
+  },
+  "result": "aitplus:led_roundel_black"
+}

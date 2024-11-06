@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/dalekanium_block",
+    "up": "aitplus:block/dalekanium_block",
+    "north": "aitplus:block/dalekanium_block",
+    "east": "aitplus:block/dalekanium_block",
+    "south": "aitplus:block/dalekanium_block",
+    "west": "aitplus:block/dalekanium_block",
+    "particle": "aitplus:block/dalekanium_block"
+  },
+  "render_type": "solid"
+}

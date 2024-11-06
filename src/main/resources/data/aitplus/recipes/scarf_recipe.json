@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "scarfs",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "aitplus:scarf_chestplate",
+    "count": 1
+  }
+}

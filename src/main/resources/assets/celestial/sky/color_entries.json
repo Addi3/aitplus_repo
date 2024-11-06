@@ -1,0 +1,13 @@
+{
+	"NOTE": "Create custom color entries in this file. They can be used anywhere!",
+	"NOTE": "Learn more about color entries here: https://github.com/fishcute/Celestial/wiki/Color-Entry",
+	
+	"color_entries": [
+		{
+			"name": "example_color_entry",
+			"color": {
+				"base_color": "#ffffff"
+			}
+		}
+	]
+}

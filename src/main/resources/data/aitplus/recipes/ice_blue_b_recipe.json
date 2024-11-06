@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "aitplus:ice_blue_roundel_blueprint"
+  },
+  "result": "aitplus:ice_blue_b"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dalekanium_ingot",
+  "ingredients": [
+    {
+      "item": "aitplus:dalekanium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "aitplus:dalekanium_ingot"
+  }
+}

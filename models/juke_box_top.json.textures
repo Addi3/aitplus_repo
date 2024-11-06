@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "juke_box"
+      },
+      "name": "default"
+    }
+  }
+}

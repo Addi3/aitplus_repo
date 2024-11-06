@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "aitplus:maldor_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "aitplus:maldor_planks"
+  }
+}

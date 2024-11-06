@@ -1,0 +1,23 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "north_pole",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 100,
+    "separation": 80,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MondasianSnowlands"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

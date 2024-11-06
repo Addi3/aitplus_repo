@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "aitplus:thalma_log",
+    "aitplus:thalma_wood",
+    "aitplus:maldor_log",
+    "aitplus:maldor_wood"
+  ]
+}

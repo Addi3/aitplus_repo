@@ -1,0 +1,13 @@
+{
+  "id": "extras:classic_retro",
+  "models": {
+    "inactive": "extras:item/sonic/classic_retro/inactive",
+    "interaction": "extras:item/sonic/classic_retro/interaction",
+    "overload": "extras:item/sonic/classic_retro/overload",
+    "scanning": "extras:item/sonic/classic_retro/scanning",
+    "tardis": "extras:item/sonic/classic_retro/tardis"
+  },
+  "loyalty": {
+    "type": "PILOT"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "candle_stand",
+        "1": "flame",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

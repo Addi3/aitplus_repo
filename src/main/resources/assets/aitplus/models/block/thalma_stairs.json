@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "aitplus:block/thalma_planks",
+    "top": "aitplus:block/thalma_planks",
+    "side": "aitplus:block/thalma_planks"
+  },
+  "render_type": "solid"
+}

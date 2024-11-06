@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "bowties",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#9"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CyanBowtie.body"
+    },
+    "name": "cyan_bowtie_recipe",
+    "namespace": "mod"
+  }
+}

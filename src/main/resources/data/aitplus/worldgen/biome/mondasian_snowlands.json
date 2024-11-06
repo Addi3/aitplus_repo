@@ -1,0 +1,101 @@
+{
+  "has_precipitation": true,
+  "temperature": -0.3,
+  "downfall": 0.9,
+  "effects": {
+    "foliage_color": -1,
+    "grass_color": -1,
+    "sky_color": -1,
+    "fog_color": -1,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "ambient_sound": "aitplus:mondas_ambiance"
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [
+      "minecraft:monster_room"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_infested"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:spring_lava_frozen"
+    ],
+    [
+      "minecraft:glow_lichen"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "creature": [
+    {
+      "type": "aitplus:mondasian_cyberman",
+      "maxCount": 4,
+      "minCount": 2,
+      "weight": 15
+    },
+    {
+      "type": "aitplus:earthshock_cyberman",
+      "maxCount": 2,
+      "minCount": 1,
+      "weight": 20
+    },
+    {
+      "type": "aitplus:revenge_cyber_leader",
+      "maxCount": 3,
+      "minCount": 2,
+      "weight": 20
+    }
+  ]
+}

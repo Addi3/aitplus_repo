@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "aitplus:block/led_roundel_gray"
+    }
+  }
+}

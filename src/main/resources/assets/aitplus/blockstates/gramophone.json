@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aitplus:block/gramophone"
+    },
+    "facing=east": {
+      "model": "aitplus:block/gramophone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aitplus:block/gramophone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aitplus:block/gramophone",
+      "y": 270
+    }
+  }
+}

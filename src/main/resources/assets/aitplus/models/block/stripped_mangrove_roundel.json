@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/stripped_mangrove_roundel",
+    "up": "aitplus:block/stripped_mangrove_roundel",
+    "north": "aitplus:block/stripped_mangrove_roundel",
+    "east": "aitplus:block/stripped_mangrove_roundel",
+    "south": "aitplus:block/stripped_mangrove_roundel",
+    "west": "aitplus:block/stripped_mangrove_roundel",
+    "particle": "aitplus:block/stripped_mangrove_roundel"
+  },
+  "render_type": "solid"
+}

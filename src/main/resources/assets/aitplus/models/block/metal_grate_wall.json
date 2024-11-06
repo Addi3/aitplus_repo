@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "aitplus:block/metal_grate",
+    "particle": "aitplus:block/metal_grate"
+  },
+  "render_type": "translucent"
+}

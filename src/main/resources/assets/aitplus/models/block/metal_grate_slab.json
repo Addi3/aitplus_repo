@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "aitplus:block/metal_grate",
+    "top": "aitplus:block/metal_grate",
+    "side": "aitplus:block/metal_grate"
+  },
+  "render_type": "translucent"
+}

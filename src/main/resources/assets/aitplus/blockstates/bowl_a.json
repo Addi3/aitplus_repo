@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aitplus:block/bowl_a"
+    },
+    "facing=east": {
+      "model": "aitplus:block/bowl_a",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aitplus:block/bowl_a",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aitplus:block/bowl_a",
+      "y": 270
+    }
+  }
+}

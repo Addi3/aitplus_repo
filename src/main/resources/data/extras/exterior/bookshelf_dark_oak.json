@@ -1,0 +1,16 @@
+{
+    "id": "extras:bookshelf_dark_oak",
+    "category":"ait:exterior/bookshelf",
+    "parent": "ait:exterior/bookshelf/default",
+    "texture": "extras:textures/exteriors/bookshelf_dark_oak.png",
+    "emission": "extras:textures/exteriors/bookshelf_dark_oak_emission.png",
+    "overrides": 
+    {"snowy": "",
+    "chorus": "",
+    "cherry": "",
+    "sculk": "",
+    "sandy": "",
+    "muddy": "",
+    "red_sandy": ""
+}
+  }

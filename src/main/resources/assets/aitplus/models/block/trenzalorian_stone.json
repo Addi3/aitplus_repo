@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/trenzalor_stone",
+    "up": "aitplus:block/trenzalor_stone",
+    "north": "aitplus:block/trenzalor_stone",
+    "east": "aitplus:block/trenzalor_stone",
+    "south": "aitplus:block/trenzalor_stone",
+    "west": "aitplus:block/trenzalor_stone",
+    "particle": "aitplus:block/trenzalor_stone"
+  },
+  "render_type": "solid"
+}

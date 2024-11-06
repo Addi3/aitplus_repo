@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "aitplus:quartz_roundel_blueprint"
+  },
+  "result": "aitplus:quartz_door"
+}

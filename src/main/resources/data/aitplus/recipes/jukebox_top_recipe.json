@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "b": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "aitplus:jukebox_top",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dalekanium_ingot",
+  "key": {
+    "#": {
+      "item": "aitplus:dalekanium_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "aitplus:dalekanium_ingot"
+  },
+  "show_notification": true
+}

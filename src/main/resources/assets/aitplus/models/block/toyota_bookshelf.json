@@ -1,0 +1,9 @@
+{
+  "parent": "aitplus:custom/toyota_bookshelf",
+  "textures": {
+    "all": "aitplus:block/toyota_bookshelf",
+    "particle": "aitplus:block/toyota_bookshelf",
+    "0": "aitplus:block/toyota_bookshelf"
+  },
+  "render_type": "cutout"
+}

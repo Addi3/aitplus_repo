@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aitplus:block/candle_stand"
+    },
+    "facing=east": {
+      "model": "aitplus:block/candle_stand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aitplus:block/candle_stand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aitplus:block/candle_stand",
+      "y": 270
+    }
+  }
+}

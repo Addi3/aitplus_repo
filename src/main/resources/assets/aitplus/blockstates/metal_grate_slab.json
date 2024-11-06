@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aitplus:block/metal_grate_slab"
+    },
+    "type=top": {
+      "model": "aitplus:block/metal_grate_slab_top"
+    },
+    "type=double": {
+      "model": "aitplus:block/metal_grate_slab_full"
+    }
+  }
+}

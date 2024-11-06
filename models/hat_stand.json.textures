@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hat_stand",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "aitplus:custom/candle_stand_lit",
+  "textures": {
+    "all": "aitplus:block/candle_stand",
+    "particle": "aitplus:block/candle_stand",
+    "0": "aitplus:block/candle_stand",
+    "1": "aitplus:block/flame",
+    "missing": "aitplus:block/"
+  },
+  "render_type": "cutout"
+}

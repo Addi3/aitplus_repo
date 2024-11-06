@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "seal_of_rassilon"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "jellybabies",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:YellowJellyBabies"
+      },
+      {
+        "value": "CUSTOM:RedJellyBabies"
+      },
+      {
+        "value": "CUSTOM:PurpleJellyBabies"
+      },
+      {
+        "value": "CUSTOM:PinkJellyBabies"
+      },
+      {
+        "value": "CUSTOM:OrangeJellyBabies"
+      },
+      {
+        "value": "CUSTOM:MagentaJellyBabies"
+      },
+      {
+        "value": "CUSTOM:LimejellyBabies"
+      },
+      {
+        "value": "CUSTOM:LightBlueJellyBabies"
+      },
+      {
+        "value": "CUSTOM:GreenJellyBabies"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TheMightyJellyBabies"
+    },
+    "name": "the_mighty_jelly_babies_recipe",
+    "namespace": "mod"
+  }
+}

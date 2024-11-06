@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/quartz_roundel",
+    "up": "aitplus:block/quartz_roundel",
+    "north": "aitplus:block/quartz_roundel",
+    "east": "aitplus:block/quartz_roundel",
+    "south": "aitplus:block/quartz_roundel",
+    "west": "aitplus:block/quartz_roundel",
+    "particle": "aitplus:block/quartz_roundel"
+  },
+  "render_type": "solid"
+}

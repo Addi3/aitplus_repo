@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TheMoment"
+    },
+    "name": "the_moment_recipe",
+    "namespace": "mod"
+  }
+}

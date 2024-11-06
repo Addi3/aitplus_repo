@@ -1,0 +1,9 @@
+{
+  "parent": "aitplus:custom/seal_of_rassilon",
+  "textures": {
+    "all": "aitplus:block/seal_of_rassilon",
+    "particle": "aitplus:block/seal_of_rassilon",
+    "0": "aitplus:block/seal_of_rassilon"
+  },
+  "render_type": "cutout"
+}

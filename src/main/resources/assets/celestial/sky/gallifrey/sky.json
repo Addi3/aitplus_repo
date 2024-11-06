@@ -1,0 +1,31 @@
+{
+	"sky_objects": [
+		"moon",
+		"moon_1",
+		"sun",
+		"stars",
+		"stars_1",
+		"stars_2",
+		"stars_3",
+		"sun_1"
+	],
+	"environment": {
+		"fog_color": {
+			"base_color": "#fogColor"
+		},
+		"sky_color": {
+			"base_color": "#skyColor"
+		},
+		"clouds": {
+			"height": "128",
+			"color": "ffffff"
+		},
+		"fog": {
+			"fog_start": "fogStart",
+			"fog_end": "fogEnd"
+		},
+		
+		"NOTE": "Do not change this value!",
+		"twilight_alpha": "0"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 8,
+  "ingredient": {
+    "item": "aitplus:stained_roundel_blueprint"
+  },
+  "result": "aitplus:stripped_bamboo_block_stained_roundel"
+}

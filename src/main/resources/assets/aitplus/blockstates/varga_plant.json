@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "aitplus:block/varga_plant"
+    },
+    "half=lower": {
+      "model": "aitplus:block/varga_plant_bottom"
+    }
+  }
+}

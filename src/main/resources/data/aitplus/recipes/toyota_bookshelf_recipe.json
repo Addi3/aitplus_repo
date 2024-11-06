@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:bookshelf"
+    }
+  },
+  "result": {
+    "item": "aitplus:toyota_bookshelf",
+    "count": 2
+  }
+}

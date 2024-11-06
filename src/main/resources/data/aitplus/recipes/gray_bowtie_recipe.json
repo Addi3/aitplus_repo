@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bowties",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result": {
+    "item": "aitplus:gray_bowtie_chestplate",
+    "count": 1
+  }
+}

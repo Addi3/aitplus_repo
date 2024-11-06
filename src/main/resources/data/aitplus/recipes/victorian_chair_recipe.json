@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a",
+    "aa",
+    "bb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_glazed_terracotta"
+    },
+    "b": {
+      "item": "minecraft:dark_oak_slab"
+    }
+  },
+  "result": {
+    "item": "aitplus:victorian_chair_spawn_egg",
+    "count": 1
+  }
+}

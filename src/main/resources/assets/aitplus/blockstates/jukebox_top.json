@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aitplus:block/jukebox_top"
+    },
+    "facing=east": {
+      "model": "aitplus:block/jukebox_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aitplus:block/jukebox_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aitplus:block/jukebox_top",
+      "y": 270
+    }
+  }
+}

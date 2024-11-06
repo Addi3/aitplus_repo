@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "aitplus:block/maldor_planks",
+    "top": "aitplus:block/maldor_planks",
+    "side": "aitplus:block/maldor_planks"
+  },
+  "render_type": "solid"
+}

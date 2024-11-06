@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/blow_up_b",
+    "up": "aitplus:block/blow_up_b",
+    "north": "aitplus:block/blow_up_b",
+    "east": "aitplus:block/blow_up_b",
+    "south": "aitplus:block/blow_up_b",
+    "west": "aitplus:block/blow_up_b",
+    "particle": "aitplus:block/blow_up_b"
+  },
+  "render_type": "solid"
+}

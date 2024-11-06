@@ -1,0 +1,13 @@
+{
+  "id": "extras:lipstick",
+  "models": {
+    "inactive": "extras:item/sonic/lipstick/inactive",
+    "interaction": "extras:item/sonic/lipstick/interaction",
+    "overload": "extras:item/sonic/lipstick/overload",
+    "scanning": "extras:item/sonic/lipstick/scanning",
+    "tardis": "extras:item/sonic/lipstick/tardis"
+  },
+  "loyalty": {
+    "type": "PILOT"
+  }
+}

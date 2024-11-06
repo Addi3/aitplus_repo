@@ -1,0 +1,9 @@
+{
+  "parent": "aitplus:custom/street_lamp",
+  "textures": {
+    "all": "aitplus:block/street_lamp",
+    "particle": "aitplus:block/street_lamp",
+    "0": "aitplus:block/street_lamp"
+  },
+  "render_type": "cutout_mipped"
+}

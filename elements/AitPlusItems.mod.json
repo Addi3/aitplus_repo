@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Ait Plus Items",
+    "icon": {
+      "value": "CUSTOM:CreativeTabItem"
+    },
+    "showSearch": false
+  }
+}

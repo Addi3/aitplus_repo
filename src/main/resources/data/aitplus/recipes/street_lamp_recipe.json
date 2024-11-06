@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lantern"
+    },
+    "b": {
+      "item": "minecraft:nether_brick_wall"
+    }
+  },
+  "result": {
+    "item": "aitplus:street_lamp",
+    "count": 1
+  }
+}

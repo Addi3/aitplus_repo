@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/stripped_thalma_log_top",
+    "up": "aitplus:block/stripped_thalma_log_top",
+    "north": "aitplus:block/stripped_thalma_log",
+    "east": "aitplus:block/stripped_thalma_log",
+    "south": "aitplus:block/stripped_thalma_log",
+    "west": "aitplus:block/stripped_thalma_log",
+    "particle": "aitplus:block/stripped_thalma_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:Blueprint"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:IceBlueRoundelBlueprint"
+    },
+    "name": "ice_blue_roundel_blueprint_recipe",
+    "namespace": "mod"
+  }
+}

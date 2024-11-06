@@ -1,0 +1,72 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "aitplus:skaro_ambiance",
+    "foliage_color": 10387789,
+    "grass_color": -11455441,
+    "sky_color": -9252,
+    "fog_color": -9252,
+    "water_color": -14499305,
+    "water_fog_color": -14499305
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+      "type": "aitplus:time_war_dalek",
+      "maxCount": 4,
+      "minCount": 2,
+      "weight": 15
+    },
+    {
+      "type": "aitplus:classic_dalek",
+      "maxCount": 4,
+      "minCount": 1,
+      "weight": 12
+    },
+    {
+      "type": "aitplus:imperial_dalek",
+      "maxCount": 4,
+      "minCount": 1,
+      "weight": 12
+    }
+  ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground"
+    ]
+  },
+  "features": [
+    [],
+    [ ],
+    [],
+    [],
+    [],
+    [],
+    [
+    ],
+    [],
+    [],
+    [
+      "aitplus:petrified_jungle_tree",
+      "minecraft:patch_tall_grass",
+      "minecraft:patch_grass_forest",
+      "minecraft:patch_grass_jungle"
+    ],
+    [
+      "minecraft:patch_grass_jungle",
+      "minecraft:vines"
+  ]
+]
+}

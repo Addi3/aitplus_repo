@@ -1,0 +1,10 @@
+{
+  "type": "aitplus:roundel_table_gui",
+  "ingredient": {
+    "item": "minecraft:dirt"
+  },
+  "result": {
+    "item": "aitplus:quartz_roundel",
+    "count": 1
+  }
+}

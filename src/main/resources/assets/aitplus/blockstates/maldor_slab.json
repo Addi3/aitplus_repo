@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aitplus:block/maldor_slab"
+    },
+    "type=top": {
+      "model": "aitplus:block/maldor_slab_top"
+    },
+    "type=double": {
+      "model": "aitplus:block/maldor_slab_full"
+    }
+  }
+}

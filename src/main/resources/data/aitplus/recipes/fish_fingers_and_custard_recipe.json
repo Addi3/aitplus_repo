@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aitplus:fish_fingers"
+    },
+    {
+      "item": "aitplus:custard"
+    }
+  ],
+  "result": {
+    "item": "aitplus:fish_fingers_and_custard",
+    "count": 3
+  }
+}

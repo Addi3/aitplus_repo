@@ -1,0 +1,7 @@
+{
+    "id": "extras:xmas",
+    "category": "ait:exterior/police_box",
+    "parent": "ait:exterior/police_box/default",
+    "texture": "extras:textures/exteriors/police_box_xmas.png",
+    "emission": "extras:textures/exteriors/police_box_xmas_emission.png"
+}

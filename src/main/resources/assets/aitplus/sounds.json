@@ -1,0 +1,237 @@
+{
+  "gallifrey_ambiance": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:gallifrey_ambiance",
+        "stream": false
+      }
+    ]
+  },
+  "trenzalor_ambiance": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:trenzalor_ambiance",
+        "stream": false
+      }
+    ]
+  },
+  "trenzalor_ambiance2": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:trenzalor_ambiance2",
+        "stream": false
+      }
+    ]
+  },
+  "flutterwing_fluttering": {
+    "category": "neutral",
+    "subtitle": "subtitles.flutterwing_fluttering",
+    "sounds": [
+      {
+        "name": "aitplus:flutterwing_fluttering",
+        "stream": false
+      }
+    ]
+  },
+  "flubble_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.flubble_hurt",
+    "sounds": [
+      {
+        "name": "aitplus:flubble_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "flubble_ambient": {
+    "category": "neutral",
+    "subtitle": "subtitles.flubble_ambient",
+    "sounds": [
+      {
+        "name": "aitplus:flubble_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "flubble_step": {
+    "category": "neutral",
+    "subtitle": "subtitles.flubble_step",
+    "sounds": [
+      {
+        "name": "aitplus:flubble_step",
+        "stream": false
+      }
+    ]
+  },
+  "flubble_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.flubble_death",
+    "sounds": [
+      {
+        "name": "aitplus:flubble_death",
+        "stream": false
+      }
+    ]
+  },
+  "flutterwing_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.flutterwing_death",
+    "sounds": [
+      {
+        "name": "aitplus:flutterwing_death",
+        "stream": false
+      }
+    ]
+  },
+  "flutterwing_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.flutterwing_hurt",
+    "sounds": [
+      {
+        "name": "aitplus:flutterwing_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "fly_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.fly_death",
+    "sounds": [
+      {
+        "name": "aitplus:fly_death",
+        "stream": false
+      }
+    ]
+  },
+  "fly_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.fly_hurt",
+    "sounds": [
+      {
+        "name": "aitplus:fly_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "fly_loop": {
+    "category": "neutral",
+    "subtitle": "subtitles.fly_loop",
+    "sounds": [
+      {
+        "name": "aitplus:fly_loop",
+        "stream": false
+      }
+    ]
+  },
+  "skaro_ambiance": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:skaro_ambiance",
+        "stream": false
+      }
+    ]
+  },
+  "dalek_move": {
+    "category": "hostile",
+    "subtitle": "subtitles.dalek_move",
+    "sounds": [
+      {
+        "name": "aitplus:dalek_move",
+        "stream": false
+      }
+    ]
+  },
+  "dalek_laser": {
+    "category": "hostile",
+    "subtitle": "subtitles.dalek_laser",
+    "sounds": [
+      {
+        "name": "aitplus:dalek_laser",
+        "stream": false
+      }
+    ]
+  },
+  "dalek_death": {
+    "category": "hostile",
+    "subtitle": "subtitles.dalek_death",
+    "sounds": [
+      {
+        "name": "aitplus:dalek_death",
+        "stream": false
+      }
+    ]
+  },
+  "dalek_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.dalek_hurt",
+    "sounds": [
+      {
+        "name": "aitplus:dalek_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "classic_door": {
+    "category": "block",
+    "subtitle": "subtitles.classic_door",
+    "sounds": [
+      {
+        "name": "aitplus:classic_door",
+        "stream": false
+      }
+    ]
+  },
+  "cyberman_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.cyberman_hurt",
+    "sounds": [
+      {
+        "name": "aitplus:cyberman_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "cyberman_move": {
+    "category": "hostile",
+    "subtitle": "subtitles.cyberman_move",
+    "sounds": [
+      {
+        "name": "aitplus:cyberman_move",
+        "stream": false
+      }
+    ]
+  },
+  "cyberman_lazer": {
+    "category": "hostile",
+    "subtitle": "subtitles.cyberman_lazer",
+    "sounds": [
+      {
+        "name": "aitplus:cyberman_lazer",
+        "stream": false
+      }
+    ]
+  },
+  "chalk_use": {
+    "category": "block",
+    "subtitle": "subtitles.chalk_use",
+    "sounds": [
+      {
+        "name": "aitplus:chalk_use",
+        "stream": false
+      }
+    ]
+  },
+  "mondas_ambiance": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aitplus:mondas_ambiance",
+        "stream": false
+      }
+    ]
+  }
+}

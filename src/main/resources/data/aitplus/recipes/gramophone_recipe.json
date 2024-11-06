@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "bca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:lever"
+    },
+    "c": {
+      "item": "minecraft:jukebox"
+    },
+    "d": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "aitplus:gramophone",
+    "count": 1
+  }
+}

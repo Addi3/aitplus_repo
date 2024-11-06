@@ -1,0 +1,6 @@
+{
+    "id": "extras:alnicocopperfrooploof",
+    "parent": "ait:console/alnico",
+    "texture": "extras:textures/consoles/alnicocopperfrooploof.png",
+    "emission": "extras:textures/consoles/alnicocopperfrooploof_emission.png"   
+}

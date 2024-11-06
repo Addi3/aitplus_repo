@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "metal_grate",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "aitplus:metal_grate"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "aitplus:metal_grate_stairs"
+  },
+  "show_notification": true
+}

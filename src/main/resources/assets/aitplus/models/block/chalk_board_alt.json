@@ -1,0 +1,9 @@
+{
+  "parent": "aitplus:custom/chalk_board_alt",
+  "textures": {
+    "all": "aitplus:block/chalk_board_alt",
+    "particle": "aitplus:block/chalk_board_alt",
+    "0": "aitplus:block/chalk_board_alt"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/thalma_planks",
+    "up": "aitplus:block/thalma_planks",
+    "north": "aitplus:block/thalma_planks",
+    "east": "aitplus:block/thalma_planks",
+    "south": "aitplus:block/thalma_planks",
+    "west": "aitplus:block/thalma_planks",
+    "particle": "aitplus:block/thalma_planks"
+  },
+  "render_type": "solid"
+}
