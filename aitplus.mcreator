@@ -5863,9 +5863,9 @@
       "registry_name": "silence",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aitplus/models/item/silence_spawn_egg.json",
           "src/main/java/net/addie/aitplus/entity/SilenceEntity.java",
-          "src/main/java/net/addie/aitplus/client/renderer/SilenceRenderer.java",
-          "src/main/resources/assets/aitplus/models/item/silence_spawn_egg.json"
+          "src/main/java/net/addie/aitplus/client/renderer/SilenceRenderer.java"
         ]
       },
       "path": "~/entities/Trenzalor"

@@ -21,9 +21,21 @@
     "monster": [
       {
         "type": "aitplus:silence",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "skeleton",
         "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "endermite",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 2
       }
     ],
     "creature": [],

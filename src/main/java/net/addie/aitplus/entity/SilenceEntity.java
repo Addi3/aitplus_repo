@@ -80,7 +80,7 @@ public class SilenceEntity extends EnderMan {
 
 	public static void init() {
 		BiomeModifications.create(new ResourceLocation(AitplusMod.MODID, "silence_entity_spawn")).add(ModificationPhase.ADDITIONS, BiomeSelectors.includeByKey(ResourceKey.create(Registries.BIOME, new ResourceLocation("aitplus:trenzalore_wastes"))),
-				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(AitplusModEntities.SILENCE, 10, 4, 4)));
+				ctx -> ctx.getSpawnSettings().addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(AitplusModEntities.SILENCE, 1, 1, 1)));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
