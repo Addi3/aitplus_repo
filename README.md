@@ -1,4 +1,4 @@
-Any issues with the mod put them here https://github.com/Addi3/AiTPlus/issues with either a screenshot or the latest.log (found in .minecraft/logs)
+Any issues with the mod put them here [https://github.com/Addi3/AiTPlus/issues](https://github.com/Addi3/aitplus_repo/issues) with either a screenshot or the latest.log (found in .minecraft/logs)
 
 
 
