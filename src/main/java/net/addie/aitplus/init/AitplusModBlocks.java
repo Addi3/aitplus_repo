@@ -104,6 +104,7 @@ import net.addie.aitplus.block.LEDRoundelCyanBlock;
 import net.addie.aitplus.block.LEDRoundelBlueBlock;
 import net.addie.aitplus.block.LEDRoundelBlock;
 import net.addie.aitplus.block.LEDRoundelBlackBlock;
+import net.addie.aitplus.block.KerblamBoxBlock;
 import net.addie.aitplus.block.JukeboxTopBlock;
 import net.addie.aitplus.block.IridescentVelvetRedMadeviniaAridosaBlock;
 import net.addie.aitplus.block.IceBlueBBlock;
@@ -172,6 +173,7 @@ public class AitplusModBlocks {
 	public static Block DALEKANIUM_ORE;
 	public static Block BLOCK_OF_DALEKANIUM;
 	public static Block BLOCK_OF_RAW_DALEKANIUM;
+	public static Block KERBLAM_BOX;
 	public static Block LED_ROUNDEL;
 	public static Block LED_ROUNDEL_BLACK;
 	public static Block LED_ROUNDEL_GRAY;
@@ -294,6 +296,7 @@ public class AitplusModBlocks {
 		DALEKANIUM_ORE = register("dalekanium_ore", new DalekaniumOreBlock());
 		BLOCK_OF_DALEKANIUM = register("block_of_dalekanium", new BlockOfDalekaniumBlock());
 		BLOCK_OF_RAW_DALEKANIUM = register("block_of_raw_dalekanium", new BlockOfRawDalekaniumBlock());
+		KERBLAM_BOX = register("kerblam_box", new KerblamBoxBlock());
 		LED_ROUNDEL = register("led_roundel", new LEDRoundelBlock());
 		LED_ROUNDEL_BLACK = register("led_roundel_black", new LEDRoundelBlackBlock());
 		LED_ROUNDEL_GRAY = register("led_roundel_gray", new LEDRoundelGrayBlock());
@@ -417,6 +420,7 @@ public class AitplusModBlocks {
 		DalekaniumOreBlock.clientInit();
 		BlockOfDalekaniumBlock.clientInit();
 		BlockOfRawDalekaniumBlock.clientInit();
+		KerblamBoxBlock.clientInit();
 		LEDRoundelBlock.clientInit();
 		LEDRoundelBlackBlock.clientInit();
 		LEDRoundelGrayBlock.clientInit();

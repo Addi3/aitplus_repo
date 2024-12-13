@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aitplus:block/kerblam_box_top",
+    "up": "aitplus:block/kerblam_box_top",
+    "north": "aitplus:block/kerblam_box_front",
+    "east": "aitplus:block/kerblam_box_side2",
+    "south": "aitplus:block/kerblam_box_back",
+    "west": "aitplus:block/kerblam_box_side1",
+    "particle": "aitplus:block/kerblam_box_top"
+  },
+  "render_type": "solid"
+}

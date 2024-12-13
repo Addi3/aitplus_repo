@@ -121,6 +121,7 @@ public class AitplusModItems {
 	public static Item DALEKANIUM_ORE;
 	public static Item BLOCK_OF_DALEKANIUM;
 	public static Item BLOCK_OF_RAW_DALEKANIUM;
+	public static Item KERBLAM_BOX;
 	public static Item LED_ROUNDEL;
 	public static Item LED_ROUNDEL_BLACK;
 	public static Item LED_ROUNDEL_GRAY;
@@ -219,7 +220,7 @@ public class AitplusModItems {
 	public static Item PINK_JELLY_BABIES;
 	public static Item ORANGE_JELLY_BABIES;
 	public static Item MAGENTA_JELLY_BABIES;
-	public static Item LIMEJELLY_BABIES;
+	public static Item LIME_JELLY_BABIES;
 	public static Item LIGHT_BLUE_JELLY_BABIES;
 	public static Item GREEN_JELLY_BABIES;
 	public static Item CYAN_JELLY_BABIES;
@@ -276,13 +277,13 @@ public class AitplusModItems {
 	public static Item MAGENTA_BOWTIE_CHESTPLATE;
 	public static Item PINK_BOWTIE_CHESTPLATE;
 	public static Item GLASSES_3D_HELMET;
+	public static Item GLASSES_HELMET;
 	public static Item CELERY_CHESTPLATE;
 	public static Item RECORDER;
 	public static Item CREATIVE_TAB_ITEM;
 	public static Item ROUNDEL_TABLE;
 	public static Item CANDEL_STAND_LIT;
 	public static Item CHALK_BOARD_ALT;
-	public static Item GLASSES_HELMET;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -365,6 +366,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BLOCK_OF_DALEKANIUM));
 		BLOCK_OF_RAW_DALEKANIUM = register("block_of_raw_dalekanium", new BlockItem(AitplusModBlocks.BLOCK_OF_RAW_DALEKANIUM, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(BLOCK_OF_RAW_DALEKANIUM));
+		KERBLAM_BOX = register("kerblam_box", new BlockItem(AitplusModBlocks.KERBLAM_BOX, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(KERBLAM_BOX));
 		LED_ROUNDEL = register("led_roundel", new BlockItem(AitplusModBlocks.LED_ROUNDEL, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(LED_ROUNDEL));
 		LED_ROUNDEL_BLACK = register("led_roundel_black", new BlockItem(AitplusModBlocks.LED_ROUNDEL_BLACK, new Item.Properties()));
@@ -543,7 +546,7 @@ public class AitplusModItems {
 		PINK_JELLY_BABIES = register("pink_jelly_babies", new PinkJellyBabiesItem());
 		ORANGE_JELLY_BABIES = register("orange_jelly_babies", new OrangeJellyBabiesItem());
 		MAGENTA_JELLY_BABIES = register("magenta_jelly_babies", new MagentaJellyBabiesItem());
-		LIMEJELLY_BABIES = register("limejelly_babies", new LimejellyBabiesItem());
+		LIME_JELLY_BABIES = register("lime_jelly_babies", new LimejellyBabiesItem());
 		LIGHT_BLUE_JELLY_BABIES = register("light_blue_jelly_babies", new LightBlueJellyBabiesItem());
 		GREEN_JELLY_BABIES = register("green_jelly_babies", new GreenJellyBabiesItem());
 		CYAN_JELLY_BABIES = register("cyan_jelly_babies", new CyanJellyBabiesItem());
@@ -613,13 +616,13 @@ public class AitplusModItems {
 		MAGENTA_BOWTIE_CHESTPLATE = register("magenta_bowtie_chestplate", new MagentaBowtieItem.Chestplate());
 		PINK_BOWTIE_CHESTPLATE = register("pink_bowtie_chestplate", new PinkBowtieItem.Chestplate());
 		GLASSES_3D_HELMET = register("glasses_3d_helmet", new Glasses3dItem.Helmet());
+		GLASSES_HELMET = register("glasses_helmet", new GlassesItem.Helmet());
 		CELERY_CHESTPLATE = register("celery_chestplate", new CeleryItem.Chestplate());
 		RECORDER = register("recorder", new RecorderItem());
 		CREATIVE_TAB_ITEM = register("creative_tab_item", new CreativeTabItemItem());
 		ROUNDEL_TABLE = register("roundel_table", new BlockItem(AitplusModBlocks.ROUNDEL_TABLE, new Item.Properties()));
 		CANDEL_STAND_LIT = register("candel_stand_lit", new BlockItem(AitplusModBlocks.CANDEL_STAND_LIT, new Item.Properties()));
 		CHALK_BOARD_ALT = register("chalk_board_alt", new BlockItem(AitplusModBlocks.CHALK_BOARD_ALT, new Item.Properties()));
-		GLASSES_HELMET = register("glasses_helmet", new GlassesItem.Helmet());
 	}
 
 	public static void clientLoad() {
