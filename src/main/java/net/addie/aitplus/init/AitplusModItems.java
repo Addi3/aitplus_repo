@@ -53,6 +53,8 @@ import net.addie.aitplus.item.IceBlueRoundelBlueprintItem;
 import net.addie.aitplus.item.GreenJellyBabiesItem;
 import net.addie.aitplus.item.GreenBowtieItem;
 import net.addie.aitplus.item.GrayBowtieItem;
+import net.addie.aitplus.item.GlassesItem;
+import net.addie.aitplus.item.Glasses3dItem;
 import net.addie.aitplus.item.FishFingersItem;
 import net.addie.aitplus.item.FishFingersAndCustardItem;
 import net.addie.aitplus.item.DalekaniumSwordItem;
@@ -198,6 +200,7 @@ public class AitplusModItems {
 	public static Item OFFICE_CHAIR_SPAWN_EGG;
 	public static Item CORAL_CHAIR_SPAWN_EGG;
 	public static Item CHALK_BOARD;
+	public static Item THE_MOMENT;
 	public static Item DALEKANIUM_INGOT;
 	public static Item DALEKANIUM_NUGGET;
 	public static Item RAW_DALEKANIUM;
@@ -272,13 +275,14 @@ public class AitplusModItems {
 	public static Item PURPLE_BOWTIE_CHESTPLATE;
 	public static Item MAGENTA_BOWTIE_CHESTPLATE;
 	public static Item PINK_BOWTIE_CHESTPLATE;
+	public static Item GLASSES_3D_HELMET;
 	public static Item CELERY_CHESTPLATE;
 	public static Item RECORDER;
 	public static Item CREATIVE_TAB_ITEM;
 	public static Item ROUNDEL_TABLE;
 	public static Item CANDEL_STAND_LIT;
 	public static Item CHALK_BOARD_ALT;
-	public static Item THE_MOMENT;
+	public static Item GLASSES_HELMET;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -519,6 +523,8 @@ public class AitplusModItems {
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CORAL_CHAIR_SPAWN_EGG));
 		CHALK_BOARD = register("chalk_board", new BlockItem(AitplusModBlocks.CHALK_BOARD, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(CHALK_BOARD));
+		THE_MOMENT = register("the_moment", new BlockItem(AitplusModBlocks.THE_MOMENT, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(THE_MOMENT));
 		DALEKANIUM_INGOT = register("dalekanium_ingot", new DalekaniumIngotItem());
 		DALEKANIUM_NUGGET = register("dalekanium_nugget", new DalekaniumNuggetItem());
 		RAW_DALEKANIUM = register("raw_dalekanium", new RawDalekaniumItem());
@@ -606,14 +612,14 @@ public class AitplusModItems {
 		PURPLE_BOWTIE_CHESTPLATE = register("purple_bowtie_chestplate", new PurpleBowtieItem.Chestplate());
 		MAGENTA_BOWTIE_CHESTPLATE = register("magenta_bowtie_chestplate", new MagentaBowtieItem.Chestplate());
 		PINK_BOWTIE_CHESTPLATE = register("pink_bowtie_chestplate", new PinkBowtieItem.Chestplate());
+		GLASSES_3D_HELMET = register("glasses_3d_helmet", new Glasses3dItem.Helmet());
 		CELERY_CHESTPLATE = register("celery_chestplate", new CeleryItem.Chestplate());
 		RECORDER = register("recorder", new RecorderItem());
 		CREATIVE_TAB_ITEM = register("creative_tab_item", new CreativeTabItemItem());
 		ROUNDEL_TABLE = register("roundel_table", new BlockItem(AitplusModBlocks.ROUNDEL_TABLE, new Item.Properties()));
 		CANDEL_STAND_LIT = register("candel_stand_lit", new BlockItem(AitplusModBlocks.CANDEL_STAND_LIT, new Item.Properties()));
 		CHALK_BOARD_ALT = register("chalk_board_alt", new BlockItem(AitplusModBlocks.CHALK_BOARD_ALT, new Item.Properties()));
-		THE_MOMENT = register("the_moment", new BlockItem(AitplusModBlocks.THE_MOMENT, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(AitplusModTabs.TAB_AI_T_PLUS).register(content -> content.accept(THE_MOMENT));
+		GLASSES_HELMET = register("glasses_helmet", new GlassesItem.Helmet());
 	}
 
 	public static void clientLoad() {

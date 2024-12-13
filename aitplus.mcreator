@@ -3,15 +3,15 @@
     {
       "name": "Shack",
       "type": "structure",
-      "sortid": 197,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shack",
       "metadata": {
         "files": [
           "src/main/resources/data/aitplus/worldgen/template_pool/shack.json",
-          "src/main/resources/data/aitplus/worldgen/structure/shack.json",
-          "src/main/resources/data/aitplus/worldgen/structure_set/shack.json"
+          "src/main/resources/data/aitplus/worldgen/structure_set/shack.json",
+          "src/main/resources/data/aitplus/worldgen/structure/shack.json"
         ]
       },
       "path": "~/Structures/Gallifrey"
@@ -19,7 +19,7 @@
     {
       "name": "Gallifrey",
       "type": "dimension",
-      "sortid": 193,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey",
@@ -34,7 +34,7 @@
     {
       "name": "TakeMeToGallifreyRightclicked",
       "type": "procedure",
-      "sortid": 198,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_gallifrey_rightclicked",
@@ -54,7 +54,7 @@
     {
       "name": "TakeMeToGallifrey",
       "type": "item",
-      "sortid": 168,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_gallifrey",
@@ -69,7 +69,7 @@
     {
       "name": "CreativeTabItem",
       "type": "item",
-      "sortid": 199,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_tab_item",
@@ -84,7 +84,7 @@
     {
       "name": "AiTPlus",
       "type": "tab",
-      "sortid": 200,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ai_t_plus",
@@ -96,14 +96,14 @@
     {
       "name": "TardisGraveyard",
       "type": "structure",
-      "sortid": 201,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_graveyard",
       "metadata": {
         "files": [
-          "src/main/resources/data/aitplus/worldgen/template_pool/tardis_graveyard.json",
           "src/main/resources/data/aitplus/worldgen/structure/tardis_graveyard.json",
+          "src/main/resources/data/aitplus/worldgen/template_pool/tardis_graveyard.json",
           "src/main/resources/data/aitplus/worldgen/structure_set/tardis_graveyard.json"
         ]
       },
@@ -112,14 +112,14 @@
     {
       "name": "GallifreyHouse1",
       "type": "structure",
-      "sortid": 202,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_house_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/aitplus/worldgen/structure_set/gallifrey_house_1.json",
           "src/main/resources/data/aitplus/worldgen/template_pool/gallifrey_house_1.json",
+          "src/main/resources/data/aitplus/worldgen/structure_set/gallifrey_house_1.json",
           "src/main/resources/data/aitplus/worldgen/structure/gallifrey_house_1.json"
         ]
       },
@@ -128,15 +128,15 @@
     {
       "name": "GallifreyHouse2",
       "type": "structure",
-      "sortid": 203,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_house_2",
       "metadata": {
         "files": [
+          "src/main/resources/data/aitplus/worldgen/structure/gallifrey_house_2.json",
           "src/main/resources/data/aitplus/worldgen/template_pool/gallifrey_house_2.json",
-          "src/main/resources/data/aitplus/worldgen/structure_set/gallifrey_house_2.json",
-          "src/main/resources/data/aitplus/worldgen/structure/gallifrey_house_2.json"
+          "src/main/resources/data/aitplus/worldgen/structure_set/gallifrey_house_2.json"
         ]
       },
       "path": "~/Structures/Gallifrey"
@@ -219,7 +219,7 @@
     {
       "name": "Trenzalor",
       "type": "dimension",
-      "sortid": 194,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trenzalore",
@@ -234,14 +234,14 @@
     {
       "name": "TakeMeToTrenzalor",
       "type": "item",
-      "sortid": 169,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_trenzalor",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/TakeMeToTrenzalorItem.java",
-          "src/main/resources/assets/aitplus/models/item/take_me_to_trenzalor.json"
+          "src/main/resources/assets/aitplus/models/item/take_me_to_trenzalor.json",
+          "src/main/java/net/addie/aitplus/item/TakeMeToTrenzalorItem.java"
         ]
       },
       "path": "~/Misc"
@@ -249,7 +249,7 @@
     {
       "name": "TakeMeToTrenzalorRightClicked",
       "type": "procedure",
-      "sortid": 204,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_trenzalor_right_clicked",
@@ -269,7 +269,7 @@
     {
       "name": "GallifreyWastelands",
       "type": "biome",
-      "sortid": 205,
+      "sortid": 207,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gallifrey_drylands",
@@ -289,12 +289,12 @@
       "registry_name": "arkytior",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/ArkytiorBlock.java",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/arkytior.json",
-          "src/main/resources/data/aitplus/worldgen/placed_feature/arkytior.json",
-          "src/main/resources/assets/aitplus/blockstates/arkytior.json",
+          "src/main/resources/assets/aitplus/models/block/arkytior.json",
           "src/main/resources/assets/aitplus/models/item/arkytior.json",
-          "src/main/resources/assets/aitplus/models/block/arkytior.json"
+          "src/main/resources/data/aitplus/worldgen/placed_feature/arkytior.json",
+          "src/main/java/net/addie/aitplus/block/ArkytiorBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/arkytior.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/arkytior.json"
         ]
       },
       "path": "~/Blocks/Nature/Plants/Gallifrey"
@@ -308,12 +308,12 @@
       "registry_name": "flower_of_remeberance",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/flower_of_remeberance.json",
-          "src/main/resources/data/aitplus/worldgen/placed_feature/flower_of_remeberance.json",
-          "src/main/java/net/addie/aitplus/block/FlowerOfRemeberanceBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/flower_of_remeberance.json",
           "src/main/resources/assets/aitplus/models/block/flower_of_remeberance.json",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/flower_of_remeberance.json"
+          "src/main/java/net/addie/aitplus/block/FlowerOfRemeberanceBlock.java",
+          "src/main/resources/data/aitplus/worldgen/placed_feature/flower_of_remeberance.json",
+          "src/main/resources/assets/aitplus/models/item/flower_of_remeberance.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/flower_of_remeberance.json",
+          "src/main/resources/assets/aitplus/blockstates/flower_of_remeberance.json"
         ]
       },
       "path": "~/Blocks/Nature/Plants/Gallifrey"
@@ -327,12 +327,12 @@
       "registry_name": "iridescent_velvet_red_madevinia_aridosa",
       "metadata": {
         "files": [
-          "src/main/resources/data/aitplus/worldgen/placed_feature/iridescent_velvet_red_madevinia_aridosa.json",
           "src/main/resources/assets/aitplus/models/block/iridescent_velvet_red_madevinia_aridosa.json",
-          "src/main/java/net/addie/aitplus/block/IridescentVelvetRedMadeviniaAridosaBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/iridescent_velvet_red_madevinia_aridosa.json",
           "src/main/resources/data/aitplus/worldgen/configured_feature/iridescent_velvet_red_madevinia_aridosa.json",
-          "src/main/resources/assets/aitplus/models/item/iridescent_velvet_red_madevinia_aridosa.json",
-          "src/main/resources/assets/aitplus/blockstates/iridescent_velvet_red_madevinia_aridosa.json"
+          "src/main/java/net/addie/aitplus/block/IridescentVelvetRedMadeviniaAridosaBlock.java",
+          "src/main/resources/data/aitplus/worldgen/placed_feature/iridescent_velvet_red_madevinia_aridosa.json",
+          "src/main/resources/assets/aitplus/models/item/iridescent_velvet_red_madevinia_aridosa.json"
         ]
       },
       "path": "~/Blocks/Nature/Plants/Gallifrey"
@@ -347,11 +347,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/block/MoonlightBloomBlock.java",
+          "src/main/resources/data/aitplus/worldgen/placed_feature/moonlight_bloom.json",
           "src/main/resources/data/aitplus/worldgen/configured_feature/moonlight_bloom.json",
           "src/main/resources/assets/aitplus/models/item/moonlight_bloom.json",
-          "src/main/resources/data/aitplus/worldgen/placed_feature/moonlight_bloom.json",
-          "src/main/resources/assets/aitplus/models/block/moonlight_bloom.json",
-          "src/main/resources/assets/aitplus/blockstates/moonlight_bloom.json"
+          "src/main/resources/assets/aitplus/blockstates/moonlight_bloom.json",
+          "src/main/resources/assets/aitplus/models/block/moonlight_bloom.json"
         ]
       },
       "path": "~/Blocks/Nature/Plants/Gallifrey"
@@ -365,12 +365,12 @@
       "registry_name": "red_petaled_orchid",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/red_petaled_orchid.json",
-          "src/main/java/net/addie/aitplus/block/RedPetaledOrchidBlock.java",
-          "src/main/resources/assets/aitplus/models/block/red_petaled_orchid.json",
-          "src/main/resources/data/aitplus/worldgen/placed_feature/red_petaled_orchid.json",
           "src/main/resources/assets/aitplus/models/item/red_petaled_orchid.json",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/red_petaled_orchid.json"
+          "src/main/resources/data/aitplus/worldgen/placed_feature/red_petaled_orchid.json",
+          "src/main/java/net/addie/aitplus/block/RedPetaledOrchidBlock.java",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/red_petaled_orchid.json",
+          "src/main/resources/assets/aitplus/blockstates/red_petaled_orchid.json",
+          "src/main/resources/assets/aitplus/models/block/red_petaled_orchid.json"
         ]
       },
       "path": "~/Blocks/Nature/Plants/Gallifrey"
@@ -384,12 +384,12 @@
       "registry_name": "schlenk_blossoms",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aitplus/blockstates/schlenk_blossoms.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/schlenk_blossoms.json",
           "src/main/resources/assets/aitplus/models/item/schlenk_blossoms.json",
           "src/main/resources/data/aitplus/worldgen/placed_feature/schlenk_blossoms.json",
-          "src/main/resources/assets/aitplus/models/block/schlenk_blossoms.json",
           "src/main/java/net/addie/aitplus/block/SchlenkBlossomsBlock.java",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/schlenk_blossoms.json",
-          "src/main/resources/assets/aitplus/blockstates/schlenk_blossoms.json"
+          "src/main/resources/assets/aitplus/models/block/schlenk_blossoms.json"
         ]
       },
       "path": "~/Blocks/Nature/Plants/Gallifrey"
@@ -397,7 +397,7 @@
     {
       "name": "GallifreyPlains",
       "type": "biome",
-      "sortid": 206,
+      "sortid": 208,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gallifrey_plains",
@@ -413,7 +413,7 @@
     {
       "name": "GallifreyMountains",
       "type": "biome",
-      "sortid": 207,
+      "sortid": 209,
       "compiles": true,
       "locked_code": true,
       "registry_name": "gallifrey_mountains",
@@ -429,7 +429,7 @@
     {
       "name": "Flutterwing",
       "type": "livingentity",
-      "sortid": 155,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flutterwing",
@@ -445,15 +445,15 @@
     {
       "name": "Fly",
       "type": "livingentity",
-      "sortid": 156,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fly",
       "metadata": {
         "files": [
           "src/main/resources/assets/aitplus/models/item/fly_spawn_egg.json",
-          "src/main/java/net/addie/aitplus/entity/FlyEntity.java",
-          "src/main/java/net/addie/aitplus/client/renderer/FlyRenderer.java"
+          "src/main/java/net/addie/aitplus/client/renderer/FlyRenderer.java",
+          "src/main/java/net/addie/aitplus/entity/FlyEntity.java"
         ]
       },
       "path": "~/entities/Gallifreyan"
@@ -461,14 +461,14 @@
     {
       "name": "DeadTardis",
       "type": "structure",
-      "sortid": 208,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dead_tardis",
       "metadata": {
         "files": [
-          "src/main/resources/data/aitplus/worldgen/template_pool/dead_tardis.json",
           "src/main/resources/data/aitplus/worldgen/structure_set/dead_tardis.json",
+          "src/main/resources/data/aitplus/worldgen/template_pool/dead_tardis.json",
           "src/main/resources/data/aitplus/worldgen/structure/dead_tardis.json"
         ]
       },
@@ -477,7 +477,7 @@
     {
       "name": "TrenzaloreWastes",
       "type": "biome",
-      "sortid": 209,
+      "sortid": 211,
       "compiles": true,
       "locked_code": true,
       "registry_name": "trenzalore_wastes",
@@ -491,14 +491,14 @@
     {
       "name": "Flubble",
       "type": "livingentity",
-      "sortid": 157,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flubble",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/entity/FlubbleEntity.java",
           "src/main/resources/assets/aitplus/models/item/flubble_spawn_egg.json",
+          "src/main/java/net/addie/aitplus/entity/FlubbleEntity.java",
           "src/main/java/net/addie/aitplus/client/renderer/FlubbleRenderer.java"
         ]
       },
@@ -507,7 +507,7 @@
     {
       "name": "YellowJellyBabies",
       "type": "item",
-      "sortid": 129,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_jelly_babies",
@@ -522,7 +522,7 @@
     {
       "name": "RedJellyBabies",
       "type": "item",
-      "sortid": 130,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_jelly_babies",
@@ -537,14 +537,14 @@
     {
       "name": "PurpleJellyBabies",
       "type": "item",
-      "sortid": 131,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_jelly_babies",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/PurpleJellyBabiesItem.java",
-          "src/main/resources/assets/aitplus/models/item/purple_jelly_babies.json"
+          "src/main/resources/assets/aitplus/models/item/purple_jelly_babies.json",
+          "src/main/java/net/addie/aitplus/item/PurpleJellyBabiesItem.java"
         ]
       },
       "path": "~/Items/JellyBabies"
@@ -552,14 +552,14 @@
     {
       "name": "PinkJellyBabies",
       "type": "item",
-      "sortid": 132,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_jelly_babies",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/PinkJellyBabiesItem.java",
-          "src/main/resources/assets/aitplus/models/item/pink_jelly_babies.json"
+          "src/main/resources/assets/aitplus/models/item/pink_jelly_babies.json",
+          "src/main/java/net/addie/aitplus/item/PinkJellyBabiesItem.java"
         ]
       },
       "path": "~/Items/JellyBabies"
@@ -567,14 +567,14 @@
     {
       "name": "OrangeJellyBabies",
       "type": "item",
-      "sortid": 133,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_jelly_babies",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/OrangeJellyBabiesItem.java",
-          "src/main/resources/assets/aitplus/models/item/orange_jelly_babies.json"
+          "src/main/resources/assets/aitplus/models/item/orange_jelly_babies.json",
+          "src/main/java/net/addie/aitplus/item/OrangeJellyBabiesItem.java"
         ]
       },
       "path": "~/Items/JellyBabies"
@@ -582,7 +582,7 @@
     {
       "name": "MagentaJellyBabies",
       "type": "item",
-      "sortid": 134,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_jelly_babies",
@@ -597,14 +597,14 @@
     {
       "name": "LimejellyBabies",
       "type": "item",
-      "sortid": 135,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limejelly_babies",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/LimejellyBabiesItem.java",
-          "src/main/resources/assets/aitplus/models/item/limejelly_babies.json"
+          "src/main/resources/assets/aitplus/models/item/limejelly_babies.json",
+          "src/main/java/net/addie/aitplus/item/LimejellyBabiesItem.java"
         ]
       },
       "path": "~/Items/JellyBabies"
@@ -612,14 +612,14 @@
     {
       "name": "LightBlueJellyBabies",
       "type": "item",
-      "sortid": 136,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_jelly_babies",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/light_blue_jelly_babies.json",
-          "src/main/java/net/addie/aitplus/item/LightBlueJellyBabiesItem.java"
+          "src/main/java/net/addie/aitplus/item/LightBlueJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/light_blue_jelly_babies.json"
         ]
       },
       "path": "~/Items/JellyBabies"
@@ -627,7 +627,7 @@
     {
       "name": "GreenJellyBabies",
       "type": "item",
-      "sortid": 137,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_jelly_babies",
@@ -642,14 +642,14 @@
     {
       "name": "CyanJellyBabies",
       "type": "item",
-      "sortid": 138,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_jelly_babies",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/CyanJellyBabiesItem.java",
-          "src/main/resources/assets/aitplus/models/item/cyan_jelly_babies.json"
+          "src/main/resources/assets/aitplus/models/item/cyan_jelly_babies.json",
+          "src/main/java/net/addie/aitplus/item/CyanJellyBabiesItem.java"
         ]
       },
       "path": "~/Items/JellyBabies"
@@ -657,14 +657,14 @@
     {
       "name": "BlueJellyBabies",
       "type": "item",
-      "sortid": 139,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_jelly_babies",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/blue_jelly_babies.json",
-          "src/main/java/net/addie/aitplus/item/BlueJellyBabiesItem.java"
+          "src/main/java/net/addie/aitplus/item/BlueJellyBabiesItem.java",
+          "src/main/resources/assets/aitplus/models/item/blue_jelly_babies.json"
         ]
       },
       "path": "~/Items/JellyBabies"
@@ -672,7 +672,7 @@
     {
       "name": "BlackJellyBabies",
       "type": "item",
-      "sortid": 140,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_jelly_babies",
@@ -687,7 +687,7 @@
     {
       "name": "TheMightyJellyBabies",
       "type": "item",
-      "sortid": 141,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_mighty_jelly_babies",
@@ -702,7 +702,7 @@
     {
       "name": "YellowJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 210,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_jelly_babies_recipe",
@@ -716,7 +716,7 @@
     {
       "name": "RedJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 211,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_jelly_babies_recipe",
@@ -730,7 +730,7 @@
     {
       "name": "PurpleJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 212,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_jelly_babies_recipe",
@@ -744,7 +744,7 @@
     {
       "name": "PinkJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 213,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_jelly_babies_recipe",
@@ -758,7 +758,7 @@
     {
       "name": "OrangeJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 214,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_jelly_babies_recipe",
@@ -772,7 +772,7 @@
     {
       "name": "MagentaJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 215,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_jelly_babies_recipe",
@@ -786,7 +786,7 @@
     {
       "name": "LimeJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 216,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_jelly_babies_recipe",
@@ -800,7 +800,7 @@
     {
       "name": "LightBlueJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 217,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_jelly_babies_recipe",
@@ -814,7 +814,7 @@
     {
       "name": "GreenJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 218,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_jelly_babies_recipe",
@@ -828,7 +828,7 @@
     {
       "name": "CyanJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 219,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_jelly_babies_recipe",
@@ -842,7 +842,7 @@
     {
       "name": "BlueJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_jelly_babies_recipe",
@@ -856,7 +856,7 @@
     {
       "name": "BlackJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 221,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_jelly_babies_recipe",
@@ -870,7 +870,7 @@
     {
       "name": "TheMightyJellyBabiesRecipe",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_mighty_jelly_babies_recipe",
@@ -884,7 +884,7 @@
     {
       "name": "FishFingers",
       "type": "item",
-      "sortid": 142,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_fingers",
@@ -899,14 +899,14 @@
     {
       "name": "Custard",
       "type": "item",
-      "sortid": 143,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "custard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/custard.json",
-          "src/main/java/net/addie/aitplus/item/CustardItem.java"
+          "src/main/java/net/addie/aitplus/item/CustardItem.java",
+          "src/main/resources/assets/aitplus/models/item/custard.json"
         ]
       },
       "path": "~/Items/FishFingerAndCustard"
@@ -914,7 +914,7 @@
     {
       "name": "FishFingersAndCustard",
       "type": "item",
-      "sortid": 144,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_fingers_and_custard",
@@ -929,7 +929,7 @@
     {
       "name": "FishFingersRecipe",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_fingers_recipe",
@@ -943,7 +943,7 @@
     {
       "name": "CustardRecipe",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "custard_recipe",
@@ -957,7 +957,7 @@
     {
       "name": "FishFingersAndCustardRecipe",
       "type": "recipe",
-      "sortid": 225,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fish_fingers_and_custard_recipe",
@@ -971,7 +971,7 @@
     {
       "name": "TheMightyJellyBabiesAdvancement",
       "type": "achievement",
-      "sortid": 226,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_mighty_jelly_babies_advancement",
@@ -985,7 +985,7 @@
     {
       "name": "GallifreyAdvancement",
       "type": "achievement",
-      "sortid": 227,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gallifrey_advancement",
@@ -1005,9 +1005,9 @@
       "registry_name": "led_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/led_roundel.json",
           "src/main/java/net/addie/aitplus/block/LEDRoundelBlock.java",
           "src/main/resources/assets/aitplus/blockstates/led_roundel.json",
+          "src/main/resources/assets/aitplus/models/item/led_roundel.json",
           "src/main/resources/assets/aitplus/models/block/led_roundel.json"
         ]
       },
@@ -1022,10 +1022,10 @@
       "registry_name": "led_roundel_black",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/led_roundel_black.json",
-          "src/main/resources/assets/aitplus/blockstates/led_roundel_black.json",
+          "src/main/java/net/addie/aitplus/block/LEDRoundelBlackBlock.java",
           "src/main/resources/assets/aitplus/models/block/led_roundel_black.json",
-          "src/main/java/net/addie/aitplus/block/LEDRoundelBlackBlock.java"
+          "src/main/resources/assets/aitplus/blockstates/led_roundel_black.json",
+          "src/main/resources/assets/aitplus/models/item/led_roundel_black.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Led"
@@ -1039,10 +1039,10 @@
       "registry_name": "led_roundel_blue",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/LEDRoundelBlueBlock.java",
+          "src/main/resources/assets/aitplus/models/item/led_roundel_blue.json",
           "src/main/resources/assets/aitplus/blockstates/led_roundel_blue.json",
-          "src/main/resources/assets/aitplus/models/block/led_roundel_blue.json",
-          "src/main/resources/assets/aitplus/models/item/led_roundel_blue.json"
+          "src/main/java/net/addie/aitplus/block/LEDRoundelBlueBlock.java",
+          "src/main/resources/assets/aitplus/models/block/led_roundel_blue.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Led"
@@ -1056,10 +1056,10 @@
       "registry_name": "led_roundel_cyan",
       "metadata": {
         "files": [
+          "src/main/java/net/addie/aitplus/block/LEDRoundelCyanBlock.java",
           "src/main/resources/assets/aitplus/models/block/led_roundel_cyan.json",
           "src/main/resources/assets/aitplus/models/item/led_roundel_cyan.json",
-          "src/main/resources/assets/aitplus/blockstates/led_roundel_cyan.json",
-          "src/main/java/net/addie/aitplus/block/LEDRoundelCyanBlock.java"
+          "src/main/resources/assets/aitplus/blockstates/led_roundel_cyan.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Led"
@@ -1090,10 +1090,10 @@
       "registry_name": "led_roundel_green",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/LEDRoundelGreenBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/led_roundel_green.json",
           "src/main/resources/assets/aitplus/models/block/led_roundel_green.json",
-          "src/main/resources/assets/aitplus/models/item/led_roundel_green.json"
+          "src/main/java/net/addie/aitplus/block/LEDRoundelGreenBlock.java",
+          "src/main/resources/assets/aitplus/models/item/led_roundel_green.json",
+          "src/main/resources/assets/aitplus/blockstates/led_roundel_green.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Led"
@@ -1107,10 +1107,10 @@
       "registry_name": "led_roundel_orange",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/led_roundel_orange.json",
-          "src/main/resources/assets/aitplus/models/block/led_roundel_orange.json",
+          "src/main/resources/assets/aitplus/blockstates/led_roundel_orange.json",
           "src/main/java/net/addie/aitplus/block/LEDRoundelOrangeBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/led_roundel_orange.json"
+          "src/main/resources/assets/aitplus/models/item/led_roundel_orange.json",
+          "src/main/resources/assets/aitplus/models/block/led_roundel_orange.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Led"
@@ -1124,9 +1124,9 @@
       "registry_name": "led_roundel_pink",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/led_roundel_pink.json",
-          "src/main/resources/assets/aitplus/blockstates/led_roundel_pink.json",
           "src/main/resources/assets/aitplus/models/block/led_roundel_pink.json",
+          "src/main/resources/assets/aitplus/blockstates/led_roundel_pink.json",
+          "src/main/resources/assets/aitplus/models/item/led_roundel_pink.json",
           "src/main/java/net/addie/aitplus/block/LEDRoundelPinkBlock.java"
         ]
       },
@@ -1141,10 +1141,10 @@
       "registry_name": "led_roundel_purple",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/led_roundel_purple.json",
+          "src/main/resources/assets/aitplus/blockstates/led_roundel_purple.json",
           "src/main/resources/assets/aitplus/models/block/led_roundel_purple.json",
-          "src/main/java/net/addie/aitplus/block/LEDRoundelPurpleBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/led_roundel_purple.json"
+          "src/main/resources/assets/aitplus/models/item/led_roundel_purple.json",
+          "src/main/java/net/addie/aitplus/block/LEDRoundelPurpleBlock.java"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Led"
@@ -1158,10 +1158,10 @@
       "registry_name": "led_roundel_red",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/led_roundel_red.json",
+          "src/main/resources/assets/aitplus/models/item/led_roundel_red.json",
           "src/main/resources/assets/aitplus/models/block/led_roundel_red.json",
           "src/main/java/net/addie/aitplus/block/LEDRoundelRedBlock.java",
-          "src/main/resources/assets/aitplus/models/item/led_roundel_red.json"
+          "src/main/resources/assets/aitplus/blockstates/led_roundel_red.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Led"
@@ -1177,8 +1177,8 @@
         "files": [
           "src/main/java/net/addie/aitplus/block/LEDRoundelYellowBlock.java",
           "src/main/resources/assets/aitplus/blockstates/led_roundel_yellow.json",
-          "src/main/resources/assets/aitplus/models/item/led_roundel_yellow.json",
-          "src/main/resources/assets/aitplus/models/block/led_roundel_yellow.json"
+          "src/main/resources/assets/aitplus/models/block/led_roundel_yellow.json",
+          "src/main/resources/assets/aitplus/models/item/led_roundel_yellow.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Led"
@@ -1192,10 +1192,10 @@
       "registry_name": "thalma_log",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/ThalmaBlock.java",
           "src/main/resources/assets/aitplus/blockstates/thalma_log.json",
-          "src/main/resources/assets/aitplus/models/item/thalma_log.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_log.json"
+          "src/main/java/net/addie/aitplus/block/ThalmaBlock.java",
+          "src/main/resources/assets/aitplus/models/block/thalma_log.json",
+          "src/main/resources/assets/aitplus/models/item/thalma_log.json"
         ]
       },
       "path": "~/Blocks/Woods/Thalma"
@@ -1210,8 +1210,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/block/ThalmaLogBlock.java",
-          "src/main/resources/assets/aitplus/models/block/thalma_wood.json",
           "src/main/resources/assets/aitplus/models/item/thalma_wood.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_wood.json",
           "src/main/resources/assets/aitplus/blockstates/thalma_wood.json"
         ]
       },
@@ -1244,9 +1244,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/block/StrippedThalmaLogBlock.java",
-          "src/main/resources/assets/aitplus/models/block/stripped_thalma_wood.json",
+          "src/main/resources/assets/aitplus/models/item/stripped_thalma_wood.json",
           "src/main/resources/assets/aitplus/blockstates/stripped_thalma_wood.json",
-          "src/main/resources/assets/aitplus/models/item/stripped_thalma_wood.json"
+          "src/main/resources/assets/aitplus/models/block/stripped_thalma_wood.json"
         ]
       },
       "path": "~/Blocks/Woods/Thalma"
@@ -1260,8 +1260,8 @@
       "registry_name": "thalma_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/thalma_leaves.json",
           "src/main/resources/assets/aitplus/blockstates/thalma_leaves.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_leaves.json",
           "src/main/java/net/addie/aitplus/block/ThalmaLeavesBlock.java",
           "src/main/resources/assets/aitplus/models/item/thalma_leaves.json"
         ]
@@ -1271,7 +1271,7 @@
     {
       "name": "PetrifiedJungle",
       "type": "biome",
-      "sortid": 228,
+      "sortid": 230,
       "compiles": true,
       "locked_code": true,
       "registry_name": "petrified_jungle",
@@ -1287,7 +1287,7 @@
     {
       "name": "Skaro",
       "type": "dimension",
-      "sortid": 195,
+      "sortid": 197,
       "compiles": true,
       "locked_code": true,
       "registry_name": "skaro",
@@ -1302,7 +1302,7 @@
     {
       "name": "TakeMeToSkaro",
       "type": "item",
-      "sortid": 170,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_skaro",
@@ -1317,7 +1317,7 @@
     {
       "name": "TakeMeToSkaroRightClicked",
       "type": "procedure",
-      "sortid": 229,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_skaro_right_clicked",
@@ -1511,7 +1511,7 @@
     {
       "name": "ThalmaLogOnRightClicked",
       "type": "procedure",
-      "sortid": 230,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thalma_log_on_right_clicked",
@@ -1547,7 +1547,7 @@
     {
       "name": "ThalmaWoodOnRightClicked",
       "type": "procedure",
-      "sortid": 231,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thalma_wood_on_right_clicked",
@@ -1583,7 +1583,7 @@
     {
       "name": "WoodenFenceBlocks",
       "type": "tag",
-      "sortid": 232,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_fence_blocks",
@@ -1597,7 +1597,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
-      "sortid": 233,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -1611,7 +1611,7 @@
     {
       "name": "SmallFlowerBlocks",
       "type": "tag",
-      "sortid": 234,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_blocks",
@@ -1625,7 +1625,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
-      "sortid": 235,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leave_blocks",
@@ -1887,10 +1887,10 @@
       "registry_name": "maldor_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/MaldorLeavesBlock.java",
-          "src/main/resources/assets/aitplus/models/item/maldor_leaves.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_leaves.json",
           "src/main/resources/assets/aitplus/blockstates/maldor_leaves.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_leaves.json"
+          "src/main/resources/assets/aitplus/models/item/maldor_leaves.json",
+          "src/main/java/net/addie/aitplus/block/MaldorLeavesBlock.java"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -1898,7 +1898,7 @@
     {
       "name": "MaldorLogOnRightClicked",
       "type": "procedure",
-      "sortid": 236,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maldor_log_on_right_clicked",
@@ -1934,7 +1934,7 @@
     {
       "name": "MaldorWoodOnRightClicked",
       "type": "procedure",
-      "sortid": 237,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maldor_wood_on_right_clicked",
@@ -1976,10 +1976,10 @@
       "registry_name": "metal_grate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/metal_grate.json",
           "src/main/resources/assets/aitplus/models/item/metal_grate.json",
           "src/main/java/net/addie/aitplus/block/MetalGrateBlock.java",
-          "src/main/resources/assets/aitplus/models/block/metal_grate.json"
+          "src/main/resources/assets/aitplus/models/block/metal_grate.json",
+          "src/main/resources/assets/aitplus/blockstates/metal_grate.json"
         ]
       },
       "path": "~/Blocks/Other/Grate"
@@ -1994,11 +1994,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/block/MetalGrateStairsBlock.java",
-          "src/main/resources/assets/aitplus/models/block/metal_grate_stairs_outer.json",
-          "src/main/resources/assets/aitplus/blockstates/metal_grate_stairs.json",
           "src/main/resources/assets/aitplus/models/block/metal_grate_stairs_inner.json",
-          "src/main/resources/assets/aitplus/models/item/metal_grate_stairs.json",
-          "src/main/resources/assets/aitplus/models/block/metal_grate_stairs.json"
+          "src/main/resources/assets/aitplus/blockstates/metal_grate_stairs.json",
+          "src/main/resources/assets/aitplus/models/block/metal_grate_stairs.json",
+          "src/main/resources/assets/aitplus/models/block/metal_grate_stairs_outer.json",
+          "src/main/resources/assets/aitplus/models/item/metal_grate_stairs.json"
         ]
       },
       "path": "~/Blocks/Other/Grate"
@@ -2012,12 +2012,12 @@
       "registry_name": "metal_grate_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/metal_grate_slab.json",
-          "src/main/resources/assets/aitplus/models/block/metal_grate_slab_top.json",
           "src/main/resources/assets/aitplus/models/item/metal_grate_slab.json",
           "src/main/resources/assets/aitplus/blockstates/metal_grate_slab.json",
-          "src/main/java/net/addie/aitplus/block/MetalGrateSlabBlock.java",
-          "src/main/resources/assets/aitplus/models/block/metal_grate_slab_full.json"
+          "src/main/resources/assets/aitplus/models/block/metal_grate_slab_top.json",
+          "src/main/resources/assets/aitplus/models/block/metal_grate_slab_full.json",
+          "src/main/resources/assets/aitplus/models/block/metal_grate_slab.json",
+          "src/main/java/net/addie/aitplus/block/MetalGrateSlabBlock.java"
         ]
       },
       "path": "~/Blocks/Other/Grate"
@@ -2033,11 +2033,11 @@
         "files": [
           "src/main/resources/assets/aitplus/models/block/metal_grate_wall_inventory.json",
           "src/main/java/net/addie/aitplus/block/MetalGrateWallBlock.java",
-          "src/main/resources/assets/aitplus/models/block/metal_grate_wall.json",
-          "src/main/resources/assets/aitplus/blockstates/metal_grate_wall.json",
           "src/main/resources/assets/aitplus/models/block/metal_grate_wall_side_tall.json",
           "src/main/resources/assets/aitplus/models/item/metal_grate_wall.json",
-          "src/main/resources/assets/aitplus/models/block/metal_grate_wall_post.json"
+          "src/main/resources/assets/aitplus/models/block/metal_grate_wall.json",
+          "src/main/resources/assets/aitplus/models/block/metal_grate_wall_post.json",
+          "src/main/resources/assets/aitplus/blockstates/metal_grate_wall.json"
         ]
       },
       "path": "~/Blocks/Other/Grate"
@@ -2045,15 +2045,15 @@
     {
       "name": "ClassicDalek",
       "type": "livingentity",
-      "sortid": 158,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "classic_dalek",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aitplus/models/item/classic_dalek_spawn_egg.json",
           "src/main/java/net/addie/aitplus/client/renderer/ClassicDalekRenderer.java",
-          "src/main/java/net/addie/aitplus/entity/ClassicDalekEntity.java",
-          "src/main/resources/assets/aitplus/models/item/classic_dalek_spawn_egg.json"
+          "src/main/java/net/addie/aitplus/entity/ClassicDalekEntity.java"
         ]
       },
       "path": "~/entities/Daleks"
@@ -2061,14 +2061,14 @@
     {
       "name": "Lazer",
       "type": "projectile",
-      "sortid": 238,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lazer",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/client/renderer/LazerRenderer.java",
-          "src/main/java/net/addie/aitplus/entity/LazerEntity.java"
+          "src/main/java/net/addie/aitplus/entity/LazerEntity.java",
+          "src/main/java/net/addie/aitplus/client/renderer/LazerRenderer.java"
         ]
       },
       "path": "~/entities/Projectiles"
@@ -2076,15 +2076,15 @@
     {
       "name": "TimeWarDalek",
       "type": "livingentity",
-      "sortid": 161,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "time_war_dalek",
       "metadata": {
         "files": [
+          "src/main/java/net/addie/aitplus/client/renderer/TimeWarDalekRenderer.java",
           "src/main/resources/assets/aitplus/models/item/time_war_dalek_spawn_egg.json",
-          "src/main/java/net/addie/aitplus/entity/TimeWarDalekEntity.java",
-          "src/main/java/net/addie/aitplus/client/renderer/TimeWarDalekRenderer.java"
+          "src/main/java/net/addie/aitplus/entity/TimeWarDalekEntity.java"
         ]
       },
       "path": "~/entities/Daleks"
@@ -2092,7 +2092,7 @@
     {
       "name": "ImperialDalek",
       "type": "livingentity",
-      "sortid": 159,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "imperial_dalek",
@@ -2108,15 +2108,15 @@
     {
       "name": "RenegadeDalek",
       "type": "livingentity",
-      "sortid": 160,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "renegade_dalek",
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/entity/RenegadeDalekEntity.java",
-          "src/main/java/net/addie/aitplus/client/renderer/RenegadeDalekRenderer.java",
-          "src/main/resources/assets/aitplus/models/item/renegade_dalek_spawn_egg.json"
+          "src/main/resources/assets/aitplus/models/item/renegade_dalek_spawn_egg.json",
+          "src/main/java/net/addie/aitplus/client/renderer/RenegadeDalekRenderer.java"
         ]
       },
       "path": "~/entities/Daleks"
@@ -2124,7 +2124,7 @@
     {
       "name": "IrradiatedSwamp",
       "type": "biome",
-      "sortid": 239,
+      "sortid": 241,
       "compiles": true,
       "locked_code": true,
       "registry_name": "irradiated_swamp",
@@ -2140,7 +2140,7 @@
     {
       "name": "Logs",
       "type": "tag",
-      "sortid": 240,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "logs",
@@ -2154,7 +2154,7 @@
     {
       "name": "DalekaniumIngot",
       "type": "item",
-      "sortid": 120,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekanium_ingot",
@@ -2169,7 +2169,7 @@
     {
       "name": "DalekaniumNugget",
       "type": "item",
-      "sortid": 121,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekanium_nugget",
@@ -2184,14 +2184,14 @@
     {
       "name": "RawDalekanium",
       "type": "item",
-      "sortid": 122,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_dalekanium",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/RawDalekaniumItem.java",
-          "src/main/resources/assets/aitplus/models/item/raw_dalekanium.json"
+          "src/main/resources/assets/aitplus/models/item/raw_dalekanium.json",
+          "src/main/java/net/addie/aitplus/item/RawDalekaniumItem.java"
         ]
       },
       "path": "~/Items/Dalekanium"
@@ -2252,16 +2252,16 @@
     {
       "name": "DalekaniumArmor",
       "type": "armor",
-      "sortid": 128,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekanium_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/DalekaniumArmorItem.java",
           "src/main/resources/assets/aitplus/models/item/dalekanium_armor_leggings.json",
           "src/main/resources/assets/aitplus/models/item/dalekanium_armor_boots.json",
           "src/main/resources/assets/aitplus/models/item/dalekanium_armor_chestplate.json",
+          "src/main/java/net/addie/aitplus/item/DalekaniumArmorItem.java",
           "src/main/resources/assets/aitplus/models/item/dalekanium_armor_helmet.json"
         ]
       },
@@ -2270,14 +2270,14 @@
     {
       "name": "DalekaniumSword",
       "type": "tool",
-      "sortid": 123,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekanium_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/dalekanium_sword.json",
-          "src/main/java/net/addie/aitplus/item/DalekaniumSwordItem.java"
+          "src/main/java/net/addie/aitplus/item/DalekaniumSwordItem.java",
+          "src/main/resources/assets/aitplus/models/item/dalekanium_sword.json"
         ]
       },
       "path": "~/Items/Dalekanium"
@@ -2285,14 +2285,14 @@
     {
       "name": "DalekaniumPickaxe",
       "type": "tool",
-      "sortid": 124,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekanium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/dalekanium_pickaxe.json",
-          "src/main/java/net/addie/aitplus/item/DalekaniumPickaxeItem.java"
+          "src/main/java/net/addie/aitplus/item/DalekaniumPickaxeItem.java",
+          "src/main/resources/assets/aitplus/models/item/dalekanium_pickaxe.json"
         ]
       },
       "path": "~/Items/Dalekanium"
@@ -2300,14 +2300,14 @@
     {
       "name": "DalekaniumAxe",
       "type": "tool",
-      "sortid": 125,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekanium_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/dalekanium_axe.json",
-          "src/main/java/net/addie/aitplus/item/DalekaniumAxeItem.java"
+          "src/main/java/net/addie/aitplus/item/DalekaniumAxeItem.java",
+          "src/main/resources/assets/aitplus/models/item/dalekanium_axe.json"
         ]
       },
       "path": "~/Items/Dalekanium"
@@ -2315,14 +2315,14 @@
     {
       "name": "DalekaniumShovel",
       "type": "tool",
-      "sortid": 126,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekanium_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/DalekaniumShovelItem.java",
-          "src/main/resources/assets/aitplus/models/item/dalekanium_shovel.json"
+          "src/main/resources/assets/aitplus/models/item/dalekanium_shovel.json",
+          "src/main/java/net/addie/aitplus/item/DalekaniumShovelItem.java"
         ]
       },
       "path": "~/Items/Dalekanium"
@@ -2330,14 +2330,14 @@
     {
       "name": "DalekaniumHoe",
       "type": "tool",
-      "sortid": 127,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dalekanium_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/dalekanium_hoe.json",
-          "src/main/java/net/addie/aitplus/item/DalekaniumHoeItem.java"
+          "src/main/java/net/addie/aitplus/item/DalekaniumHoeItem.java",
+          "src/main/resources/assets/aitplus/models/item/dalekanium_hoe.json"
         ]
       },
       "path": "~/Items/Dalekanium"
@@ -2345,15 +2345,15 @@
     {
       "name": "Davaros",
       "type": "livingentity",
-      "sortid": 163,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "davaros",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/entity/DavarosEntity.java",
           "src/main/java/net/addie/aitplus/client/renderer/DavarosRenderer.java",
-          "src/main/resources/assets/aitplus/models/item/davaros_spawn_egg.json"
+          "src/main/resources/assets/aitplus/models/item/davaros_spawn_egg.json",
+          "src/main/java/net/addie/aitplus/entity/DavarosEntity.java"
         ]
       },
       "path": "~/entities/Daleks"
@@ -2361,7 +2361,7 @@
     {
       "name": "DalekShip",
       "type": "structure",
-      "sortid": 241,
+      "sortid": 243,
       "compiles": true,
       "locked_code": true,
       "registry_name": "dalek_ship",
@@ -2377,7 +2377,7 @@
     {
       "name": "DavarosShip",
       "type": "structure",
-      "sortid": 242,
+      "sortid": 244,
       "compiles": true,
       "locked_code": true,
       "registry_name": "davaros_ship",
@@ -2393,7 +2393,7 @@
     {
       "name": "ImperialShip",
       "type": "structure",
-      "sortid": 243,
+      "sortid": 245,
       "compiles": true,
       "locked_code": true,
       "registry_name": "imperial_ship",
@@ -2417,8 +2417,8 @@
         "files": [
           "src/main/resources/assets/aitplus/models/item/brachacki_a.json",
           "src/main/resources/assets/aitplus/blockstates/brachacki_a.json",
-          "src/main/resources/assets/aitplus/models/block/brachacki_a.json",
-          "src/main/java/net/addie/aitplus/block/BrachackiABlock.java"
+          "src/main/java/net/addie/aitplus/block/BrachackiABlock.java",
+          "src/main/resources/assets/aitplus/models/block/brachacki_a.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Brachacki"
@@ -2432,9 +2432,9 @@
       "registry_name": "brachacki_b",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aitplus/models/block/brachacki_b.json",
           "src/main/resources/assets/aitplus/blockstates/brachacki_b.json",
           "src/main/java/net/addie/aitplus/block/BrachackiBBlock.java",
-          "src/main/resources/assets/aitplus/models/block/brachacki_b.json",
           "src/main/resources/assets/aitplus/models/item/brachacki_b.json"
         ]
       },
@@ -2449,10 +2449,10 @@
       "registry_name": "block_of_brachacki",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/block_of_brachacki.json",
           "src/main/resources/assets/aitplus/blockstates/block_of_brachacki.json",
+          "src/main/resources/assets/aitplus/models/block/block_of_brachacki.json",
           "src/main/java/net/addie/aitplus/block/BlockOfBrachackiBlock.java",
-          "src/main/resources/assets/aitplus/models/block/block_of_brachacki.json"
+          "src/main/resources/assets/aitplus/models/item/block_of_brachacki.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Brachacki"
@@ -2466,10 +2466,10 @@
       "registry_name": "stripped_dark_oak_log_stained_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/stripped_dark_oak_log_stained_roundel.json",
           "src/main/resources/assets/aitplus/models/item/stripped_dark_oak_log_stained_roundel.json",
-          "src/main/java/net/addie/aitplus/block/StrippedDarkOakLogStainedRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/block/stripped_dark_oak_log_stained_roundel.json"
+          "src/main/resources/assets/aitplus/blockstates/stripped_dark_oak_log_stained_roundel.json",
+          "src/main/resources/assets/aitplus/models/block/stripped_dark_oak_log_stained_roundel.json",
+          "src/main/java/net/addie/aitplus/block/StrippedDarkOakLogStainedRoundelBlock.java"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2483,10 +2483,10 @@
       "registry_name": "stripped_jungle_log_stained_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/stripped_jungle_log_stained_roundel.json",
-          "src/main/java/net/addie/aitplus/block/StrippedJungleLogStainedRoundelBlock.java",
+          "src/main/resources/assets/aitplus/models/item/stripped_jungle_log_stained_roundel.json",
           "src/main/resources/assets/aitplus/models/block/stripped_jungle_log_stained_roundel.json",
-          "src/main/resources/assets/aitplus/models/item/stripped_jungle_log_stained_roundel.json"
+          "src/main/java/net/addie/aitplus/block/StrippedJungleLogStainedRoundelBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/stripped_jungle_log_stained_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2500,9 +2500,9 @@
       "registry_name": "stripped_oak_log_stained_roundel",
       "metadata": {
         "files": [
+          "src/main/java/net/addie/aitplus/block/StrippedOakLogStainedRoundelBlock.java",
           "src/main/resources/assets/aitplus/models/item/stripped_oak_log_stained_roundel.json",
           "src/main/resources/assets/aitplus/blockstates/stripped_oak_log_stained_roundel.json",
-          "src/main/java/net/addie/aitplus/block/StrippedOakLogStainedRoundelBlock.java",
           "src/main/resources/assets/aitplus/models/block/stripped_oak_log_stained_roundel.json"
         ]
       },
@@ -2517,10 +2517,10 @@
       "registry_name": "stripped_spruce_log_stained_roundel",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aitplus/blockstates/stripped_spruce_log_stained_roundel.json",
           "src/main/resources/assets/aitplus/models/block/stripped_spruce_log_stained_roundel.json",
-          "src/main/java/net/addie/aitplus/block/StrippedSpruceLogStainedRoundelBlock.java",
           "src/main/resources/assets/aitplus/models/item/stripped_spruce_log_stained_roundel.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_spruce_log_stained_roundel.json"
+          "src/main/java/net/addie/aitplus/block/StrippedSpruceLogStainedRoundelBlock.java"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2535,9 +2535,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/block/StrippedMangroveLogStainedRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/block/stripped_mangrove_log_stained_roundel.json",
+          "src/main/resources/assets/aitplus/blockstates/stripped_mangrove_log_stained_roundel.json",
           "src/main/resources/assets/aitplus/models/item/stripped_mangrove_log_stained_roundel.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_mangrove_log_stained_roundel.json"
+          "src/main/resources/assets/aitplus/models/block/stripped_mangrove_log_stained_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2551,8 +2551,8 @@
       "registry_name": "stripped_warped_stem_stained_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/stripped_warped_stem_stained_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedWarpedStemStainedRoundelBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/stripped_warped_stem_stained_roundel.json",
           "src/main/resources/assets/aitplus/models/block/stripped_warped_stem_stained_roundel.json",
           "src/main/resources/assets/aitplus/models/item/stripped_warped_stem_stained_roundel.json"
         ]
@@ -2568,10 +2568,10 @@
       "registry_name": "stripped_acacia_log_stained_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/stripped_acacia_log_stained_roundel.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_acacia_log_stained_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedAcaciaLogStainedRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/block/stripped_acacia_log_stained_roundel.json"
+          "src/main/resources/assets/aitplus/models/block/stripped_acacia_log_stained_roundel.json",
+          "src/main/resources/assets/aitplus/blockstates/stripped_acacia_log_stained_roundel.json",
+          "src/main/resources/assets/aitplus/models/item/stripped_acacia_log_stained_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2585,10 +2585,10 @@
       "registry_name": "stripped_bamboo_block_stained_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/stripped_bamboo_block_stained_roundel.json",
+          "src/main/resources/assets/aitplus/models/block/stripped_bamboo_block_stained_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedBambooBlockStainedRoundelBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/stripped_bamboo_block_stained_roundel.json",
-          "src/main/resources/assets/aitplus/models/block/stripped_bamboo_block_stained_roundel.json"
+          "src/main/resources/assets/aitplus/models/item/stripped_bamboo_block_stained_roundel.json",
+          "src/main/resources/assets/aitplus/blockstates/stripped_bamboo_block_stained_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2602,10 +2602,10 @@
       "registry_name": "stone_bricks_stained_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/stone_bricks_stained_roundel.json",
           "src/main/resources/assets/aitplus/blockstates/stone_bricks_stained_roundel.json",
           "src/main/resources/assets/aitplus/models/block/stone_bricks_stained_roundel.json",
-          "src/main/java/net/addie/aitplus/block/StoneBricksStainedRoundelBlock.java"
+          "src/main/java/net/addie/aitplus/block/StoneBricksStainedRoundelBlock.java",
+          "src/main/resources/assets/aitplus/models/item/stone_bricks_stained_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2621,8 +2621,8 @@
         "files": [
           "src/main/resources/assets/aitplus/models/block/polished_blackstone_stained_roundel.json",
           "src/main/java/net/addie/aitplus/block/PolishedBlackstoneStainedRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/item/polished_blackstone_stained_roundel.json",
-          "src/main/resources/assets/aitplus/blockstates/polished_blackstone_stained_roundel.json"
+          "src/main/resources/assets/aitplus/blockstates/polished_blackstone_stained_roundel.json",
+          "src/main/resources/assets/aitplus/models/item/polished_blackstone_stained_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2636,8 +2636,8 @@
       "registry_name": "stripped_cherry_log_stained_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/stripped_cherry_log_stained_roundel.json",
           "src/main/resources/assets/aitplus/blockstates/stripped_cherry_log_stained_roundel.json",
+          "src/main/resources/assets/aitplus/models/block/stripped_cherry_log_stained_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedCherryLogStainedRoundelBlock.java",
           "src/main/resources/assets/aitplus/models/item/stripped_cherry_log_stained_roundel.json"
         ]
@@ -2653,10 +2653,10 @@
       "registry_name": "quartz_block_stained_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/quartz_block_stained_roundel.json",
           "src/main/resources/assets/aitplus/models/block/quartz_block_stained_roundel.json",
-          "src/main/java/net/addie/aitplus/block/QuartzBlockStainedRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/item/quartz_block_stained_roundel.json"
+          "src/main/resources/assets/aitplus/models/item/quartz_block_stained_roundel.json",
+          "src/main/resources/assets/aitplus/blockstates/quartz_block_stained_roundel.json",
+          "src/main/java/net/addie/aitplus/block/QuartzBlockStainedRoundelBlock.java"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2670,10 +2670,10 @@
       "registry_name": "stripped_birch_log_stained_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/stripped_birch_log_stained_roundel.json",
           "src/main/resources/assets/aitplus/models/block/stripped_birch_log_stained_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedBirchLogStainedRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/item/stripped_birch_log_stained_roundel.json"
+          "src/main/resources/assets/aitplus/models/item/stripped_birch_log_stained_roundel.json",
+          "src/main/resources/assets/aitplus/blockstates/stripped_birch_log_stained_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2687,10 +2687,10 @@
       "registry_name": "stripped_crimson_stem_stained_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/stripped_crimson_stem_stained_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedCrimsonStemStainedRoundelBlock.java",
           "src/main/resources/assets/aitplus/models/item/stripped_crimson_stem_stained_roundel.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_crimson_stem_stained_roundel.json"
+          "src/main/resources/assets/aitplus/blockstates/stripped_crimson_stem_stained_roundel.json",
+          "src/main/resources/assets/aitplus/models/block/stripped_crimson_stem_stained_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stained"
@@ -2722,7 +2722,7 @@
     {
       "name": "DoorsOnRightClicked",
       "type": "procedure",
-      "sortid": 244,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doors_on_right_clicked",
@@ -2760,10 +2760,10 @@
       "registry_name": "retro_a",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/retro_a.json",
+          "src/main/resources/assets/aitplus/models/block/retro_a.json",
           "src/main/java/net/addie/aitplus/block/RetroABlock.java",
           "src/main/resources/assets/aitplus/models/item/retro_a.json",
-          "src/main/resources/assets/aitplus/models/block/retro_a.json"
+          "src/main/resources/assets/aitplus/blockstates/retro_a.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Retro"
@@ -2777,10 +2777,10 @@
       "registry_name": "retro_b",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/RetroBBlock.java",
           "src/main/resources/assets/aitplus/models/block/retro_b.json",
           "src/main/resources/assets/aitplus/models/item/retro_b.json",
-          "src/main/resources/assets/aitplus/blockstates/retro_b.json"
+          "src/main/resources/assets/aitplus/blockstates/retro_b.json",
+          "src/main/java/net/addie/aitplus/block/RetroBBlock.java"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Retro"
@@ -2818,10 +2818,10 @@
       "registry_name": "quartz_a",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/quartz_a.json",
+          "src/main/java/net/addie/aitplus/block/QuartzRoundelBlock.java",
           "src/main/resources/assets/aitplus/models/block/quartz_a.json",
-          "src/main/resources/assets/aitplus/models/item/quartz_a.json",
-          "src/main/java/net/addie/aitplus/block/QuartzRoundelBlock.java"
+          "src/main/resources/assets/aitplus/blockstates/quartz_a.json",
+          "src/main/resources/assets/aitplus/models/item/quartz_a.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Quartz"
@@ -2859,10 +2859,10 @@
       "registry_name": "hat_stand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/hat_stand.json",
+          "src/main/java/net/addie/aitplus/block/HatStandBlock.java",
           "src/main/resources/assets/aitplus/models/item/hat_stand.json",
           "src/main/resources/assets/aitplus/models/block/hat_stand.json",
-          "src/main/java/net/addie/aitplus/block/HatStandBlock.java"
+          "src/main/resources/assets/aitplus/blockstates/hat_stand.json"
         ]
       },
       "path": "~/Blocks/Decor/HatStand"
@@ -2870,7 +2870,7 @@
     {
       "name": "HatStandRecipe",
       "type": "recipe",
-      "sortid": 245,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hat_stand_recipe",
@@ -2918,7 +2918,7 @@
     {
       "name": "RoundelTable",
       "type": "block",
-      "sortid": 246,
+      "sortid": 248,
       "compiles": true,
       "locked_code": true,
       "registry_name": "roundel_table",
@@ -2936,7 +2936,7 @@
     {
       "name": "RoundelTableGui",
       "type": "gui",
-      "sortid": 247,
+      "sortid": 249,
       "compiles": true,
       "locked_code": true,
       "registry_name": "roundel_table_gui",
@@ -2951,7 +2951,7 @@
     {
       "name": "StainedGlass",
       "type": "tag",
-      "sortid": 248,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stained_glass",
@@ -2965,7 +2965,7 @@
     {
       "name": "Testrecipe",
       "type": "procedure",
-      "sortid": 249,
+      "sortid": 251,
       "compiles": true,
       "locked_code": true,
       "registry_name": "testrecipe",
@@ -2985,7 +2985,7 @@
     {
       "name": "LedBlueprint",
       "type": "item",
-      "sortid": 147,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_blueprint",
@@ -3000,14 +3000,14 @@
     {
       "name": "StainedRoundelBlueprint",
       "type": "item",
-      "sortid": 148,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stained_roundel_blueprint",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/StainedRoundelBlueprintItem.java",
-          "src/main/resources/assets/aitplus/models/item/stained_roundel_blueprint.json"
+          "src/main/resources/assets/aitplus/models/item/stained_roundel_blueprint.json",
+          "src/main/java/net/addie/aitplus/item/StainedRoundelBlueprintItem.java"
         ]
       },
       "path": "~/Items/blueprints"
@@ -3015,7 +3015,7 @@
     {
       "name": "QuartzRoundelBlueprint",
       "type": "item",
-      "sortid": 149,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_roundel_blueprint",
@@ -3030,14 +3030,14 @@
     {
       "name": "BrachackiBlueprint",
       "type": "item",
-      "sortid": 150,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brachacki_blueprint",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/BrachackiBlueprintItem.java",
-          "src/main/resources/assets/aitplus/models/item/brachacki_blueprint.json"
+          "src/main/resources/assets/aitplus/models/item/brachacki_blueprint.json",
+          "src/main/java/net/addie/aitplus/item/BrachackiBlueprintItem.java"
         ]
       },
       "path": "~/Items/blueprints"
@@ -3045,14 +3045,14 @@
     {
       "name": "RetroRoundelBlueprint",
       "type": "item",
-      "sortid": 151,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "retro_roundel_blueprint",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/retro_roundel_blueprint.json",
-          "src/main/java/net/addie/aitplus/item/RetroRoundelBlueprintItem.java"
+          "src/main/java/net/addie/aitplus/item/RetroRoundelBlueprintItem.java",
+          "src/main/resources/assets/aitplus/models/item/retro_roundel_blueprint.json"
         ]
       },
       "path": "~/Items/blueprints"
@@ -3060,7 +3060,7 @@
     {
       "name": "BowlRoundelBlueprint",
       "type": "item",
-      "sortid": 152,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bowl_roundel_blueprint",
@@ -3075,7 +3075,7 @@
     {
       "name": "Blueprint",
       "type": "item",
-      "sortid": 146,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueprint",
@@ -3090,7 +3090,7 @@
     {
       "name": "BlueprintRecipe",
       "type": "recipe",
-      "sortid": 250,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blueprint_recipe",
@@ -3104,7 +3104,7 @@
     {
       "name": "LedBlueprintRecipe",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_blueprint_recipe",
@@ -3118,7 +3118,7 @@
     {
       "name": "StainedRoundelBlueprintRecipe",
       "type": "recipe",
-      "sortid": 252,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stained_roundel_blueprint_recipe",
@@ -3132,7 +3132,7 @@
     {
       "name": "QuartzRoundelBlueprintRecipe",
       "type": "recipe",
-      "sortid": 253,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_roundel_blueprint_recipe",
@@ -3146,7 +3146,7 @@
     {
       "name": "BrachackiBlueprintRecipe",
       "type": "recipe",
-      "sortid": 254,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brachacki_blueprint_recipe",
@@ -3160,7 +3160,7 @@
     {
       "name": "RetroRoundelBlueprintRecipe",
       "type": "recipe",
-      "sortid": 255,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "retro_roundel_blueprint_recipe",
@@ -3174,7 +3174,7 @@
     {
       "name": "BowlRoundelBlueprintRecipe",
       "type": "recipe",
-      "sortid": 256,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bowl_roundel_blueprint_recipe",
@@ -3188,7 +3188,7 @@
     {
       "name": "LedRoundelRecipe",
       "type": "recipe",
-      "sortid": 257,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "led_roundel_recipe",
@@ -3202,7 +3202,7 @@
     {
       "name": "DarkOakStainedRecipe",
       "type": "recipe",
-      "sortid": 258,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_oak_stained_recipe",
@@ -3216,7 +3216,7 @@
     {
       "name": "JungleStainedRecipe",
       "type": "recipe",
-      "sortid": 259,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jungle_stained_recipe",
@@ -3230,7 +3230,7 @@
     {
       "name": "OakStainedRecipe",
       "type": "recipe",
-      "sortid": 260,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oak_stained_recipe",
@@ -3244,7 +3244,7 @@
     {
       "name": "SpruceStainedRecipe",
       "type": "recipe",
-      "sortid": 261,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spruce_stained_recipe",
@@ -3258,7 +3258,7 @@
     {
       "name": "MangroveStainedRecipe",
       "type": "recipe",
-      "sortid": 262,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mangrove_stained_recipe",
@@ -3272,7 +3272,7 @@
     {
       "name": "AcaciaStainedRecipe",
       "type": "recipe",
-      "sortid": 263,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "acacia_stained_recipe",
@@ -3286,7 +3286,7 @@
     {
       "name": "BambooStainedRecipe",
       "type": "recipe",
-      "sortid": 264,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bamboo_stained_recipe",
@@ -3300,7 +3300,7 @@
     {
       "name": "StoneStainedRecipe",
       "type": "recipe",
-      "sortid": 265,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_stained_recipe",
@@ -3314,7 +3314,7 @@
     {
       "name": "WarpedStainedRecipe",
       "type": "recipe",
-      "sortid": 266,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "warped_stained_recipe",
@@ -3328,7 +3328,7 @@
     {
       "name": "BlackstoneStainedRecipe",
       "type": "recipe",
-      "sortid": 267,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blackstone_stained_recipe",
@@ -3342,7 +3342,7 @@
     {
       "name": "CherryStainedRecipe",
       "type": "recipe",
-      "sortid": 268,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cherry_stained_recipe",
@@ -3356,7 +3356,7 @@
     {
       "name": "QuartzStainedRecipe",
       "type": "recipe",
-      "sortid": 269,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_stained_recipe",
@@ -3370,7 +3370,7 @@
     {
       "name": "BirchStainedRecipe",
       "type": "recipe",
-      "sortid": 270,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "birch_stained_recipe",
@@ -3384,7 +3384,7 @@
     {
       "name": "CrimsonStainedRecipe",
       "type": "recipe",
-      "sortid": 271,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_stained_recipe",
@@ -3398,7 +3398,7 @@
     {
       "name": "BrachackiARecipe",
       "type": "recipe",
-      "sortid": 272,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brachacki_a_recipe",
@@ -3412,7 +3412,7 @@
     {
       "name": "BrachackiBRecipe",
       "type": "recipe",
-      "sortid": 273,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brachacki_b_recipe",
@@ -3426,7 +3426,7 @@
     {
       "name": "BrachackiBlockRecipe",
       "type": "recipe",
-      "sortid": 274,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brachacki_block_recipe",
@@ -3440,7 +3440,7 @@
     {
       "name": "RetroARecipe",
       "type": "recipe",
-      "sortid": 275,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "retro_a_recipe",
@@ -3454,7 +3454,7 @@
     {
       "name": "RetroBRecipe",
       "type": "recipe",
-      "sortid": 276,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "retro_b_recipe",
@@ -3468,7 +3468,7 @@
     {
       "name": "RetroDoorRecipe",
       "type": "recipe",
-      "sortid": 277,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "retro_door_recipe",
@@ -3482,7 +3482,7 @@
     {
       "name": "BrachackiDoorRecipe",
       "type": "recipe",
-      "sortid": 278,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brachacki_door_recipe",
@@ -3496,7 +3496,7 @@
     {
       "name": "QuartzRoundelRecipe",
       "type": "recipe",
-      "sortid": 279,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_roundel_recipe",
@@ -3510,7 +3510,7 @@
     {
       "name": "BowlARecipe",
       "type": "recipe",
-      "sortid": 280,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bowl_a_recipe",
@@ -3524,7 +3524,7 @@
     {
       "name": "BowlBRecipe",
       "type": "recipe",
-      "sortid": 281,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bowl_b_recipe",
@@ -3544,10 +3544,10 @@
       "registry_name": "quartz_b",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/quartz_b.json",
+          "src/main/resources/assets/aitplus/models/block/quartz_b.json",
           "src/main/java/net/addie/aitplus/block/QuartzBBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/quartz_b.json",
-          "src/main/resources/assets/aitplus/models/block/quartz_b.json"
+          "src/main/resources/assets/aitplus/models/item/quartz_b.json",
+          "src/main/resources/assets/aitplus/blockstates/quartz_b.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Quartz"
@@ -3555,7 +3555,7 @@
     {
       "name": "QuartzBRecipe",
       "type": "recipe",
-      "sortid": 282,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_b_recipe",
@@ -3569,7 +3569,7 @@
     {
       "name": "QuartzDoorRecipe",
       "type": "recipe",
-      "sortid": 283,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "quartz_door_recipe",
@@ -3589,10 +3589,10 @@
       "registry_name": "statue_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/statue_1.json",
+          "src/main/resources/assets/aitplus/models/block/statue_1.json",
           "src/main/java/net/addie/aitplus/block/Statue1Block.java",
-          "src/main/resources/assets/aitplus/blockstates/statue_1.json",
-          "src/main/resources/assets/aitplus/models/block/statue_1.json"
+          "src/main/resources/assets/aitplus/models/item/statue_1.json",
+          "src/main/resources/assets/aitplus/blockstates/statue_1.json"
         ]
       },
       "path": "~/Blocks/Decor/Statue"
@@ -3600,7 +3600,7 @@
     {
       "name": "StatueRecipe",
       "type": "recipe",
-      "sortid": 284,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "statue_recipe",
@@ -3614,7 +3614,7 @@
     {
       "name": "StatueStonecutterRecipe",
       "type": "recipe",
-      "sortid": 285,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "statue_stonecutter_recipe",
@@ -3634,10 +3634,10 @@
       "registry_name": "gramophone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/gramophone.json",
-          "src/main/java/net/addie/aitplus/block/GramophoneBlock.java",
           "src/main/resources/assets/aitplus/models/block/gramophone.json",
-          "src/main/resources/assets/aitplus/models/item/gramophone.json"
+          "src/main/resources/assets/aitplus/models/item/gramophone.json",
+          "src/main/java/net/addie/aitplus/block/GramophoneBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/gramophone.json"
         ]
       },
       "path": "~/Blocks/Decor/Gramophone"
@@ -3645,7 +3645,7 @@
     {
       "name": "GramophoneRecipe",
       "type": "recipe",
-      "sortid": 286,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gramophone_recipe",
@@ -3665,10 +3665,10 @@
       "registry_name": "candle_stand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/candle_stand.json",
-          "src/main/java/net/addie/aitplus/block/CandleStandBlock.java",
           "src/main/resources/assets/aitplus/models/block/candle_stand.json",
-          "src/main/resources/assets/aitplus/blockstates/candle_stand.json"
+          "src/main/resources/assets/aitplus/blockstates/candle_stand.json",
+          "src/main/java/net/addie/aitplus/block/CandleStandBlock.java",
+          "src/main/resources/assets/aitplus/models/item/candle_stand.json"
         ]
       },
       "path": "~/Blocks/Decor/CandleStand"
@@ -3676,16 +3676,16 @@
     {
       "name": "CandelStandLit",
       "type": "block",
-      "sortid": 287,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candel_stand_lit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/candel_stand_lit.json",
+          "src/main/java/net/addie/aitplus/block/CandelStandLitBlock.java",
           "src/main/resources/assets/aitplus/models/item/candel_stand_lit.json",
           "src/main/resources/assets/aitplus/blockstates/candel_stand_lit.json",
-          "src/main/java/net/addie/aitplus/block/CandelStandLitBlock.java"
+          "src/main/resources/assets/aitplus/models/block/candel_stand_lit.json"
         ]
       },
       "path": "~/Blocks/Decor/CandleStand"
@@ -3693,7 +3693,7 @@
     {
       "name": "CandleStandRecipe",
       "type": "recipe",
-      "sortid": 288,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candle_stand_recipe",
@@ -3707,7 +3707,7 @@
     {
       "name": "CandleStandOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 289,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candle_stand_on_block_right_clicked",
@@ -3743,7 +3743,7 @@
     {
       "name": "CandelStandLitOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 290,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candel_stand_lit_on_block_right_clicked",
@@ -3775,7 +3775,7 @@
     {
       "name": "CandelStandLitUpdateTick",
       "type": "procedure",
-      "sortid": 291,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candel_stand_lit_update_tick",
@@ -3824,7 +3824,7 @@
     {
       "name": "HatStandWhiteRecipe",
       "type": "recipe",
-      "sortid": 292,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hat_stand_white_recipe",
@@ -3855,7 +3855,7 @@
     {
       "name": "JukeboxTopRecipe",
       "type": "recipe",
-      "sortid": 293,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jukebox_top_recipe",
@@ -3875,10 +3875,10 @@
       "registry_name": "toyota_bookshelf",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/ToyotaBookshelfBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/toyota_bookshelf.json",
           "src/main/resources/assets/aitplus/models/block/toyota_bookshelf.json",
-          "src/main/resources/assets/aitplus/models/item/toyota_bookshelf.json"
+          "src/main/resources/assets/aitplus/blockstates/toyota_bookshelf.json",
+          "src/main/resources/assets/aitplus/models/item/toyota_bookshelf.json",
+          "src/main/java/net/addie/aitplus/block/ToyotaBookshelfBlock.java"
         ]
       },
       "path": "~/Blocks/Decor/Bookshelf"
@@ -3886,7 +3886,7 @@
     {
       "name": "ToyotaBookshelfRecipe",
       "type": "recipe",
-      "sortid": 294,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toyota_bookshelf_recipe",
@@ -3900,14 +3900,14 @@
     {
       "name": "JammieDodgers",
       "type": "item",
-      "sortid": 145,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jammie_dodgers",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/JammieDodgersItem.java",
-          "src/main/resources/assets/aitplus/models/item/jammie_dodgers.json"
+          "src/main/resources/assets/aitplus/models/item/jammie_dodgers.json",
+          "src/main/java/net/addie/aitplus/item/JammieDodgersItem.java"
         ]
       },
       "path": "~/Items/JammieDodgers"
@@ -3915,7 +3915,7 @@
     {
       "name": "JammieDodgersRecipe",
       "type": "recipe",
-      "sortid": 295,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jammie_dodgers_recipe",
@@ -3946,7 +3946,7 @@
     {
       "name": "SealOfRassilonRecipe",
       "type": "recipe",
-      "sortid": 296,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seal_of_rassilon_recipe",
@@ -3960,7 +3960,7 @@
     {
       "name": "StreetLampRecipe",
       "type": "recipe",
-      "sortid": 297,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "street_lamp_recipe",
@@ -3980,9 +3980,9 @@
       "registry_name": "street_lamp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/street_lamp.json",
-          "src/main/resources/assets/aitplus/blockstates/street_lamp.json",
           "src/main/java/net/addie/aitplus/block/StreetLampBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/street_lamp.json",
+          "src/main/resources/assets/aitplus/models/block/street_lamp.json",
           "src/main/resources/assets/aitplus/models/item/street_lamp.json"
         ]
       },
@@ -4015,7 +4015,7 @@
     {
       "name": "StoneDoorRecipe",
       "type": "recipe",
-      "sortid": 298,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_door_recipe",
@@ -4035,10 +4035,10 @@
       "registry_name": "ice_blue_a",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/ice_blue_a.json",
           "src/main/java/net/addie/aitplus/block/IceBlueABlock.java",
-          "src/main/resources/assets/aitplus/blockstates/ice_blue_a.json",
-          "src/main/resources/assets/aitplus/models/item/ice_blue_a.json"
+          "src/main/resources/assets/aitplus/models/item/ice_blue_a.json",
+          "src/main/resources/assets/aitplus/models/block/ice_blue_a.json",
+          "src/main/resources/assets/aitplus/blockstates/ice_blue_a.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/IceBlue"
@@ -4052,10 +4052,10 @@
       "registry_name": "ice_blue_b",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/ice_blue_b.json",
+          "src/main/resources/assets/aitplus/blockstates/ice_blue_b.json",
           "src/main/java/net/addie/aitplus/block/IceBlueBBlock.java",
           "src/main/resources/assets/aitplus/models/item/ice_blue_b.json",
-          "src/main/resources/assets/aitplus/blockstates/ice_blue_b.json"
+          "src/main/resources/assets/aitplus/models/block/ice_blue_b.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/IceBlue"
@@ -4063,7 +4063,7 @@
     {
       "name": "IceBlueRoundelBlueprint",
       "type": "item",
-      "sortid": 153,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_blue_roundel_blueprint",
@@ -4078,7 +4078,7 @@
     {
       "name": "IceBlueRoundelBlueprintRecipe",
       "type": "recipe",
-      "sortid": 299,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_blue_roundel_blueprint_recipe",
@@ -4092,7 +4092,7 @@
     {
       "name": "IceBlueARecipe",
       "type": "recipe",
-      "sortid": 300,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_blue_a_recipe",
@@ -4106,7 +4106,7 @@
     {
       "name": "IceBlueBRecipe",
       "type": "recipe",
-      "sortid": 301,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_blue_b_recipe",
@@ -4126,10 +4126,10 @@
       "registry_name": "blow_up_a",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/BlowUpABlock.java",
-          "src/main/resources/assets/aitplus/models/item/blow_up_a.json",
+          "src/main/resources/assets/aitplus/blockstates/blow_up_a.json",
           "src/main/resources/assets/aitplus/models/block/blow_up_a.json",
-          "src/main/resources/assets/aitplus/blockstates/blow_up_a.json"
+          "src/main/java/net/addie/aitplus/block/BlowUpABlock.java",
+          "src/main/resources/assets/aitplus/models/item/blow_up_a.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Blowup"
@@ -4143,10 +4143,10 @@
       "registry_name": "blow_up_b",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/blow_up_b.json",
-          "src/main/resources/assets/aitplus/blockstates/blow_up_b.json",
           "src/main/java/net/addie/aitplus/block/BlowUpBBlock.java",
-          "src/main/resources/assets/aitplus/models/block/blow_up_b.json"
+          "src/main/resources/assets/aitplus/models/item/blow_up_b.json",
+          "src/main/resources/assets/aitplus/models/block/blow_up_b.json",
+          "src/main/resources/assets/aitplus/blockstates/blow_up_b.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Blowup"
@@ -4160,10 +4160,10 @@
       "registry_name": "blow_up_c",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/blow_up_c.json",
-          "src/main/resources/assets/aitplus/blockstates/blow_up_c.json",
           "src/main/resources/assets/aitplus/models/item/blow_up_c.json",
-          "src/main/java/net/addie/aitplus/block/BlowUpCBlock.java"
+          "src/main/resources/assets/aitplus/models/block/blow_up_c.json",
+          "src/main/java/net/addie/aitplus/block/BlowUpCBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/blow_up_c.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Blowup"
@@ -4171,7 +4171,7 @@
     {
       "name": "BlowUpARecipe",
       "type": "recipe",
-      "sortid": 302,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blow_up_a_recipe",
@@ -4185,7 +4185,7 @@
     {
       "name": "BlowUpBRecipe",
       "type": "recipe",
-      "sortid": 303,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blow_up_b_recipe",
@@ -4199,7 +4199,7 @@
     {
       "name": "BlowUpCRecipe",
       "type": "recipe",
-      "sortid": 304,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blow_up_c_recipe",
@@ -4229,7 +4229,7 @@
     {
       "name": "VictorianChairRecipe",
       "type": "recipe",
-      "sortid": 305,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "victorian_chair_recipe",
@@ -4259,7 +4259,7 @@
     {
       "name": "OfficeChairRecipe",
       "type": "recipe",
-      "sortid": 306,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "office_chair_recipe",
@@ -4273,7 +4273,7 @@
     {
       "name": "VargaPlantMobplayerCollidesWithPlant",
       "type": "procedure",
-      "sortid": 307,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "varga_plant_mobplayer_collides_with_plant",
@@ -4299,12 +4299,12 @@
       "registry_name": "varga_plant",
       "metadata": {
         "files": [
-          "src/main/resources/data/aitplus/worldgen/configured_feature/varga_plant.json",
-          "src/main/resources/assets/aitplus/blockstates/varga_plant.json",
-          "src/main/java/net/addie/aitplus/block/VargaPlantBlock.java",
           "src/main/resources/assets/aitplus/models/block/varga_plant_bottom.json",
+          "src/main/resources/assets/aitplus/blockstates/varga_plant.json",
           "src/main/resources/assets/aitplus/models/item/varga_plant.json",
+          "src/main/java/net/addie/aitplus/block/VargaPlantBlock.java",
           "src/main/resources/data/aitplus/worldgen/placed_feature/varga_plant.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/varga_plant.json",
           "src/main/resources/assets/aitplus/models/block/varga_plant.json"
         ]
       },
@@ -4319,10 +4319,10 @@
       "registry_name": "petrified_bush",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/petrified_bush.json",
           "src/main/resources/assets/aitplus/models/block/petrified_bush.json",
-          "src/main/resources/assets/aitplus/blockstates/petrified_bush.json",
-          "src/main/java/net/addie/aitplus/block/PetrifiedBushBlock.java"
+          "src/main/resources/assets/aitplus/models/item/petrified_bush.json",
+          "src/main/java/net/addie/aitplus/block/PetrifiedBushBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/petrified_bush.json"
         ]
       },
       "path": "~/Blocks/Nature/Plants/Skaro"
@@ -4337,11 +4337,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/block/PreservedFlowerBlock.java",
-          "src/main/resources/assets/aitplus/models/item/preserved_flower.json",
           "src/main/resources/assets/aitplus/blockstates/preserved_flower.json",
           "src/main/resources/assets/aitplus/models/block/preserved_flower.json",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/preserved_flower.json",
           "src/main/resources/data/aitplus/worldgen/placed_feature/preserved_flower.json",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/preserved_flower.json"
+          "src/main/resources/assets/aitplus/models/item/preserved_flower.json"
         ]
       },
       "path": "~/Blocks/Nature/Plants/Skaro"
@@ -4355,10 +4355,10 @@
       "registry_name": "stripped_acacia_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/stripped_acacia_roundel.json",
           "src/main/resources/assets/aitplus/blockstates/stripped_acacia_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedAcaciaRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/block/stripped_acacia_roundel.json"
+          "src/main/resources/assets/aitplus/models/block/stripped_acacia_roundel.json",
+          "src/main/resources/assets/aitplus/models/item/stripped_acacia_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4372,10 +4372,10 @@
       "registry_name": "stripped_bamboo_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/stripped_bamboo_roundel.json",
+          "src/main/resources/assets/aitplus/models/block/stripped_bamboo_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedBambooRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/item/stripped_bamboo_roundel.json",
-          "src/main/resources/assets/aitplus/models/block/stripped_bamboo_roundel.json"
+          "src/main/resources/assets/aitplus/blockstates/stripped_bamboo_roundel.json",
+          "src/main/resources/assets/aitplus/models/item/stripped_bamboo_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4390,9 +4390,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aitplus/blockstates/stripped_birch_roundel.json",
+          "src/main/java/net/addie/aitplus/block/StrippedBirchRoundelBlock.java",
           "src/main/resources/assets/aitplus/models/block/stripped_birch_roundel.json",
-          "src/main/resources/assets/aitplus/models/item/stripped_birch_roundel.json",
-          "src/main/java/net/addie/aitplus/block/StrippedBirchRoundelBlock.java"
+          "src/main/resources/assets/aitplus/models/item/stripped_birch_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4406,10 +4406,10 @@
       "registry_name": "stripped_cherry_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/stripped_cherry_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedCherryRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/block/stripped_cherry_roundel.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_cherry_roundel.json"
+          "src/main/resources/assets/aitplus/models/item/stripped_cherry_roundel.json",
+          "src/main/resources/assets/aitplus/blockstates/stripped_cherry_roundel.json",
+          "src/main/resources/assets/aitplus/models/block/stripped_cherry_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4423,10 +4423,10 @@
       "registry_name": "stripped_crimson_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/stripped_crimson_roundel.json",
-          "src/main/resources/assets/aitplus/models/block/stripped_crimson_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedCrimsonRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/item/stripped_crimson_roundel.json"
+          "src/main/resources/assets/aitplus/models/item/stripped_crimson_roundel.json",
+          "src/main/resources/assets/aitplus/blockstates/stripped_crimson_roundel.json",
+          "src/main/resources/assets/aitplus/models/block/stripped_crimson_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4441,9 +4441,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/block/StrippedDarkOakRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/item/stripped_dark_oak_roundel.json",
           "src/main/resources/assets/aitplus/blockstates/stripped_dark_oak_roundel.json",
-          "src/main/resources/assets/aitplus/models/block/stripped_dark_oak_roundel.json"
+          "src/main/resources/assets/aitplus/models/block/stripped_dark_oak_roundel.json",
+          "src/main/resources/assets/aitplus/models/item/stripped_dark_oak_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4457,9 +4457,9 @@
       "registry_name": "stripped_jungle_roundel",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/StrippedJungleRoundelBlock.java",
           "src/main/resources/assets/aitplus/blockstates/stripped_jungle_roundel.json",
           "src/main/resources/assets/aitplus/models/item/stripped_jungle_roundel.json",
+          "src/main/java/net/addie/aitplus/block/StrippedJungleRoundelBlock.java",
           "src/main/resources/assets/aitplus/models/block/stripped_jungle_roundel.json"
         ]
       },
@@ -4474,10 +4474,10 @@
       "registry_name": "stripped_mangrove_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/stripped_mangrove_roundel.json",
+          "src/main/java/net/addie/aitplus/block/StrippedMangroveRoundelBlock.java",
           "src/main/resources/assets/aitplus/blockstates/stripped_mangrove_roundel.json",
           "src/main/resources/assets/aitplus/models/block/stripped_mangrove_roundel.json",
-          "src/main/java/net/addie/aitplus/block/StrippedMangroveRoundelBlock.java"
+          "src/main/resources/assets/aitplus/models/item/stripped_mangrove_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4492,9 +4492,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aitplus/models/item/stripped_oak_roundel.json",
+          "src/main/java/net/addie/aitplus/block/StrippedOakRoundelBlock.java",
           "src/main/resources/assets/aitplus/blockstates/stripped_oak_roundel.json",
-          "src/main/resources/assets/aitplus/models/block/stripped_oak_roundel.json",
-          "src/main/java/net/addie/aitplus/block/StrippedOakRoundelBlock.java"
+          "src/main/resources/assets/aitplus/models/block/stripped_oak_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4508,10 +4508,10 @@
       "registry_name": "stripped_spruce_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/stripped_spruce_roundel.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_spruce_roundel.json",
           "src/main/java/net/addie/aitplus/block/StrippedSpruceRoundelBlock.java",
-          "src/main/resources/assets/aitplus/models/item/stripped_spruce_roundel.json"
+          "src/main/resources/assets/aitplus/models/item/stripped_spruce_roundel.json",
+          "src/main/resources/assets/aitplus/blockstates/stripped_spruce_roundel.json",
+          "src/main/resources/assets/aitplus/models/block/stripped_spruce_roundel.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4525,10 +4525,10 @@
       "registry_name": "stripped_warped_roundel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/stripped_warped_roundel.json",
-          "src/main/java/net/addie/aitplus/block/StrippedWarpedRoundelBlock.java",
           "src/main/resources/assets/aitplus/models/item/stripped_warped_roundel.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_warped_roundel.json"
+          "src/main/resources/assets/aitplus/models/block/stripped_warped_roundel.json",
+          "src/main/resources/assets/aitplus/blockstates/stripped_warped_roundel.json",
+          "src/main/java/net/addie/aitplus/block/StrippedWarpedRoundelBlock.java"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4544,8 +4544,8 @@
         "files": [
           "src/main/resources/assets/aitplus/models/item/stripped_spruce_roundel_a.json",
           "src/main/resources/assets/aitplus/blockstates/stripped_spruce_roundel_a.json",
-          "src/main/java/net/addie/aitplus/block/StrippedSpruceRoundelABlock.java",
-          "src/main/resources/assets/aitplus/models/block/stripped_spruce_roundel_a.json"
+          "src/main/resources/assets/aitplus/models/block/stripped_spruce_roundel_a.json",
+          "src/main/java/net/addie/aitplus/block/StrippedSpruceRoundelABlock.java"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4559,9 +4559,9 @@
       "registry_name": "stripped_spruce_roundel_b",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/stripped_spruce_roundel_b.json",
           "src/main/java/net/addie/aitplus/block/StrippedSpruceRoundelBBlock.java",
           "src/main/resources/assets/aitplus/models/item/stripped_spruce_roundel_b.json",
+          "src/main/resources/assets/aitplus/blockstates/stripped_spruce_roundel_b.json",
           "src/main/resources/assets/aitplus/models/block/stripped_spruce_roundel_b.json"
         ]
       },
@@ -4577,9 +4577,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/block/StrippedSpruceRoundelCBlock.java",
-          "src/main/resources/assets/aitplus/models/block/stripped_spruce_roundel_c.json",
           "src/main/resources/assets/aitplus/blockstates/stripped_spruce_roundel_c.json",
-          "src/main/resources/assets/aitplus/models/item/stripped_spruce_roundel_c.json"
+          "src/main/resources/assets/aitplus/models/item/stripped_spruce_roundel_c.json",
+          "src/main/resources/assets/aitplus/models/block/stripped_spruce_roundel_c.json"
         ]
       },
       "path": "~/Blocks/Other/Roundels/Stripped"
@@ -4587,14 +4587,14 @@
     {
       "name": "StrippedWoodRoundelBlueprint",
       "type": "item",
-      "sortid": 154,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_wood_roundel_blueprint",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/stripped_wood_roundel_blueprint.json",
-          "src/main/java/net/addie/aitplus/item/StrippedWoodRoundelBlueprintItem.java"
+          "src/main/java/net/addie/aitplus/item/StrippedWoodRoundelBlueprintItem.java",
+          "src/main/resources/assets/aitplus/models/item/stripped_wood_roundel_blueprint.json"
         ]
       },
       "path": "~/Items/blueprints"
@@ -4602,7 +4602,7 @@
     {
       "name": "AcaciaStrippedRoundel",
       "type": "recipe",
-      "sortid": 308,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "acacia_stripped_roundel",
@@ -4616,7 +4616,7 @@
     {
       "name": "BambooStrippedRoundel",
       "type": "recipe",
-      "sortid": 309,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bamboo_stripped_roundel",
@@ -4630,7 +4630,7 @@
     {
       "name": "BirchStrippedRoundel",
       "type": "recipe",
-      "sortid": 310,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "birch_stripped_roundel",
@@ -4644,7 +4644,7 @@
     {
       "name": "CherryStrippedRoundel",
       "type": "recipe",
-      "sortid": 311,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cherry_stripped_roundel",
@@ -4658,7 +4658,7 @@
     {
       "name": "CrimsonStrippedRoundel",
       "type": "recipe",
-      "sortid": 312,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_stripped_roundel",
@@ -4672,7 +4672,7 @@
     {
       "name": "DarkOakStrippedRoundel",
       "type": "recipe",
-      "sortid": 313,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_oak_stripped_roundel",
@@ -4686,7 +4686,7 @@
     {
       "name": "JungleStrippedRoundel",
       "type": "recipe",
-      "sortid": 314,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jungle_stripped_roundel",
@@ -4700,7 +4700,7 @@
     {
       "name": "MangroveStrippedRoundel",
       "type": "recipe",
-      "sortid": 315,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mangrove_stripped_roundel",
@@ -4714,7 +4714,7 @@
     {
       "name": "OakStrippedRoundel",
       "type": "recipe",
-      "sortid": 316,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oak_stripped_roundel",
@@ -4728,7 +4728,7 @@
     {
       "name": "WarpedStrippedRoundel",
       "type": "recipe",
-      "sortid": 317,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "warped_stripped_roundel",
@@ -4742,7 +4742,7 @@
     {
       "name": "SpruceStrippedRoundel",
       "type": "recipe",
-      "sortid": 318,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spruce_stripped_roundel",
@@ -4756,7 +4756,7 @@
     {
       "name": "SpruceStrippedARoundel",
       "type": "recipe",
-      "sortid": 319,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spruce_stripped_a_roundel",
@@ -4770,7 +4770,7 @@
     {
       "name": "SpruceStrippedBRoundel",
       "type": "recipe",
-      "sortid": 320,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spruce_stripped_b_roundel",
@@ -4784,7 +4784,7 @@
     {
       "name": "SpruceStrippedCRoundel",
       "type": "recipe",
-      "sortid": 321,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spruce_stripped_c_roundel",
@@ -4798,7 +4798,7 @@
     {
       "name": "StrippedRoundelBlueprintRecipe",
       "type": "recipe",
-      "sortid": 322,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_roundel_blueprint_recipe",
@@ -4812,7 +4812,7 @@
     {
       "name": "Scarf",
       "type": "armor",
-      "sortid": 172,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scarf",
@@ -4827,14 +4827,14 @@
     {
       "name": "RedScarf",
       "type": "armor",
-      "sortid": 173,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_scarf",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/red_scarf_chestplate.json",
-          "src/main/java/net/addie/aitplus/item/RedScarfItem.java"
+          "src/main/java/net/addie/aitplus/item/RedScarfItem.java",
+          "src/main/resources/assets/aitplus/models/item/red_scarf_chestplate.json"
         ]
       },
       "path": "~/Items/Cosmetics/scarfs"
@@ -4842,7 +4842,7 @@
     {
       "name": "ScarfRecipe",
       "type": "recipe",
-      "sortid": 323,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scarf_recipe",
@@ -4856,7 +4856,7 @@
     {
       "name": "RedScarfRecipe",
       "type": "recipe",
-      "sortid": 324,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_scarf_recipe",
@@ -4870,7 +4870,7 @@
     {
       "name": "RedBowtie",
       "type": "armor",
-      "sortid": 179,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_bowtie",
@@ -4885,7 +4885,7 @@
     {
       "name": "WhiteBowtie",
       "type": "armor",
-      "sortid": 178,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_bowtie",
@@ -4900,14 +4900,14 @@
     {
       "name": "GrayBowtie",
       "type": "armor",
-      "sortid": 176,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_bowtie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/gray_bowtie_chestplate.json",
-          "src/main/java/net/addie/aitplus/item/GrayBowtieItem.java"
+          "src/main/java/net/addie/aitplus/item/GrayBowtieItem.java",
+          "src/main/resources/assets/aitplus/models/item/gray_bowtie_chestplate.json"
         ]
       },
       "path": "~/Items/Cosmetics/Bowties"
@@ -4915,7 +4915,7 @@
     {
       "name": "LightGrayBowtie",
       "type": "armor",
-      "sortid": 177,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_bowtie",
@@ -4930,14 +4930,14 @@
     {
       "name": "BlackBowtie",
       "type": "armor",
-      "sortid": 175,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_bowtie",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/BlackBowtieItem.java",
-          "src/main/resources/assets/aitplus/models/item/black_bowtie_chestplate.json"
+          "src/main/resources/assets/aitplus/models/item/black_bowtie_chestplate.json",
+          "src/main/java/net/addie/aitplus/item/BlackBowtieItem.java"
         ]
       },
       "path": "~/Items/Cosmetics/Bowties"
@@ -4945,7 +4945,7 @@
     {
       "name": "OrangeBowtie",
       "type": "armor",
-      "sortid": 180,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_bowtie",
@@ -4960,7 +4960,7 @@
     {
       "name": "YellowBowtie",
       "type": "armor",
-      "sortid": 182,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_bowtie",
@@ -4975,14 +4975,14 @@
     {
       "name": "LimeBowtie",
       "type": "armor",
-      "sortid": 183,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_bowtie",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/LimeBowtieItem.java",
-          "src/main/resources/assets/aitplus/models/item/lime_bowtie_chestplate.json"
+          "src/main/resources/assets/aitplus/models/item/lime_bowtie_chestplate.json",
+          "src/main/java/net/addie/aitplus/item/LimeBowtieItem.java"
         ]
       },
       "path": "~/Items/Cosmetics/Bowties"
@@ -4990,7 +4990,7 @@
     {
       "name": "GreenBowtie",
       "type": "armor",
-      "sortid": 184,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_bowtie",
@@ -5005,14 +5005,14 @@
     {
       "name": "CyanBowtie",
       "type": "armor",
-      "sortid": 185,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_bowtie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/cyan_bowtie_chestplate.json",
-          "src/main/java/net/addie/aitplus/item/CyanBowtieItem.java"
+          "src/main/java/net/addie/aitplus/item/CyanBowtieItem.java",
+          "src/main/resources/assets/aitplus/models/item/cyan_bowtie_chestplate.json"
         ]
       },
       "path": "~/Items/Cosmetics/Bowties"
@@ -5020,14 +5020,14 @@
     {
       "name": "LightBlueBowtie",
       "type": "armor",
-      "sortid": 186,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_bowtie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/light_blue_bowtie_chestplate.json",
-          "src/main/java/net/addie/aitplus/item/LightBlueBowtieItem.java"
+          "src/main/java/net/addie/aitplus/item/LightBlueBowtieItem.java",
+          "src/main/resources/assets/aitplus/models/item/light_blue_bowtie_chestplate.json"
         ]
       },
       "path": "~/Items/Cosmetics/Bowties"
@@ -5035,14 +5035,14 @@
     {
       "name": "BlueBowtie",
       "type": "armor",
-      "sortid": 187,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_bowtie",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/BlueBowtieItem.java",
-          "src/main/resources/assets/aitplus/models/item/blue_bowtie_chestplate.json"
+          "src/main/resources/assets/aitplus/models/item/blue_bowtie_chestplate.json",
+          "src/main/java/net/addie/aitplus/item/BlueBowtieItem.java"
         ]
       },
       "path": "~/Items/Cosmetics/Bowties"
@@ -5050,7 +5050,7 @@
     {
       "name": "PurpleBowtie",
       "type": "armor",
-      "sortid": 188,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_bowtie",
@@ -5065,14 +5065,14 @@
     {
       "name": "MagentaBowtie",
       "type": "armor",
-      "sortid": 189,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_bowtie",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/MagentaBowtieItem.java",
-          "src/main/resources/assets/aitplus/models/item/magenta_bowtie_chestplate.json"
+          "src/main/resources/assets/aitplus/models/item/magenta_bowtie_chestplate.json",
+          "src/main/java/net/addie/aitplus/item/MagentaBowtieItem.java"
         ]
       },
       "path": "~/Items/Cosmetics/Bowties"
@@ -5080,14 +5080,14 @@
     {
       "name": "PinkBowtie",
       "type": "armor",
-      "sortid": 190,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_bowtie",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/PinkBowtieItem.java",
-          "src/main/resources/assets/aitplus/models/item/pink_bowtie_chestplate.json"
+          "src/main/resources/assets/aitplus/models/item/pink_bowtie_chestplate.json",
+          "src/main/java/net/addie/aitplus/item/PinkBowtieItem.java"
         ]
       },
       "path": "~/Items/Cosmetics/Bowties"
@@ -5095,14 +5095,14 @@
     {
       "name": "BrownBowtie",
       "type": "armor",
-      "sortid": 181,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_bowtie",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/BrownBowtieItem.java",
-          "src/main/resources/assets/aitplus/models/item/brown_bowtie_chestplate.json"
+          "src/main/resources/assets/aitplus/models/item/brown_bowtie_chestplate.json",
+          "src/main/java/net/addie/aitplus/item/BrownBowtieItem.java"
         ]
       },
       "path": "~/Items/Cosmetics/Bowties"
@@ -5110,7 +5110,7 @@
     {
       "name": "RedBowtieRecipe",
       "type": "recipe",
-      "sortid": 325,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_bowtie_recipe",
@@ -5124,7 +5124,7 @@
     {
       "name": "WhiteBowtieRecipe",
       "type": "recipe",
-      "sortid": 326,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_bowtie_recipe",
@@ -5138,7 +5138,7 @@
     {
       "name": "GrayBowtieRecipe",
       "type": "recipe",
-      "sortid": 327,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_bowtie_recipe",
@@ -5152,7 +5152,7 @@
     {
       "name": "LightGrayBowtieRecipe",
       "type": "recipe",
-      "sortid": 328,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_gray_bowtie_recipe",
@@ -5166,7 +5166,7 @@
     {
       "name": "BlackBowtieRecipe",
       "type": "recipe",
-      "sortid": 329,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_bowtie_recipe",
@@ -5180,7 +5180,7 @@
     {
       "name": "OrangeBowtieRecipe",
       "type": "recipe",
-      "sortid": 330,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_bowtie_recipe",
@@ -5194,7 +5194,7 @@
     {
       "name": "YellowBowtieRecipe",
       "type": "recipe",
-      "sortid": 331,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_bowtie_recipe",
@@ -5208,7 +5208,7 @@
     {
       "name": "LimeBowtieRecipe",
       "type": "recipe",
-      "sortid": 332,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lime_bowtie_recipe",
@@ -5222,7 +5222,7 @@
     {
       "name": "GreenBowtieRecipe",
       "type": "recipe",
-      "sortid": 333,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_bowtie_recipe",
@@ -5236,7 +5236,7 @@
     {
       "name": "CyanBowtieRecipe",
       "type": "recipe",
-      "sortid": 334,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_bowtie_recipe",
@@ -5250,7 +5250,7 @@
     {
       "name": "LightBlueBowtieRecipe",
       "type": "recipe",
-      "sortid": 335,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_blue_bowtie_recipe",
@@ -5264,7 +5264,7 @@
     {
       "name": "BlueBowtieRecipe",
       "type": "recipe",
-      "sortid": 336,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_bowtie_recipe",
@@ -5278,7 +5278,7 @@
     {
       "name": "PurpleBowtieRecipe",
       "type": "recipe",
-      "sortid": 337,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_bowtie_recipe",
@@ -5292,7 +5292,7 @@
     {
       "name": "MagentaBowtieRecipe",
       "type": "recipe",
-      "sortid": 338,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magenta_bowtie_recipe",
@@ -5306,7 +5306,7 @@
     {
       "name": "PinkBowtieRecipe",
       "type": "recipe",
-      "sortid": 339,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_bowtie_recipe",
@@ -5320,7 +5320,7 @@
     {
       "name": "BrownBowtieRecipe",
       "type": "recipe",
-      "sortid": 340,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "brown_bowtie_recipe",
@@ -5334,14 +5334,14 @@
     {
       "name": "Celery",
       "type": "armor",
-      "sortid": 191,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celery",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/celery_chestplate.json",
-          "src/main/java/net/addie/aitplus/item/CeleryItem.java"
+          "src/main/java/net/addie/aitplus/item/CeleryItem.java",
+          "src/main/resources/assets/aitplus/models/item/celery_chestplate.json"
         ]
       },
       "path": "~/Items/Cosmetics/Celery"
@@ -5349,7 +5349,7 @@
     {
       "name": "CeleryRecipe",
       "type": "recipe",
-      "sortid": 341,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "registry_name": "celery_recipe",
@@ -5363,14 +5363,14 @@
     {
       "name": "RainbowScarf",
       "type": "armor",
-      "sortid": 174,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rainbow_scarf",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/rainbow_scarf_chestplate.json",
-          "src/main/java/net/addie/aitplus/item/RainbowScarfItem.java"
+          "src/main/java/net/addie/aitplus/item/RainbowScarfItem.java",
+          "src/main/resources/assets/aitplus/models/item/rainbow_scarf_chestplate.json"
         ]
       },
       "path": "~/Items/Cosmetics/scarfs"
@@ -5378,7 +5378,7 @@
     {
       "name": "RainbowScarfRecipe",
       "type": "recipe",
-      "sortid": 342,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rainbow_scarf_recipe",
@@ -5392,14 +5392,14 @@
     {
       "name": "Recorder",
       "type": "item",
-      "sortid": 192,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recorder",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/RecorderItem.java",
-          "src/main/resources/assets/aitplus/models/item/recorder.json"
+          "src/main/resources/assets/aitplus/models/item/recorder.json",
+          "src/main/java/net/addie/aitplus/item/RecorderItem.java"
         ]
       },
       "path": "~/Items/Cosmetics/Recorder"
@@ -5407,7 +5407,7 @@
     {
       "name": "RecorderRecipe",
       "type": "recipe",
-      "sortid": 343,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recorder_recipe",
@@ -5421,7 +5421,7 @@
     {
       "name": "RecorderRightclicked",
       "type": "procedure",
-      "sortid": 344,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recorder_rightclicked",
@@ -5461,7 +5461,7 @@
     {
       "name": "AitPlusItems",
       "type": "tab",
-      "sortid": 345,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ait_plus_items",
@@ -5473,15 +5473,15 @@
     {
       "name": "ReconnaissanceDalek",
       "type": "livingentity",
-      "sortid": 162,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reconnaissance_dalek",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/client/renderer/ReconnaissanceDalekRenderer.java",
+          "src/main/java/net/addie/aitplus/entity/ReconnaissanceDalekEntity.java",
           "src/main/resources/assets/aitplus/models/item/reconnaissance_dalek_spawn_egg.json",
-          "src/main/java/net/addie/aitplus/entity/ReconnaissanceDalekEntity.java"
+          "src/main/java/net/addie/aitplus/client/renderer/ReconnaissanceDalekRenderer.java"
         ]
       },
       "path": "~/entities/Daleks"
@@ -5489,15 +5489,15 @@
     {
       "name": "MondasianCyberman",
       "type": "livingentity",
-      "sortid": 164,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mondasian_cyberman",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/entity/MondasianCybermanEntity.java",
           "src/main/java/net/addie/aitplus/client/renderer/MondasianCybermanRenderer.java",
-          "src/main/resources/assets/aitplus/models/item/mondasian_cyberman_spawn_egg.json"
+          "src/main/resources/assets/aitplus/models/item/mondasian_cyberman_spawn_egg.json",
+          "src/main/java/net/addie/aitplus/entity/MondasianCybermanEntity.java"
         ]
       },
       "path": "~/entities/Cybers"
@@ -5505,14 +5505,14 @@
     {
       "name": "CyberLazer",
       "type": "projectile",
-      "sortid": 346,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyber_lazer",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/client/renderer/CyberLazerRenderer.java",
-          "src/main/java/net/addie/aitplus/entity/CyberLazerEntity.java"
+          "src/main/java/net/addie/aitplus/entity/CyberLazerEntity.java",
+          "src/main/java/net/addie/aitplus/client/renderer/CyberLazerRenderer.java"
         ]
       },
       "path": "~/entities/Projectiles"
@@ -5520,15 +5520,15 @@
     {
       "name": "EarthshockCyberman",
       "type": "livingentity",
-      "sortid": 165,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "earthshock_cyberman",
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/entity/EarthshockCybermanEntity.java",
-          "src/main/resources/assets/aitplus/models/item/earthshock_cyberman_spawn_egg.json",
-          "src/main/java/net/addie/aitplus/client/renderer/EarthshockCybermanRenderer.java"
+          "src/main/java/net/addie/aitplus/client/renderer/EarthshockCybermanRenderer.java",
+          "src/main/resources/assets/aitplus/models/item/earthshock_cyberman_spawn_egg.json"
         ]
       },
       "path": "~/entities/Cybers"
@@ -5536,15 +5536,15 @@
     {
       "name": "RevengeCyberLeader",
       "type": "livingentity",
-      "sortid": 166,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "revenge_cyber_leader",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aitplus/models/item/revenge_cyber_leader_spawn_egg.json",
           "src/main/java/net/addie/aitplus/client/renderer/RevengeCyberLeaderRenderer.java",
-          "src/main/java/net/addie/aitplus/entity/RevengeCyberLeaderEntity.java",
-          "src/main/resources/assets/aitplus/models/item/revenge_cyber_leader_spawn_egg.json"
+          "src/main/java/net/addie/aitplus/entity/RevengeCyberLeaderEntity.java"
         ]
       },
       "path": "~/entities/Cybers"
@@ -5558,11 +5558,11 @@
       "registry_name": "metal_grate_trapdoor",
       "metadata": {
         "files": [
+          "src/main/java/net/addie/aitplus/block/MetalGrateTrapdoorBlock.java",
+          "src/main/resources/assets/aitplus/models/block/metal_grate_trapdoor_top.json",
+          "src/main/resources/assets/aitplus/models/item/metal_grate_trapdoor.json",
           "src/main/resources/assets/aitplus/models/block/metal_grate_trapdoor.json",
           "src/main/resources/assets/aitplus/blockstates/metal_grate_trapdoor.json",
-          "src/main/resources/assets/aitplus/models/block/metal_grate_trapdoor_top.json",
-          "src/main/java/net/addie/aitplus/block/MetalGrateTrapdoorBlock.java",
-          "src/main/resources/assets/aitplus/models/item/metal_grate_trapdoor.json",
           "src/main/resources/assets/aitplus/models/block/metal_grate_trapdoor_open.json"
         ]
       },
@@ -5587,7 +5587,7 @@
     {
       "name": "CoralChairRecipe",
       "type": "recipe",
-      "sortid": 347,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coral_chair_recipe",
@@ -5601,7 +5601,7 @@
     {
       "name": "BlackLedRoundelRecipe",
       "type": "recipe",
-      "sortid": 348,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_led_roundel_recipe",
@@ -5615,7 +5615,7 @@
     {
       "name": "GrayLedRoundelRecipe",
       "type": "recipe",
-      "sortid": 349,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gray_led_roundel_recipe",
@@ -5629,7 +5629,7 @@
     {
       "name": "RedLedRoundelRecipe",
       "type": "recipe",
-      "sortid": 350,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_led_roundel_recipe",
@@ -5643,7 +5643,7 @@
     {
       "name": "YellowLedRoundelRecipe",
       "type": "recipe",
-      "sortid": 351,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_led_roundel_recipe",
@@ -5657,7 +5657,7 @@
     {
       "name": "OrangeLedRoundelRecipe",
       "type": "recipe",
-      "sortid": 352,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_led_roundel_recipe",
@@ -5671,7 +5671,7 @@
     {
       "name": "GreenLedRoundelRecipe",
       "type": "recipe",
-      "sortid": 353,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_led_roundel_recipe",
@@ -5685,7 +5685,7 @@
     {
       "name": "BlueLedRoundelRecipe",
       "type": "recipe",
-      "sortid": 354,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_led_roundel_recipe",
@@ -5699,7 +5699,7 @@
     {
       "name": "CyanLedRoundelRecipe",
       "type": "recipe",
-      "sortid": 355,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cyan_led_roundel_recipe",
@@ -5713,7 +5713,7 @@
     {
       "name": "PurpleLedRoundelRecipe",
       "type": "recipe",
-      "sortid": 356,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_led_roundel_recipe",
@@ -5727,7 +5727,7 @@
     {
       "name": "PinkLedRoundelRecipe",
       "type": "recipe",
-      "sortid": 357,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_led_roundel_recipe",
@@ -5747,9 +5747,9 @@
       "registry_name": "chalk_board",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/chalk_board.json",
           "src/main/resources/assets/aitplus/models/item/chalk_board.json",
           "src/main/java/net/addie/aitplus/block/ChalkBoardBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/chalk_board.json",
           "src/main/resources/assets/aitplus/models/block/chalk_board.json"
         ]
       },
@@ -5758,7 +5758,7 @@
     {
       "name": "ChalkBoardAlt",
       "type": "block",
-      "sortid": 358,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chalk_board_alt",
@@ -5766,8 +5766,8 @@
         "files": [
           "src/main/resources/assets/aitplus/models/block/chalk_board_alt.json",
           "src/main/resources/assets/aitplus/models/item/chalk_board_alt.json",
-          "src/main/java/net/addie/aitplus/block/ChalkBoardAltBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/chalk_board_alt.json"
+          "src/main/resources/assets/aitplus/blockstates/chalk_board_alt.json",
+          "src/main/java/net/addie/aitplus/block/ChalkBoardAltBlock.java"
         ]
       },
       "path": "~/Blocks/Decor/ChalkBoard"
@@ -5775,7 +5775,7 @@
     {
       "name": "ChalkBoardRecipe",
       "type": "recipe",
-      "sortid": 359,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chalk_board_recipe",
@@ -5789,7 +5789,7 @@
     {
       "name": "ChalkBoardOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 360,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chalk_board_on_block_right_clicked",
@@ -5825,7 +5825,7 @@
     {
       "name": "ChalkBoardAltOnblockRightClicked",
       "type": "procedure",
-      "sortid": 361,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chalk_board_alt_onblock_right_clicked",
@@ -5857,7 +5857,7 @@
     {
       "name": "Silence",
       "type": "livingentity",
-      "sortid": 167,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silence",
@@ -5873,7 +5873,7 @@
     {
       "name": "MondasianSnowlands",
       "type": "biome",
-      "sortid": 362,
+      "sortid": 364,
       "compiles": true,
       "locked_code": true,
       "registry_name": "mondasian_snowlands",
@@ -5889,7 +5889,7 @@
     {
       "name": "Mondas",
       "type": "dimension",
-      "sortid": 196,
+      "sortid": 198,
       "compiles": true,
       "locked_code": true,
       "registry_name": "mondas",
@@ -5904,14 +5904,14 @@
     {
       "name": "TakeMeToMondas",
       "type": "item",
-      "sortid": 171,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_mondas",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/item/TakeMeToMondasItem.java",
-          "src/main/resources/assets/aitplus/models/item/take_me_to_mondas.json"
+          "src/main/resources/assets/aitplus/models/item/take_me_to_mondas.json",
+          "src/main/java/net/addie/aitplus/item/TakeMeToMondasItem.java"
         ]
       },
       "path": "~/Misc"
@@ -5919,7 +5919,7 @@
     {
       "name": "TakeMeToMondasRightClicked",
       "type": "procedure",
-      "sortid": 363,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "registry_name": "take_me_to_mondas_right_clicked",
@@ -5939,14 +5939,14 @@
     {
       "name": "Lab1",
       "type": "structure",
-      "sortid": 365,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/aitplus/worldgen/structure/lab_1.json",
           "src/main/resources/data/aitplus/worldgen/structure_set/lab_1.json",
+          "src/main/resources/data/aitplus/worldgen/structure/lab_1.json",
           "src/main/resources/data/aitplus/worldgen/template_pool/lab_1.json"
         ]
       },
@@ -5955,7 +5955,7 @@
     {
       "name": "NorthPole",
       "type": "structure",
-      "sortid": 366,
+      "sortid": 367,
       "compiles": true,
       "locked_code": true,
       "registry_name": "north_pole",
@@ -5971,7 +5971,7 @@
     {
       "name": "TheMoment",
       "type": "block",
-      "sortid": 367,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_moment",
@@ -5998,6 +5998,64 @@
         ]
       },
       "path": "~/Blocks/Other/TheMoment/Recipes"
+    },
+    {
+      "name": "Glasses3d",
+      "type": "armor",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasses_3d",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/item/Glasses3dItem.java",
+          "src/main/resources/assets/aitplus/models/item/glasses_3d_helmet.json"
+        ]
+      },
+      "path": "~/Items/Cosmetics/Glasses"
+    },
+    {
+      "name": "Glasses3dRecipe",
+      "type": "recipe",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasses_3d_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/glasses_3d_recipe.json"
+        ]
+      },
+      "path": "~/Items/Cosmetics/Glasses"
+    },
+    {
+      "name": "Glasses",
+      "type": "armor",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasses",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/item/glasses_helmet.json",
+          "src/main/java/net/addie/aitplus/item/GlassesItem.java"
+        ]
+      },
+      "path": "~/Items/Cosmetics/Glasses"
+    },
+    {
+      "name": "GlassesRecipe",
+      "type": "recipe",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasses_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aitplus/recipes/glasses_recipe.json"
+        ]
+      },
+      "path": "~/Items/Cosmetics/Glasses"
     }
   ],
   "variable_elements": [],
@@ -6197,25 +6255,25 @@
   ],
   "language_map": {
     "en_us": {
-      "item.aitplus.lime_bowtie_leggings": "",
       "block.aitplus.stripped_jungle_log_stained_roundel": "Stripped Jungle Log Stained Roundel",
-      "item.aitplus.blue_bowtie_boots": "",
-      "item.aitplus.black_bowtie_chestplate": "Black Bowtie",
+      "item.aitplus.lime_bowtie_leggings": "",
       "block.aitplus.led_roundel": "LED Roundel",
+      "item.aitplus.black_bowtie_chestplate": "Black Bowtie",
+      "item.aitplus.blue_bowtie_boots": "",
       "subtitles.skaro_ambiance": "",
       "subtitles.classic_door": "Classic Door Use",
       "block.aitplus.maldor_door": "Maldor Door",
       "block.aitplus.gramophone": "Gramophone",
-      "item.aitplus.white_bowtie_leggings": "",
       "block.aitplus.preserved_flower": "Preserved Flower",
+      "item.aitplus.white_bowtie_leggings": "",
       "subtitles.dalek_exterminate": "Exterminate!",
       "block.aitplus.led_roundel_yellow": "LED Roundel",
       "item.aitplus.magenta_bowtie_helmet": "",
       "block.aitplus.bowl_b": "Bowl B",
       "block.aitplus.bowl_a": "Bowl A",
       "subtitles.cyberman_hurt": "Cyberman Hurt",
-      "item.aitplus.brachacki_blueprint": "Blueprint",
       "block.aitplus.stripped_warped_stem_stained_roundel": "Stripped Warped Stem Stained Roundel",
+      "item.aitplus.brachacki_blueprint": "Blueprint",
       "block.aitplus.block_of_raw_dalekanium": "Block Of Raw Dalekanium",
       "block.aitplus.stripped_maldor_wood": "Stripped Maldor Wood",
       "item.aitplus.renegade_dalek_spawn_egg": "Renegade Dalek Spawn Egg",
@@ -6236,6 +6294,7 @@
       "item.aitplus.light_blue_bowtie_boots": "",
       "block.aitplus.metal_grate_slab": "Metal Grate Slab",
       "entity.aitplus.davaros": "Davros",
+      "item.aitplus.glasses_leggings": "Glasses 3d Leggings",
       "subtitles.classic_door_close": "Classic Door Closes",
       "block.aitplus.block_of_brachacki": "Block Of Brachacki",
       "item.aitplus.yellow_bowtie_chestplate": "Yellow Bowtie",
@@ -6244,6 +6303,7 @@
       "block.aitplus.hat_stand_white": "Hat Stand White",
       "item.aitplus.orange_jelly_babies": "Orange Jelly Babies",
       "item.aitplus.lime_bowtie_chestplate": "Lime Bowtie",
+      "item.aitplus.glasses_3d_leggings": "Glasses 3d Leggings",
       "biome.aitplus.gallifrey_drylands": "Gallifrey Drylands",
       "item.aitplus.black_jelly_babies": "Black Jelly Babies",
       "item.aitplus.dalekanium_armor_boots": "Dalekanium Armor Boots",
@@ -6363,8 +6423,10 @@
       "subtitles.flubble_step": "Flubble Steps",
       "item.aitplus.dalekanium_axe": "Dalekanium Axe",
       "item.aitplus.raw_dalekanium": "Raw Dalekanium",
+      "item.aitplus.glasses_3d_boots": "Glasses 3d Boots",
       "block.aitplus.roundel_table": "Roundel Table",
       "item.aitplus.dalekanium_ingot": "Dalekanium Ingot",
+      "item.aitplus.glasses_3d_helmet": "3D Glasses",
       "item.aitplus.blue_bowtie_leggings": "",
       "item.aitplus.green_bowtie_leggings": "",
       "block.aitplus.quartz_door": "Quartz Door",
@@ -6384,6 +6446,7 @@
       "block.aitplus.polished_blackstone_stained_roundel": "Polished Blackstone Stained Roundel",
       "item.aitplus.dalekanium_armor_leggings": "Dalekanium Armor Leggings",
       "item.aitplus.davaros_spawn_egg": "Davros Spawn Egg",
+      "item.aitplus.glasses_boots": "Glasses 3d Boots",
       "block.aitplus.trenzalorian_stone_wall": "Trenzalorian Stone Wall",
       "block.aitplus.stripped_mangrove_log_stained_roundel": "Stripped Mangrove Log Stained Roundel",
       "item.aitplus.magenta_bowtie_chestplate": "Magenta Bowtie",
@@ -6404,6 +6467,7 @@
       "item.aitplus.celery_leggings": "Celery Leggings",
       "block.aitplus.trenzalorian_stone_stairs": "Trenzalorian Stone Stairs",
       "item.aitplus.green_bowtie_chestplate": "Green Bowtie",
+      "item.aitplus.glasses_helmet": "Glasses",
       "item.aitplus.bowl_roundel_blueprint": "Blueprint",
       "item.aitplus.dalekanium_armor_chestplate": "Dalekanium Armor Chestplate",
       "subtitles.dalek_hurt": "Dalek Hurt",
@@ -6412,6 +6476,7 @@
       "subtitles.trenzalor_ambiance": "",
       "subtitles.music": "",
       "item.aitplus.flutterwing_spawn_egg": "Flutterwing Spawn Egg",
+      "item.aitplus.glasses_chestplate": "Glasses 3d Chestplate",
       "item.aitplus.brown_bowtie_helmet": "",
       "item.aitplus.green_jelly_babies": "Green Jelly Babies",
       "block.aitplus.stripped_spruce_roundel_b": "Stripped Spruce Roundel B",
@@ -6498,6 +6563,7 @@
       "block.aitplus.petrified_bush": "Petrified Bush",
       "item.aitplus.gray_bowtie_helmet": "",
       "block.aitplus.thalma_log": "Thalma Log",
+      "item.aitplus.glasses_3d_chestplate": "Glasses 3d Chestplate",
       "item.aitplus.gray_bowtie_chestplate": "Gray Bowtie",
       "block.aitplus.stripped_mangrove_roundel": "Stripped Mangrove Roundel",
       "gui.aitplus.roundel_table_gui.button_craft": "craft",
@@ -6916,6 +6982,10 @@
               },
               {
                 "name": "Recorder",
+                "children": []
+              },
+              {
+                "name": "Glasses",
                 "children": []
               }
             ]

@@ -248,10 +248,10 @@ public class AitplusModBlocks {
 	public static Block SEAL_OF_RASSILON;
 	public static Block STREET_LAMP;
 	public static Block CHALK_BOARD;
+	public static Block THE_MOMENT;
 	public static Block ROUNDEL_TABLE;
 	public static Block CANDEL_STAND_LIT;
 	public static Block CHALK_BOARD_ALT;
-	public static Block THE_MOMENT;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new TrenzalorianStoneBlock());
@@ -370,10 +370,10 @@ public class AitplusModBlocks {
 		SEAL_OF_RASSILON = register("seal_of_rassilon", new SealOfRassilonBlock());
 		STREET_LAMP = register("street_lamp", new StreetLampBlock());
 		CHALK_BOARD = register("chalk_board", new ChalkBoardBlock());
+		THE_MOMENT = register("the_moment", new TheMomentBlock());
 		ROUNDEL_TABLE = register("roundel_table", new RoundelTableBlock());
 		CANDEL_STAND_LIT = register("candel_stand_lit", new CandelStandLitBlock());
 		CHALK_BOARD_ALT = register("chalk_board_alt", new ChalkBoardAltBlock());
-		THE_MOMENT = register("the_moment", new TheMomentBlock());
 	}
 
 	public static void clientLoad() {
@@ -493,10 +493,10 @@ public class AitplusModBlocks {
 		SealOfRassilonBlock.clientInit();
 		StreetLampBlock.clientInit();
 		ChalkBoardBlock.clientInit();
+		TheMomentBlock.clientInit();
 		RoundelTableBlock.clientInit();
 		CandelStandLitBlock.clientInit();
 		ChalkBoardAltBlock.clientInit();
-		TheMomentBlock.clientInit();
 	}
 
 	private static Block register(String registryName, Block block) {
