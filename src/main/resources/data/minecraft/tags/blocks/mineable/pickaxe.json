@@ -1,11 +1,18 @@
 {
   "replace": false,
   "values": [
+    "aitplus:trenzalorian_stone",
+    "aitplus:trenzalorian_stone_stairs",
+    "aitplus:trenzalorian_stone_slab",
+    "aitplus:trenzalorian_stone_wall",
     "aitplus:metal_grate",
     "aitplus:metal_grate_stairs",
     "aitplus:metal_grate_slab",
     "aitplus:metal_grate_trapdoor",
     "aitplus:metal_grate_wall",
+    "aitplus:dalekanium_ore",
+    "aitplus:block_of_dalekanium",
+    "aitplus:block_of_raw_dalekanium",
     "aitplus:ice_blue_a",
     "aitplus:ice_blue_b",
     "aitplus:blow_up_a",

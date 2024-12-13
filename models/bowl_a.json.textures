@@ -2,8 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "bowl_a",
-        "1": "bowl_a_outer",
+        "0": "bowl_a_outer",
+        "1": "bowl_a",
         "missing": ""
       },
       "name": "default"

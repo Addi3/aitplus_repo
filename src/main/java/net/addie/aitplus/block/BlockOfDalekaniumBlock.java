@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class BlockOfDalekaniumBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(2f, 15f);
+	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(2f, 15f);
 
 	public BlockOfDalekaniumBlock() {
 		super(PROPERTIES);

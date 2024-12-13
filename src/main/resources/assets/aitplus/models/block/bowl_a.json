@@ -3,8 +3,8 @@
   "textures": {
     "all": "aitplus:block/bowl_a",
     "particle": "aitplus:block/bowl_a",
-    "0": "aitplus:block/bowl_a",
-    "1": "aitplus:block/bowl_a_outer",
+    "0": "aitplus:block/bowl_a_outer",
+    "1": "aitplus:block/bowl_a",
     "missing": "aitplus:block/"
   },
   "render_type": "cutout"

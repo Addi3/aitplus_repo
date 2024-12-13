@@ -150,10 +150,10 @@
       "registry_name": "trenzalorian_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneBlock.java",
+          "src/main/resources/assets/aitplus/models/item/trenzalorian_stone.json",
           "src/main/resources/assets/aitplus/models/block/trenzalorian_stone.json",
-          "src/main/resources/assets/aitplus/blockstates/trenzalorian_stone.json",
-          "src/main/resources/assets/aitplus/models/item/trenzalorian_stone.json"
+          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/trenzalorian_stone.json"
         ]
       },
       "path": "~/Blocks/Nature/Trenzalore"
@@ -167,12 +167,12 @@
       "registry_name": "trenzalorian_stone_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/aitplus/blockstates/trenzalorian_stone_stairs.json",
           "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_stairs.json",
+          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneStairsBlock.java",
           "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_stairs_outer.json",
           "src/main/resources/assets/aitplus/models/item/trenzalorian_stone_stairs.json",
-          "src/main/resources/assets/aitplus/blockstates/trenzalorian_stone_stairs.json",
-          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_stairs_inner.json",
-          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneStairsBlock.java"
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_stairs_inner.json"
         ]
       },
       "path": "~/Blocks/Nature/Trenzalore"
@@ -187,11 +187,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aitplus/models/item/trenzalorian_stone_slab.json",
-          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_slab.json",
-          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_slab_top.json",
-          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneSlabBlock.java",
           "src/main/resources/assets/aitplus/blockstates/trenzalorian_stone_slab.json",
-          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_slab_full.json"
+          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneSlabBlock.java",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_slab.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_slab_full.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_slab_top.json"
         ]
       },
       "path": "~/Blocks/Nature/Trenzalore"
@@ -205,13 +205,13 @@
       "registry_name": "trenzalorian_stone_wall",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneWallBlock.java",
           "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_wall.json",
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_wall_inventory.json",
           "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_wall_post.json",
           "src/main/resources/assets/aitplus/models/item/trenzalorian_stone_wall.json",
+          "src/main/java/net/addie/aitplus/block/TrenzalorianStoneWallBlock.java",
           "src/main/resources/assets/aitplus/blockstates/trenzalorian_stone_wall.json",
-          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_wall_side_tall.json",
-          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_wall_inventory.json"
+          "src/main/resources/assets/aitplus/models/block/trenzalorian_stone_wall_side_tall.json"
         ]
       },
       "path": "~/Blocks/Nature/Trenzalore"
@@ -1226,10 +1226,10 @@
       "registry_name": "stripped_thalma_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/stripped_thalma_log.json",
+          "src/main/resources/assets/aitplus/blockstates/stripped_thalma_log.json",
           "src/main/java/net/addie/aitplus/block/StrippedThalmaWoodBlock.java",
           "src/main/resources/assets/aitplus/models/item/stripped_thalma_log.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_thalma_log.json"
+          "src/main/resources/assets/aitplus/models/block/stripped_thalma_log.json"
         ]
       },
       "path": "~/Blocks/Woods/Thalma"
@@ -1343,8 +1343,8 @@
       "registry_name": "thalma_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/thalma_planks.json",
           "src/main/resources/assets/aitplus/models/item/thalma_planks.json",
+          "src/main/resources/assets/aitplus/blockstates/thalma_planks.json",
           "src/main/resources/assets/aitplus/models/block/thalma_planks.json",
           "src/main/java/net/addie/aitplus/block/ThalmaPlanksBlock.java"
         ]
@@ -1361,11 +1361,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aitplus/models/block/thalma_stairs.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_stairs_outer.json",
           "src/main/java/net/addie/aitplus/block/ThalmaStairsBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/thalma_stairs.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_stairs_inner.json",
           "src/main/resources/assets/aitplus/models/item/thalma_stairs.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_stairs_inner.json"
+          "src/main/resources/assets/aitplus/models/block/thalma_stairs_outer.json",
+          "src/main/resources/assets/aitplus/blockstates/thalma_stairs.json"
         ]
       },
       "path": "~/Blocks/Woods/Thalma"
@@ -1379,12 +1379,12 @@
       "registry_name": "thalma_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/thalma_slab_full.json",
-          "src/main/resources/assets/aitplus/models/item/thalma_slab.json",
           "src/main/resources/assets/aitplus/models/block/thalma_slab_top.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_slab.json",
           "src/main/resources/assets/aitplus/blockstates/thalma_slab.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_slab_full.json",
           "src/main/java/net/addie/aitplus/block/ThalmaSlabBlock.java",
-          "src/main/resources/assets/aitplus/models/block/thalma_slab.json"
+          "src/main/resources/assets/aitplus/models/item/thalma_slab.json"
         ]
       },
       "path": "~/Blocks/Woods/Thalma"
@@ -1398,12 +1398,12 @@
       "registry_name": "thalma_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/thalma_button.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_button_pressed.json",
           "src/main/java/net/addie/aitplus/block/ThalmaButtonBlock.java",
           "src/main/resources/assets/aitplus/models/block/thalma_button_inventory.json",
+          "src/main/resources/assets/aitplus/models/item/thalma_button.json",
+          "src/main/resources/assets/aitplus/blockstates/thalma_button.json",
           "src/main/resources/assets/aitplus/models/block/thalma_button.json",
-          "src/main/resources/assets/aitplus/blockstates/thalma_button.json"
+          "src/main/resources/assets/aitplus/models/block/thalma_button_pressed.json"
         ]
       },
       "path": "~/Blocks/Woods/Thalma"
@@ -1417,11 +1417,11 @@
       "registry_name": "thalma_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/thalma_pressure_plate_down.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_pressure_plate.json",
-          "src/main/resources/assets/aitplus/models/item/thalma_pressure_plate.json",
+          "src/main/resources/assets/aitplus/blockstates/thalma_pressure_plate.json",
           "src/main/java/net/addie/aitplus/block/ThalmaPressurePlateBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/thalma_pressure_plate.json"
+          "src/main/resources/assets/aitplus/models/item/thalma_pressure_plate.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_pressure_plate_down.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_pressure_plate.json"
         ]
       },
       "path": "~/Blocks/Woods/Thalma"
@@ -1435,12 +1435,12 @@
       "registry_name": "thalma_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/thalma_trapdoor_open.json",
+          "src/main/resources/assets/aitplus/models/item/thalma_trapdoor.json",
           "src/main/resources/assets/aitplus/models/block/thalma_trapdoor_top.json",
           "src/main/resources/assets/aitplus/models/block/thalma_trapdoor.json",
           "src/main/java/net/addie/aitplus/block/ThalmaTrapdoorBlock.java",
-          "src/main/resources/assets/aitplus/models/item/thalma_trapdoor.json",
-          "src/main/resources/assets/aitplus/blockstates/thalma_trapdoor.json"
+          "src/main/resources/assets/aitplus/blockstates/thalma_trapdoor.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_trapdoor_open.json"
         ]
       },
       "path": "~/Blocks/Woods/Thalma"
@@ -1454,17 +1454,17 @@
       "registry_name": "thalma_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/thalma_door_bottom_right.json",
-          "src/main/java/net/addie/aitplus/block/ThalmaDoorBlock.java",
-          "src/main/resources/assets/aitplus/models/block/thalma_door_top_left.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_door_top_left_open.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_door_top_right.json",
-          "src/main/resources/assets/aitplus/models/item/thalma_door.json",
           "src/main/resources/assets/aitplus/models/block/thalma_door_bottom_left.json",
-          "src/main/resources/assets/aitplus/blockstates/thalma_door.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_door_top_right_open.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_door_top_right.json",
+          "src/main/java/net/addie/aitplus/block/ThalmaDoorBlock.java",
+          "src/main/resources/assets/aitplus/models/block/thalma_door_top_left_open.json",
           "src/main/resources/assets/aitplus/models/block/thalma_door_bottom_right_open.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_door_bottom_left_open.json"
+          "src/main/resources/assets/aitplus/models/item/thalma_door.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_door_top_left.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_door_bottom_right.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_door_bottom_left_open.json",
+          "src/main/resources/assets/aitplus/blockstates/thalma_door.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_door_top_right_open.json"
         ]
       },
       "path": "~/Blocks/Woods/Thalma"
@@ -1478,11 +1478,11 @@
       "registry_name": "thalma_fence",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/ThalmaFenceBlock.java",
-          "src/main/resources/assets/aitplus/blockstates/thalma_fence.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_fence.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_fence_post.json",
           "src/main/resources/assets/aitplus/models/block/thalma_fence_inventory.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_fence.json",
+          "src/main/resources/assets/aitplus/blockstates/thalma_fence.json",
+          "src/main/java/net/addie/aitplus/block/ThalmaFenceBlock.java",
+          "src/main/resources/assets/aitplus/models/block/thalma_fence_post.json",
           "src/main/resources/assets/aitplus/models/item/thalma_fence.json"
         ]
       },
@@ -1497,11 +1497,11 @@
       "registry_name": "thalma_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/thalma_fence_gate.json",
-          "src/main/resources/assets/aitplus/models/block/thalma_fence_gate_wall_open.json",
           "src/main/resources/assets/aitplus/models/item/thalma_fence_gate.json",
-          "src/main/resources/assets/aitplus/blockstates/thalma_fence_gate.json",
           "src/main/resources/assets/aitplus/models/block/thalma_fence_gate_open.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_fence_gate_wall_open.json",
+          "src/main/resources/assets/aitplus/blockstates/thalma_fence_gate.json",
+          "src/main/resources/assets/aitplus/models/block/thalma_fence_gate.json",
           "src/main/java/net/addie/aitplus/block/ThalmaFenceGateBlock.java",
           "src/main/resources/assets/aitplus/models/block/thalma_fence_gate_wall.json"
         ]
@@ -1645,10 +1645,10 @@
       "registry_name": "maldor_log",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/MaldorLogBlock.java",
-          "src/main/resources/assets/aitplus/models/item/maldor_log.json",
           "src/main/resources/assets/aitplus/blockstates/maldor_log.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_log.json"
+          "src/main/resources/assets/aitplus/models/item/maldor_log.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_log.json",
+          "src/main/java/net/addie/aitplus/block/MaldorLogBlock.java"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -1662,9 +1662,9 @@
       "registry_name": "maldor_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/MaldorWoodBlock.java",
-          "src/main/resources/assets/aitplus/models/item/maldor_wood.json",
           "src/main/resources/assets/aitplus/models/block/maldor_wood.json",
+          "src/main/resources/assets/aitplus/models/item/maldor_wood.json",
+          "src/main/java/net/addie/aitplus/block/MaldorWoodBlock.java",
           "src/main/resources/assets/aitplus/blockstates/maldor_wood.json"
         ]
       },
@@ -1681,8 +1681,8 @@
         "files": [
           "src/main/java/net/addie/aitplus/block/StrippedMaldorLogBlock.java",
           "src/main/resources/assets/aitplus/blockstates/stripped_maldor_log.json",
-          "src/main/resources/assets/aitplus/models/item/stripped_maldor_log.json",
-          "src/main/resources/assets/aitplus/models/block/stripped_maldor_log.json"
+          "src/main/resources/assets/aitplus/models/block/stripped_maldor_log.json",
+          "src/main/resources/assets/aitplus/models/item/stripped_maldor_log.json"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -1696,10 +1696,10 @@
       "registry_name": "stripped_maldor_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/StrippedMaldorWoodBlock.java",
-          "src/main/resources/assets/aitplus/models/block/stripped_maldor_wood.json",
           "src/main/resources/assets/aitplus/models/item/stripped_maldor_wood.json",
-          "src/main/resources/assets/aitplus/blockstates/stripped_maldor_wood.json"
+          "src/main/java/net/addie/aitplus/block/StrippedMaldorWoodBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/stripped_maldor_wood.json",
+          "src/main/resources/assets/aitplus/models/block/stripped_maldor_wood.json"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -1713,10 +1713,10 @@
       "registry_name": "maldor_planks",
       "metadata": {
         "files": [
-          "src/main/java/net/addie/aitplus/block/MaldorPlanksBlock.java",
           "src/main/resources/assets/aitplus/models/block/maldor_planks.json",
+          "src/main/resources/assets/aitplus/blockstates/maldor_planks.json",
           "src/main/resources/assets/aitplus/models/item/maldor_planks.json",
-          "src/main/resources/assets/aitplus/blockstates/maldor_planks.json"
+          "src/main/java/net/addie/aitplus/block/MaldorPlanksBlock.java"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -1730,12 +1730,12 @@
       "registry_name": "maldor_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/maldor_stairs_outer.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_stairs_inner.json",
           "src/main/java/net/addie/aitplus/block/MaldorStairsBlock.java",
           "src/main/resources/assets/aitplus/blockstates/maldor_stairs.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_stairs.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_stairs_outer.json",
           "src/main/resources/assets/aitplus/models/item/maldor_stairs.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_stairs_inner.json"
+          "src/main/resources/assets/aitplus/models/block/maldor_stairs.json"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -1753,8 +1753,8 @@
           "src/main/resources/assets/aitplus/models/block/maldor_slab.json",
           "src/main/resources/assets/aitplus/models/block/maldor_slab_full.json",
           "src/main/resources/assets/aitplus/models/item/maldor_slab.json",
-          "src/main/resources/assets/aitplus/blockstates/maldor_slab.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_slab_top.json"
+          "src/main/resources/assets/aitplus/models/block/maldor_slab_top.json",
+          "src/main/resources/assets/aitplus/blockstates/maldor_slab.json"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -1768,11 +1768,11 @@
       "registry_name": "maldor_trap_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/maldor_trap_door_top.json",
           "src/main/resources/assets/aitplus/models/item/maldor_trap_door.json",
           "src/main/resources/assets/aitplus/blockstates/maldor_trap_door.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_trap_door_open.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_trap_door_top.json",
           "src/main/java/net/addie/aitplus/block/MaldorTrapDoorBlock.java",
+          "src/main/resources/assets/aitplus/models/block/maldor_trap_door_open.json",
           "src/main/resources/assets/aitplus/models/block/maldor_trap_door.json"
         ]
       },
@@ -1787,17 +1787,17 @@
       "registry_name": "maldor_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/maldor_door_bottom_left.json",
-          "src/main/resources/assets/aitplus/blockstates/maldor_door.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_door_bottom_right.json",
-          "src/main/java/net/addie/aitplus/block/MaldorDoorBlock.java",
-          "src/main/resources/assets/aitplus/models/block/maldor_door_top_left_open.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_door_top_right_open.json",
           "src/main/resources/assets/aitplus/models/item/maldor_door.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_door_bottom_left_open.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_door_top_right.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_door_bottom_right_open.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_door_top_left_open.json",
           "src/main/resources/assets/aitplus/models/block/maldor_door_top_left.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_door_top_right_open.json"
+          "src/main/resources/assets/aitplus/models/block/maldor_door_bottom_left_open.json",
+          "src/main/java/net/addie/aitplus/block/MaldorDoorBlock.java",
+          "src/main/resources/assets/aitplus/models/block/maldor_door_bottom_right.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_door_bottom_left.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_door_bottom_right_open.json",
+          "src/main/resources/assets/aitplus/blockstates/maldor_door.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_door_top_right.json"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -1813,9 +1813,9 @@
         "files": [
           "src/main/resources/assets/aitplus/models/item/maldor_pressure_plate.json",
           "src/main/resources/assets/aitplus/blockstates/maldor_pressure_plate.json",
-          "src/main/java/net/addie/aitplus/block/MaldorPressurePlateBlock.java",
           "src/main/resources/assets/aitplus/models/block/maldor_pressure_plate.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_pressure_plate_down.json"
+          "src/main/resources/assets/aitplus/models/block/maldor_pressure_plate_down.json",
+          "src/main/java/net/addie/aitplus/block/MaldorPressurePlateBlock.java"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -1830,9 +1830,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aitplus/blockstates/maldor_button.json",
+          "src/main/resources/assets/aitplus/models/item/maldor_button.json",
           "src/main/resources/assets/aitplus/models/block/maldor_button.json",
           "src/main/java/net/addie/aitplus/block/MaldorButtonBlock.java",
-          "src/main/resources/assets/aitplus/models/item/maldor_button.json",
           "src/main/resources/assets/aitplus/models/block/maldor_button_inventory.json",
           "src/main/resources/assets/aitplus/models/block/maldor_button_pressed.json"
         ]
@@ -1848,12 +1848,12 @@
       "registry_name": "maldor_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/block/maldor_fence_inventory.json",
-          "src/main/resources/assets/aitplus/blockstates/maldor_fence.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_fence.json",
           "src/main/resources/assets/aitplus/models/block/maldor_fence_post.json",
+          "src/main/resources/assets/aitplus/blockstates/maldor_fence.json",
           "src/main/java/net/addie/aitplus/block/MaldorFenceBlock.java",
-          "src/main/resources/assets/aitplus/models/item/maldor_fence.json"
+          "src/main/resources/assets/aitplus/models/item/maldor_fence.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_fence.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_fence_inventory.json"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -1867,13 +1867,13 @@
       "registry_name": "maldor_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/models/item/maldor_fence_gate.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_fence_gate_wall.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_fence_gate.json",
           "src/main/java/net/addie/aitplus/block/MaldorFenceGateBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/maldor_fence_gate.json",
           "src/main/resources/assets/aitplus/models/block/maldor_fence_gate_open.json",
-          "src/main/resources/assets/aitplus/models/block/maldor_fence_gate_wall_open.json",
-          "src/main/resources/assets/aitplus/blockstates/maldor_fence_gate.json"
+          "src/main/resources/assets/aitplus/models/block/maldor_fence_gate.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_fence_gate_wall.json",
+          "src/main/resources/assets/aitplus/models/item/maldor_fence_gate.json",
+          "src/main/resources/assets/aitplus/models/block/maldor_fence_gate_wall_open.json"
         ]
       },
       "path": "~/Blocks/Woods/Maldor"
@@ -2206,9 +2206,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/addie/aitplus/block/BlockOfDalekaniumBlock.java",
-          "src/main/resources/assets/aitplus/models/item/block_of_dalekanium.json",
           "src/main/resources/assets/aitplus/blockstates/block_of_dalekanium.json",
-          "src/main/resources/assets/aitplus/models/block/block_of_dalekanium.json"
+          "src/main/resources/assets/aitplus/models/block/block_of_dalekanium.json",
+          "src/main/resources/assets/aitplus/models/item/block_of_dalekanium.json"
         ]
       },
       "path": "~/Blocks/Nature/Dalekanium"
@@ -2222,9 +2222,9 @@
       "registry_name": "block_of_raw_dalekanium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/aitplus/blockstates/block_of_raw_dalekanium.json",
-          "src/main/java/net/addie/aitplus/block/BlockOfRawDalekaniumBlock.java",
           "src/main/resources/assets/aitplus/models/block/block_of_raw_dalekanium.json",
+          "src/main/java/net/addie/aitplus/block/BlockOfRawDalekaniumBlock.java",
+          "src/main/resources/assets/aitplus/blockstates/block_of_raw_dalekanium.json",
           "src/main/resources/assets/aitplus/models/item/block_of_raw_dalekanium.json"
         ]
       },
@@ -2239,12 +2239,12 @@
       "registry_name": "dalekanium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/aitplus/worldgen/placed_feature/dalekanium_ore.json",
+          "src/main/resources/assets/aitplus/models/block/dalekanium_ore.json",
           "src/main/resources/assets/aitplus/blockstates/dalekanium_ore.json",
-          "src/main/resources/data/aitplus/worldgen/configured_feature/dalekanium_ore.json",
-          "src/main/java/net/addie/aitplus/block/DalekaniumOreBlock.java",
+          "src/main/resources/data/aitplus/worldgen/placed_feature/dalekanium_ore.json",
           "src/main/resources/assets/aitplus/models/item/dalekanium_ore.json",
-          "src/main/resources/assets/aitplus/models/block/dalekanium_ore.json"
+          "src/main/java/net/addie/aitplus/block/DalekaniumOreBlock.java",
+          "src/main/resources/data/aitplus/worldgen/configured_feature/dalekanium_ore.json"
         ]
       },
       "path": "~/Blocks/Nature/Dalekanium"
@@ -5978,9 +5978,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/aitplus/models/block/the_moment.json",
-          "src/main/java/net/addie/aitplus/block/TheMomentBlock.java",
           "src/main/resources/assets/aitplus/models/item/the_moment.json",
-          "src/main/resources/assets/aitplus/blockstates/the_moment.json"
+          "src/main/resources/assets/aitplus/blockstates/the_moment.json",
+          "src/main/java/net/addie/aitplus/block/TheMomentBlock.java"
         ]
       },
       "path": "~/Blocks/Other/TheMoment"
