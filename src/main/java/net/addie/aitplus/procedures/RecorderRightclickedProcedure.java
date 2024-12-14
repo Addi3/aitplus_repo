@@ -24,7 +24,7 @@ public class RecorderRightclickedProcedure {
 			}
 		}
 		if (entity instanceof Player _player)
-			_player.getCooldowns().addCooldown(itemstack.getItem(), 40);
+			_player.getCooldowns().addCooldown(itemstack.getItem(), 20);
 		if (world instanceof ServerLevel _level)
 			_level.sendParticles(ParticleTypes.NOTE, x, y, z, 2, 0.5, 0.5, 0.5, 0);
 	}

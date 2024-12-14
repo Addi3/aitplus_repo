@@ -35,10 +35,12 @@
     ],
     "name": "Kerblam Box",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Break Me!"
+      ]
     },
-    "hardness": 1.0,
-    "resistance": 2.0,
+    "hardness": 0.2,
+    "resistance": 0.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -49,7 +51,7 @@
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -79,24 +81,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "SCAFFOLDING"
     },
     "breakSound": {
-      "value": ""
+      "value": "CUSTOM:kerblam_box_break"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.scaffolding.fall"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.scaffolding.hit"
     },
     "placeSound": {
-      "value": ""
+      "value": "CUSTOM:kerblam_box_place"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.scaffolding.step"
     },
     "luminance": 0,
     "unbreakable": false,

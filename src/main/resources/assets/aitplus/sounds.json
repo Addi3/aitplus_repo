@@ -233,5 +233,25 @@
         "stream": false
       }
     ]
+  },
+  "kerblam_box_place": {
+    "category": "block",
+    "subtitle": "subtitles.kerblam_box_place",
+    "sounds": [
+      {
+        "name": "aitplus:kerblam_box_place",
+        "stream": false
+      }
+    ]
+  },
+  "kerblam_box_break": {
+    "category": "block",
+    "subtitle": "subtitles.kerblam_box_break",
+    "sounds": [
+      {
+        "name": "aitplus:kerblam_box_break",
+        "stream": false
+      }
+    ]
   }
 }

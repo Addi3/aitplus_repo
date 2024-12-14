@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:block",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -17,7 +17,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:apple",
+          "name": "aitplus:magenta_bowtie_chestplate",
           "weight": 15
         },
         {
@@ -33,7 +33,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:coal",
+          "name": "aitplus:green_bowtie_chestplate",
           "weight": 15
         },
         {
@@ -49,37 +49,41 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gold_nugget",
+          "name": "aitplus:glasses_3d_helmet",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_axe",
+          "name": "aitplus:cyan_bowtie_chestplate",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
+          "name": "aitplus:recorder",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "aitplus:glasses_helmet"
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:wheat",
+          "name": "aitplus:red_scarf_chestplate",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aitplus:red_bowtie_chestplate",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aitplus:rainbow_scarf_chestplate",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aitplus:scarf_chestplate",
           "weight": 10
         }
       ],
@@ -94,11 +98,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_apple"
+          "name": "aitplus:victorian_chair_spawn_egg"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aitplus:coral_chair_spawn_egg"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:chests/igloo_chest"
+  "random_sequence": "aitplus:blocks/kerblam_box"
 }
