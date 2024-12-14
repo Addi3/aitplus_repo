@@ -70,7 +70,7 @@ public class KerblamManEntity extends Monster {
 		double z = this.getZ();
 		Entity entity = this;
 		Level world = this.level();
-		KerblamManRightClickedOnEntityProcedure.execute(world, x, y, z, entity);
+		KerblamManRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 
