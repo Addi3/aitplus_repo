@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "aitplus:block/kerblam_box"
+    },
+    "facing=east": {
+      "model": "aitplus:block/kerblam_box",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aitplus:block/kerblam_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aitplus:block/kerblam_box",
+      "y": 270
     }
   }
 }
