@@ -253,5 +253,35 @@
         "stream": false
       }
     ]
+  },
+  "delivery_received": {
+    "category": "neutral",
+    "subtitle": "subtitles.delivery_received",
+    "sounds": [
+      {
+        "name": "aitplus:delivery_received",
+        "stream": false
+      }
+    ]
+  },
+  "delivery_fulfilled": {
+    "category": "neutral",
+    "subtitle": "subtitles.delivery_fulfilled",
+    "sounds": [
+      {
+        "name": "aitplus:delivery_fulfilled",
+        "stream": false
+      }
+    ]
+  },
+  "bubble_wrap_pop": {
+    "category": "player",
+    "subtitle": "subtitles.bubble_wrap_pop",
+    "sounds": [
+      {
+        "name": "aitplus:bubble_wrap_pop",
+        "stream": false
+      }
+    ]
   }
 }

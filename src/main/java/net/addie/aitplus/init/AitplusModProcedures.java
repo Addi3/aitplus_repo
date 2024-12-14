@@ -15,12 +15,14 @@ import net.addie.aitplus.procedures.TakeMeToGallifreyRightclickedProcedure;
 import net.addie.aitplus.procedures.RecorderRightclickedProcedure;
 import net.addie.aitplus.procedures.MaldorWoodOnRightClickedProcedure;
 import net.addie.aitplus.procedures.MaldorLogOnRightClickedProcedure;
+import net.addie.aitplus.procedures.KerblamDeliveryPadRightclickedProcedure;
 import net.addie.aitplus.procedures.DoorsOnRightClickedProcedure;
 import net.addie.aitplus.procedures.ChalkBoardOnBlockRightClickedProcedure;
 import net.addie.aitplus.procedures.ChalkBoardAltOnblockRightClickedProcedure;
 import net.addie.aitplus.procedures.CandleStandOnBlockRightClickedProcedure;
 import net.addie.aitplus.procedures.CandelStandLitUpdateTickProcedure;
 import net.addie.aitplus.procedures.CandelStandLitOnBlockRightClickedProcedure;
+import net.addie.aitplus.procedures.BubbleWrapRightclickedProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
 public class AitplusModProcedures {
@@ -42,5 +44,7 @@ public class AitplusModProcedures {
 		new ChalkBoardOnBlockRightClickedProcedure();
 		new ChalkBoardAltOnblockRightClickedProcedure();
 		new TakeMeToMondasRightClickedProcedure();
+		new KerblamDeliveryPadRightclickedProcedure();
+		new BubbleWrapRightclickedProcedure();
 	}
 }

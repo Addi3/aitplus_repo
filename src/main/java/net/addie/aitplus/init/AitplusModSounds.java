@@ -36,6 +36,9 @@ public class AitplusModSounds {
 	public static SoundEvent MONDAS_AMBIANCE = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "mondas_ambiance"));
 	public static SoundEvent KERBLAM_BOX_PLACE = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "kerblam_box_place"));
 	public static SoundEvent KERBLAM_BOX_BREAK = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "kerblam_box_break"));
+	public static SoundEvent DELIVERY_RECEIVED = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "delivery_received"));
+	public static SoundEvent DELIVERY_FULFILLED = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "delivery_fulfilled"));
+	public static SoundEvent BUBBLE_WRAP_POP = SoundEvent.createVariableRangeEvent(new ResourceLocation("aitplus", "bubble_wrap_pop"));
 
 	public static void load() {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "gallifrey_ambiance"), GALLIFREY_AMBIANCE);
@@ -64,5 +67,8 @@ public class AitplusModSounds {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "mondas_ambiance"), MONDAS_AMBIANCE);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "kerblam_box_place"), KERBLAM_BOX_PLACE);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "kerblam_box_break"), KERBLAM_BOX_BREAK);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "delivery_received"), DELIVERY_RECEIVED);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "delivery_fulfilled"), DELIVERY_FULFILLED);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("aitplus", "bubble_wrap_pop"), BUBBLE_WRAP_POP);
 	}
 }

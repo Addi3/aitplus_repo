@@ -85,6 +85,11 @@
           "type": "minecraft:item",
           "name": "aitplus:scarf_chestplate",
           "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aitplus:bubble_wrap",
+          "weight": 50
         }
       ],
       "rolls": {
