@@ -39,7 +39,7 @@
         "Break Me!"
       ]
     },
-    "hardness": 0.2,
+    "hardness": 0.09999999999999999,
     "resistance": 0.5,
     "hasGravity": false,
     "isWaterloggable": false,

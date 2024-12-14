@@ -17,6 +17,7 @@ import net.addie.aitplus.client.renderer.ReconnaissanceDalekRenderer;
 import net.addie.aitplus.client.renderer.OfficeChairRenderer;
 import net.addie.aitplus.client.renderer.MondasianCybermanRenderer;
 import net.addie.aitplus.client.renderer.LazerRenderer;
+import net.addie.aitplus.client.renderer.KerblamManRenderer;
 import net.addie.aitplus.client.renderer.ImperialDalekRenderer;
 import net.addie.aitplus.client.renderer.FlyRenderer;
 import net.addie.aitplus.client.renderer.FlutterwingRenderer;
@@ -46,6 +47,7 @@ public class AitplusModEntityRenderers {
 		EntityRendererRegistry.register(AitplusModEntities.EARTHSHOCK_CYBERMAN, EarthshockCybermanRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.REVENGE_CYBER_LEADER, RevengeCyberLeaderRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.SILENCE, SilenceRenderer::new);
+		EntityRendererRegistry.register(AitplusModEntities.KERBLAM_MAN, KerblamManRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.LAZER, LazerRenderer::new);
 		EntityRendererRegistry.register(AitplusModEntities.CYBER_LAZER, CyberLazerRenderer::new);
 	}

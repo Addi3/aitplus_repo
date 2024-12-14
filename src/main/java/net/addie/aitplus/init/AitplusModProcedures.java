@@ -7,7 +7,6 @@ package net.addie.aitplus.init;
 import net.addie.aitplus.procedures.VargaPlantMobplayerCollidesWithPlantProcedure;
 import net.addie.aitplus.procedures.ThalmaWoodOnRightClickedProcedure;
 import net.addie.aitplus.procedures.ThalmaLogOnRightClickedProcedure;
-import net.addie.aitplus.procedures.TestrecipeProcedure;
 import net.addie.aitplus.procedures.TakeMeToTrenzalorRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToSkaroRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToMondasRightClickedProcedure;
@@ -15,6 +14,7 @@ import net.addie.aitplus.procedures.TakeMeToGallifreyRightclickedProcedure;
 import net.addie.aitplus.procedures.RecorderRightclickedProcedure;
 import net.addie.aitplus.procedures.MaldorWoodOnRightClickedProcedure;
 import net.addie.aitplus.procedures.MaldorLogOnRightClickedProcedure;
+import net.addie.aitplus.procedures.KerblamManRightClickedOnEntityProcedure;
 import net.addie.aitplus.procedures.KerblamDeliveryPadRightclickedProcedure;
 import net.addie.aitplus.procedures.DoorsOnRightClickedProcedure;
 import net.addie.aitplus.procedures.ChalkBoardOnBlockRightClickedProcedure;
@@ -35,7 +35,6 @@ public class AitplusModProcedures {
 		new MaldorLogOnRightClickedProcedure();
 		new MaldorWoodOnRightClickedProcedure();
 		new DoorsOnRightClickedProcedure();
-		new TestrecipeProcedure();
 		new CandleStandOnBlockRightClickedProcedure();
 		new CandelStandLitOnBlockRightClickedProcedure();
 		new CandelStandLitUpdateTickProcedure();
@@ -46,5 +45,6 @@ public class AitplusModProcedures {
 		new TakeMeToMondasRightClickedProcedure();
 		new KerblamDeliveryPadRightclickedProcedure();
 		new BubbleWrapRightclickedProcedure();
+		new KerblamManRightClickedOnEntityProcedure();
 	}
 }

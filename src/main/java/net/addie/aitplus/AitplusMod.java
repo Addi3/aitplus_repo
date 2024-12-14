@@ -21,12 +21,10 @@ import net.fabricmc.api.ModInitializer;
 import net.addie.aitplus.init.AitplusModTabs;
 import net.addie.aitplus.init.AitplusModSounds;
 import net.addie.aitplus.init.AitplusModProcedures;
-import net.addie.aitplus.init.AitplusModMenus;
 import net.addie.aitplus.init.AitplusModItems;
 import net.addie.aitplus.init.AitplusModFeatures;
 import net.addie.aitplus.init.AitplusModEntities;
 import net.addie.aitplus.init.AitplusModBlocks;
-import net.addie.aitplus.init.AitplusModBlockEntities;
 import net.addie.aitplus.init.AitplusModBiomes;
 
 public class AitplusMod implements ModInitializer {
@@ -42,12 +40,10 @@ public class AitplusMod implements ModInitializer {
 		AitplusModEntities.load();
 		AitplusModBlocks.load();
 		AitplusModItems.load();
-		AitplusModBlockEntities.load();
+
 		AitplusModFeatures.load();
 
 		AitplusModProcedures.load();
-
-		AitplusModMenus.load();
 
 		AitplusModSounds.load();
 

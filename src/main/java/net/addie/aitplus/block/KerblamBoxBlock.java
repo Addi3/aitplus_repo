@@ -23,7 +23,7 @@ public class KerblamBoxBlock extends Block {
 	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS)
 			.sound(new SoundType(1.0f, 1.0f, AitplusModSounds.KERBLAM_BOX_BREAK, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.scaffolding.step")), AitplusModSounds.KERBLAM_BOX_PLACE,
 					BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.scaffolding.hit")), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.scaffolding.fall"))))
-			.strength(0.2f, 0.5f);
+			.strength(0.1f, 0.5f);
 
 	public KerblamBoxBlock() {
 		super(PROPERTIES);

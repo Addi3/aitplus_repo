@@ -16,6 +16,7 @@ import net.addie.aitplus.client.model.Modeloffice_chair;
 import net.addie.aitplus.client.model.Modelnew_dalek;
 import net.addie.aitplus.client.model.Modelmondasian_cybermen;
 import net.addie.aitplus.client.model.Modellazer;
+import net.addie.aitplus.client.model.Modelkerblam_man;
 import net.addie.aitplus.client.model.Modelfly;
 import net.addie.aitplus.client.model.Modelflutterwing;
 import net.addie.aitplus.client.model.Modelflubble;
@@ -32,6 +33,7 @@ public class AitplusModModels {
 		EntityModelLayerRegistry.registerModelLayer(Modeloffice_chair.LAYER_LOCATION, Modeloffice_chair::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelmondasian_cybermen.LAYER_LOCATION, Modelmondasian_cybermen::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelflutterwing.LAYER_LOCATION, Modelflutterwing::createBodyLayer);
+		EntityModelLayerRegistry.registerModelLayer(Modelkerblam_man.LAYER_LOCATION, Modelkerblam_man::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelreconnaissance_dalek.LAYER_LOCATION, Modelreconnaissance_dalek::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modeldavaros.LAYER_LOCATION, Modeldavaros::createBodyLayer);
 		EntityModelLayerRegistry.registerModelLayer(Modelvictorian_chair.LAYER_LOCATION, Modelvictorian_chair::createBodyLayer);

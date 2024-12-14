@@ -24,6 +24,7 @@ import net.addie.aitplus.entity.ReconnaissanceDalekEntity;
 import net.addie.aitplus.entity.OfficeChairEntity;
 import net.addie.aitplus.entity.MondasianCybermanEntity;
 import net.addie.aitplus.entity.LazerEntity;
+import net.addie.aitplus.entity.KerblamManEntity;
 import net.addie.aitplus.entity.ImperialDalekEntity;
 import net.addie.aitplus.entity.FlyEntity;
 import net.addie.aitplus.entity.FlutterwingEntity;
@@ -52,6 +53,7 @@ public class AitplusModEntities {
 	public static EntityType<EarthshockCybermanEntity> EARTHSHOCK_CYBERMAN;
 	public static EntityType<RevengeCyberLeaderEntity> REVENGE_CYBER_LEADER;
 	public static EntityType<SilenceEntity> SILENCE;
+	public static EntityType<KerblamManEntity> KERBLAM_MAN;
 	public static EntityType<LazerEntity> LAZER;
 	public static EntityType<CyberLazerEntity> CYBER_LAZER;
 
@@ -120,6 +122,10 @@ public class AitplusModEntities {
 				FabricEntityTypeBuilder.create(MobCategory.MONSTER, SilenceEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		SilenceEntity.init();
 		FabricDefaultAttributeRegistry.register(SILENCE, SilenceEntity.createAttributes());
+		KERBLAM_MAN = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "kerblam_man"),
+				FabricEntityTypeBuilder.create(MobCategory.MONSTER, KerblamManEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(1).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		KerblamManEntity.init();
+		FabricDefaultAttributeRegistry.register(KERBLAM_MAN, KerblamManEntity.createAttributes());
 		LAZER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "lazer"), createArrowEntityType(LazerEntity::new));
 		CYBER_LAZER = Registry.register(BuiltInRegistries.ENTITY_TYPE, new ResourceLocation(AitplusMod.MODID, "cyber_lazer"), createArrowEntityType(CyberLazerEntity::new));
 	}

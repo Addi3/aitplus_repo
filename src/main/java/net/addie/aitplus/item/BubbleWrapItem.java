@@ -37,7 +37,7 @@ public class BubbleWrapItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		BubbleWrapRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+		BubbleWrapRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		return ar;
 	}
 }
