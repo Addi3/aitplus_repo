@@ -6192,6 +6192,148 @@
         ]
       },
       "path": "~/entities/KerblamMan"
+    },
+    {
+      "name": "Statue2",
+      "type": "block",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/models/block/statue_2.json",
+          "src/main/resources/assets/aitplus/models/item/statue_2.json",
+          "src/main/resources/assets/aitplus/blockstates/statue_2.json",
+          "src/main/java/net/addie/aitplus/block/Statue2Block.java"
+        ]
+      },
+      "path": "~/Blocks/Decor/Statue"
+    },
+    {
+      "name": "Statue3",
+      "type": "block",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aitplus/blockstates/statue_3.json",
+          "src/main/resources/assets/aitplus/models/item/statue_3.json",
+          "src/main/resources/assets/aitplus/models/block/statue_3.json",
+          "src/main/java/net/addie/aitplus/block/Statue3Block.java"
+        ]
+      },
+      "path": "~/Blocks/Decor/Statue"
+    },
+    {
+      "name": "Statue1RightClick",
+      "type": "procedure",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue_1_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/procedures/Statue1RightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Decor/Statue"
+    },
+    {
+      "name": "Statue2RightClick",
+      "type": "procedure",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue_2_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/procedures/Statue2RightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Decor/Statue"
+    },
+    {
+      "name": "Statue3RightClick",
+      "type": "procedure",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue_3_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/addie/aitplus/procedures/Statue3RightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Decor/Statue"
     }
   ],
   "variable_elements": [],
@@ -6433,23 +6575,23 @@
     "en_us": {
       "item.aitplus.lime_bowtie_leggings": "",
       "block.aitplus.stripped_jungle_log_stained_roundel": "Stripped Jungle Log Stained Roundel",
-      "item.aitplus.black_bowtie_chestplate": "Black Bowtie",
-      "block.aitplus.led_roundel": "LED Roundel",
       "item.aitplus.blue_bowtie_boots": "",
+      "block.aitplus.led_roundel": "LED Roundel",
+      "item.aitplus.black_bowtie_chestplate": "Black Bowtie",
       "subtitles.skaro_ambiance": "",
       "subtitles.classic_door": "Classic Door Use",
       "block.aitplus.maldor_door": "Maldor Door",
       "block.aitplus.gramophone": "Gramophone",
-      "block.aitplus.preserved_flower": "Preserved Flower",
       "item.aitplus.white_bowtie_leggings": "",
+      "block.aitplus.preserved_flower": "Preserved Flower",
       "subtitles.dalek_exterminate": "Exterminate!",
       "block.aitplus.led_roundel_yellow": "LED Roundel",
       "item.aitplus.magenta_bowtie_helmet": "",
       "block.aitplus.bowl_b": "Bowl B",
       "block.aitplus.bowl_a": "Bowl A",
       "subtitles.cyberman_hurt": "Cyberman Hurt",
-      "block.aitplus.stripped_warped_stem_stained_roundel": "Stripped Warped Stem Stained Roundel",
       "item.aitplus.brachacki_blueprint": "Blueprint",
+      "block.aitplus.stripped_warped_stem_stained_roundel": "Stripped Warped Stem Stained Roundel",
       "block.aitplus.block_of_raw_dalekanium": "Block Of Raw Dalekanium",
       "block.aitplus.stripped_maldor_wood": "Stripped Maldor Wood",
       "item.aitplus.renegade_dalek_spawn_egg": "Renegade Dalek Spawn Egg",
@@ -6493,6 +6635,8 @@
       "item.aitplus.gray_bowtie_boots": "",
       "subtitles.delivery_received": "Delivery Received",
       "block.aitplus.thalma_trapdoor": "Thalma Trapdoor",
+      "block.aitplus.statue_2": "Statue 1",
+      "block.aitplus.statue_3": "Statue 1",
       "biome.aitplus.gallifrey_mountains": "Gallifrey Mountains",
       "item.aitplus.quartz_roundel_blueprint": "Blueprint",
       "item.aitplus.coral_chair_spawn_egg": "Coral Chair Spawn Egg",
@@ -6510,7 +6654,7 @@
       "item.aitplus.scarf_boots": "Scarf Boots",
       "block.aitplus.maldor_stairs": "Maldor Stairs",
       "block.aitplus.thalma_pressure_plate": "Thalma Pressure Plate",
-      "block.aitplus.statue_1": "Statue 1",
+      "block.aitplus.statue_1": "Statue",
       "entity.aitplus.flutterwing": "Flutterwing",
       "item.aitplus.celery_helmet": "Celery Helmet",
       "item.aitplus.orange_bowtie_boots": "",

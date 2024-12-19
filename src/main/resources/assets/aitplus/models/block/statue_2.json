@@ -1,10 +1,9 @@
 {
-  "parent": "aitplus:custom/statue_1",
+  "parent": "aitplus:custom/statue_2",
   "textures": {
     "all": "aitplus:block/statue",
     "particle": "aitplus:block/statue",
-    "0": "aitplus:block/statue",
-    "1": "aitplus:block/statue_other"
+    "0": "aitplus:block/statue"
   },
   "render_type": "cutout"
 }

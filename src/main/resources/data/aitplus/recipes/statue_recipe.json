@@ -3,15 +3,15 @@
   "category": "misc",
   "pattern": [
     " a ",
-    "aba",
-    " a "
+    "bbb",
+    " b "
   ],
   "key": {
     "a": {
-      "item": "minecraft:calcite"
+      "item": "minecraft:chiseled_stone_bricks"
     },
     "b": {
-      "tag": "minecraft:candles"
+      "item": "minecraft:stone"
     }
   },
   "result": {

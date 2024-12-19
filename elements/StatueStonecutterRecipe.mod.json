@@ -11,7 +11,7 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "stoneCuttingInputStack": {
-      "value": "Blocks.CALCITE"
+      "value": "Blocks.STONE#0"
     },
     "stoneCuttingReturnStack": {
       "value": "CUSTOM:Statue1"

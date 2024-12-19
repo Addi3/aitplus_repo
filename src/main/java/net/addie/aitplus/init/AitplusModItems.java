@@ -288,6 +288,8 @@ public class AitplusModItems {
 	public static Item CREATIVE_TAB_ITEM;
 	public static Item CANDEL_STAND_LIT;
 	public static Item CHALK_BOARD_ALT;
+	public static Item STATUE_2;
+	public static Item STATUE_3;
 
 	public static void load() {
 		TRENZALORIAN_STONE = register("trenzalorian_stone", new BlockItem(AitplusModBlocks.TRENZALORIAN_STONE, new Item.Properties()));
@@ -630,6 +632,8 @@ public class AitplusModItems {
 		CREATIVE_TAB_ITEM = register("creative_tab_item", new CreativeTabItemItem());
 		CANDEL_STAND_LIT = register("candel_stand_lit", new BlockItem(AitplusModBlocks.CANDEL_STAND_LIT, new Item.Properties()));
 		CHALK_BOARD_ALT = register("chalk_board_alt", new BlockItem(AitplusModBlocks.CHALK_BOARD_ALT, new Item.Properties()));
+		STATUE_2 = register("statue_2", new BlockItem(AitplusModBlocks.STATUE_2, new Item.Properties()));
+		STATUE_3 = register("statue_3", new BlockItem(AitplusModBlocks.STATUE_3, new Item.Properties()));
 	}
 
 	public static void clientLoad() {

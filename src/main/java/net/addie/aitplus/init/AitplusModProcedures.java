@@ -11,6 +11,9 @@ import net.addie.aitplus.procedures.TakeMeToTrenzalorRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToSkaroRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToMondasRightClickedProcedure;
 import net.addie.aitplus.procedures.TakeMeToGallifreyRightclickedProcedure;
+import net.addie.aitplus.procedures.Statue3RightClickProcedure;
+import net.addie.aitplus.procedures.Statue2RightClickProcedure;
+import net.addie.aitplus.procedures.Statue1RightClickProcedure;
 import net.addie.aitplus.procedures.RecorderRightclickedProcedure;
 import net.addie.aitplus.procedures.MaldorWoodOnRightClickedProcedure;
 import net.addie.aitplus.procedures.MaldorLogOnRightClickedProcedure;
@@ -46,5 +49,8 @@ public class AitplusModProcedures {
 		new KerblamDeliveryPadRightclickedProcedure();
 		new BubbleWrapRightclickedProcedure();
 		new KerblamManRightClickedOnEntityProcedure();
+		new Statue1RightClickProcedure();
+		new Statue2RightClickProcedure();
+		new Statue3RightClickProcedure();
 	}
 }

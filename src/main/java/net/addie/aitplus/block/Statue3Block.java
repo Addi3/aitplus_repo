@@ -31,18 +31,18 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 
-import net.addie.aitplus.procedures.Statue1RightClickProcedure;
+import net.addie.aitplus.procedures.Statue3RightClickProcedure;
 import net.addie.aitplus.init.AitplusModBlocks;
 
 import java.util.List;
 import java.util.Collections;
 
-public class Statue1Block extends Block {
+public class Statue3Block extends Block {
 	public static BlockBehaviour.Properties PROPERTIES = BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion()
 			.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public Statue1Block() {
+	public Statue3Block() {
 		super(PROPERTIES);
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -91,7 +91,7 @@ public class Statue1Block extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(AitplusModBlocks.STATUE_1));
 	}
 
 	@Override
@@ -104,12 +104,12 @@ public class Statue1Block extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		Statue1RightClickProcedure.execute(world, x, y, z, entity);
+		Statue3RightClickProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 
 	@Environment(EnvType.CLIENT)
 	public static void clientInit() {
-		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.STATUE_1, RenderType.cutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(AitplusModBlocks.STATUE_3, RenderType.cutout());
 	}
 }
