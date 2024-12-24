@@ -22,7 +22,7 @@ Any issues with the mod put them here [https://github.com/Addi3/AiTPlus/issues](
 - Frooploof - alnicocopper console texture
 - WeStanKrang - mobs on gallifrey
 - andromeda - k6 phone booth exterior
-- Treecurry - weezer vortex texture
+- trerrtury - weezer vortex texture
 - [AiT Mod](https://modrinth.com/mod/ait)
 
 
