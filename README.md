@@ -23,6 +23,7 @@ Any issues with the mod put them here [https://github.com/Addi3/AiTPlus/issues](
 - WeStanKrang - mobs on gallifrey
 - andromeda - k6 phone booth exterior
 - trerrtury - weezer vortex texture
+- ouroborosgames - waves and galaxy vortex textures
 - [AiT Mod](https://modrinth.com/mod/ait)
 
 
