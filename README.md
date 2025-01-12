@@ -4,7 +4,7 @@ Any issues with the mod put them here [https://github.com/Addi3/AiTPlus/issues](
 
 ### Required Mods!
 
-- Requires AiT 1.0.6 and above -> [Download Here](https://modrinth.com/mod/ait/version/1.0.5-1.20.1-release)
+- Requires AiT 1.1.0 and above -> [Download Here](https://modrinth.com/mod/ait/version/1.0.5-1.20.1-release)
 
 - Requires Celectial 2.0 - 1.20-1.20.2 -> [Download Here](https://modrinth.com/mod/celestial/versions?g=1.20.1&l=fabric)
 
