@@ -1,4 +1,4 @@
-Any issues with the mod put them here [https://github.com/Addi3/AiTPlus/issues](https://github.com/Addi3/aitplus_repo/issues) with either a screenshot or the latest.log (found in .minecraft/logs)
+## People can take this off github and do what ever, i dont rly care for this mod anymore / i also work on ait now (but pls do credit me / other people who have put stuff towards this mod). Also any bugs wont be fixed. (also also the mod kinda rly broke, people can try to compile it but i cant say it will 100% work soz)
 
 
 
